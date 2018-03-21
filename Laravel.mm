@@ -201,9 +201,11 @@
 <edge WIDTH="2"/>
 <node CREATED="1521068325304" ID="ID_998187399" MODIFIED="1521336706475" TEXT="@yield(&apos;name&apos;)">
 <edge WIDTH="2"/>
+<node CREATED="1521626076793" ID="ID_1883035755" MODIFIED="1521626083716" TEXT="v&#x1ecb; tr&#xed; thay th&#x1ebf;"/>
 </node>
-<node CREATED="1521068368971" ID="ID_1770382101" MODIFIED="1521336706475" TEXT="@section(&apos;name).....@endsection&apos;">
+<node CREATED="1521068368971" ID="ID_1770382101" MODIFIED="1521626092372" TEXT="@section(&apos;name).....@endsection">
 <edge WIDTH="2"/>
+<node CREATED="1521626093097" ID="ID_381098709" MODIFIED="1521626100691" TEXT="ph&#x1ea7;n thay th&#x1ebf;"/>
 </node>
 </node>
 <node CREATED="1521282808324" ID="ID_566284404" MODIFIED="1521336706475" TEXT="Form">
@@ -226,6 +228,9 @@
 <node CREATED="1521070671108" ID="ID_1944626753" MODIFIED="1521336706475" TEXT="{{action(&apos;NameController@method&apos;, paragram)}}">
 <edge WIDTH="2"/>
 </node>
+</node>
+<node CREATED="1521626063177" ID="ID_835865738" MODIFIED="1521626139411" TEXT="{!!  &quot;content html did encode&quot;  !!}">
+<node CREATED="1521626140193" ID="ID_1927683677" MODIFIED="1521626151507" TEXT="like decode html"/>
 </node>
 </node>
 </node>
@@ -812,6 +817,7 @@
 <edge WIDTH="2"/>
 </node>
 </node>
+<node CREATED="1521598603245" ID="ID_576603233" MODIFIED="1521598628099" TEXT="-&gt;where( &apos;table.id&apos;, = , $id)"/>
 <node CREATED="1521282428036" ID="ID_1457884612" MODIFIED="1521336706469" TEXT="-&gt;limit(number)">
 <edge WIDTH="2"/>
 </node>
