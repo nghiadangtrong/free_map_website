@@ -1,0 +1,1671 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1520168727084" ID="ID_622062720" MODIFIED="1520325196579" TEXT="javascript">
+<edge WIDTH="4"/>
+<node CREATED="1520168746416" ID="ID_1290994151" MODIFIED="1520325196579" POSITION="right" TEXT="type variable">
+<edge WIDTH="4"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1520168810525" ID="ID_1872387117" MODIFIED="1520325196579" TEXT="var">
+<edge WIDTH="4"/>
+<node CREATED="1520168862198" ID="ID_600113695" MODIFIED="1520325196579" TEXT="ph&#xe2;n bi&#x1ec7;t  global and local">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520169086370" ID="ID_958037809" MODIFIED="1520325196579" TEXT="array ">
+<edge WIDTH="4"/>
+<node CREATED="1520169123834" ID="ID_729982863" MODIFIED="1520325196579" TEXT="array = [ value1, ....]">
+<edge WIDTH="4"/>
+<node CREATED="1520169125900" ID="ID_1773648682" MODIFIED="1520325196579" TEXT="this is object">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520169135894" ID="ID_1282040719" MODIFIED="1520325196579" TEXT="for( x int X)">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520169147207" ID="ID_580894756" MODIFIED="1520325196579" TEXT="object">
+<edge WIDTH="4"/>
+<node CREATED="1520169224650" ID="ID_1696623871" MODIFIED="1520325196579" TEXT="{name : value , name2: value2}">
+<edge WIDTH="4"/>
+<node CREATED="1520169605833" ID="ID_1959272132" MODIFIED="1520325196579" TEXT="ob = new Object();">
+<edge WIDTH="4"/>
+<node CREATED="1520169623434" ID="ID_175432549" MODIFIED="1520325196579" TEXT="ob.nameProperty = value">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520169653453" ID="ID_434050572" MODIFIED="1520325196579" TEXT="ob = new nameFunction();">
+<edge WIDTH="4"/>
+<node CREATED="1520169731463" ID="ID_1528599455" MODIFIED="1520325196579" TEXT="nameFunction.property.nameProperty = value / function(){}">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520169809487" ID="ID_1688860084" MODIFIED="1520325196579" TEXT="if : for( x in obOject)">
+<edge WIDTH="4"/>
+<node CREATED="1520169840326" ID="ID_1557226107" MODIFIED="1520325196579" TEXT="x = name">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520169849416" ID="ID_652286279" MODIFIED="1520325196579" TEXT="obOject[x] = value">
+<edge WIDTH="4"/>
+<node CREATED="1520169870448" ID="ID_550614518" MODIFIED="1520325196579" TEXT="&#x111;&#xfa;ng">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520169942838" ID="ID_1596299700" MODIFIED="1520325196578" TEXT="obOject.x =  // sai">
+<edge WIDTH="4"/>
+<node CREATED="1520169957600" ID="ID_423350632" MODIFIED="1520325196578" TEXT="x l&#xe0; ki&#x1ec1;u string kh&#xf4;ng th&#x1ec3; g&#x1ecd;i &#x111;&#x1b0;&#x1ee3;c">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520170004437" ID="ID_1471829316" MODIFIED="1520325196578" TEXT="delete ob.name">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520169648319" ID="ID_445372642" MODIFIED="1520325196578" TEXT="property">
+<edge WIDTH="4"/>
+<node CREATED="1520170041578" ID="ID_327194316" MODIFIED="1520325196578" TEXT="objectName.propertyName">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520170054683" ID="ID_804657991" MODIFIED="1520325196578" TEXT="objectName[&quot;projectname&quot;]">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520170089727" ID="ID_1518056669" MODIFIED="1520325196578" TEXT="method">
+<edge WIDTH="4"/>
+<node CREATED="1520170096110" ID="ID_1353308464" MODIFIED="1520325196578" TEXT="objectName.nameFunction()">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520170112910" ID="ID_1471515371" MODIFIED="1520325196578" TEXT="object default">
+<edge WIDTH="4"/>
+<node CREATED="1520170134064" ID="ID_1860266994" MODIFIED="1520325196578" TEXT="string">
+<edge COLOR="#00ffff" WIDTH="4"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1520170193553" ID="ID_1564778249" MODIFIED="1520325196578" TEXT="new String(&quot;xxx&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520172710282" ID="ID_1718596221" MODIFIED="1520325196578" TEXT="different  string">
+<edge WIDTH="4"/>
+<node CREATED="1520172909360" ID="ID_1564430697" MODIFIED="1520325196578" TEXT="new String(&quot;a&quot;) !== new String(&quot;a&quot;)">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520172915890" ID="ID_1247645554" MODIFIED="1520325196578" TEXT="new String(&quot;a&quot;) !=== new String(&quot;a&quot;)">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520172714862" ID="ID_257876084" MODIFIED="1520325196578" TEXT="method">
+<edge WIDTH="4"/>
+<node CREATED="1520172956984" ID="ID_11923506" MODIFIED="1520325196578" TEXT=".length; ">
+<edge WIDTH="4"/>
+<node CREATED="1520172969079" ID="ID_699872428" MODIFIED="1520325196578" TEXT="">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520172972774" ID="ID_1131566177" MODIFIED="1520325196578" TEXT="search">
+<edge WIDTH="4"/>
+<node CREATED="1520172988201" ID="ID_1506386067" MODIFIED="1520325196578" TEXT=".indexOf(&quot;stringSearch&quot;, n);">
+<edge WIDTH="4"/>
+<node CREATED="1520173030455" ID="ID_22181082" MODIFIED="1520325196578" TEXT="stringSearch">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520173060278" ID="ID_1068107795" MODIFIED="1520325196578" TEXT="n l&#xe0; v&#x1ecb; tr&#xed; b&#x1eaf;t &#x111;&#x1ea7;u t&#xec;m ki&#x1ebf;m">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520173084699" ID="ID_1848925033" MODIFIED="1520325196578" TEXT=".lastIndexOf(&quot;stringSearch&quot;);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520173138242" ID="ID_1092503396" MODIFIED="1520325196578" TEXT=".search(&quot;string&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520173255819" ID="ID_1311933816" MODIFIED="1520325196578" TEXT="use with regular">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520173504651" ID="ID_1339848463" MODIFIED="1520325196578" TEXT=".relace(&quot;stringSearch&quot;,&quot;stringRelace&quot;)">
+<edge WIDTH="4"/>
+<node CREATED="1520173580201" ID="ID_116200219" MODIFIED="1520325196578" TEXT="thay th&#x1ebf;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520173611872" ID="ID_1559794198" MODIFIED="1520325196578" TEXT="&quot;stringSearch&quot;">
+<edge WIDTH="4"/>
+<node CREATED="1520173630497" ID="ID_1667969898" MODIFIED="1520325196578" TEXT="/stringSearch/g">
+<edge WIDTH="4"/>
+<node CREATED="1520173654328" ID="ID_1799144581" MODIFIED="1520325196578" TEXT="thay th&#x1ebf; t&#x1ea5;t c&#x1ea3;">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520173677973" ID="ID_1893431647" MODIFIED="1520325196578" TEXT="/stringSearch/i">
+<edge WIDTH="4"/>
+<node CREATED="1520173688139" ID="ID_55435806" MODIFIED="1520325196578" TEXT="uppercase == lowercase">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520173697860" ID="ID_484936653" MODIFIED="1520325196578" TEXT="cover string">
+<edge WIDTH="4"/>
+<node CREATED="1520173732475" ID="ID_1938025829" MODIFIED="1520325196578" TEXT=".toUpperCase();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520173751359" ID="ID_841267384" MODIFIED="1520325196578" TEXT=".toLowerCase();">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520173291661" ID="ID_408220737" MODIFIED="1520325196578" TEXT="slice">
+<edge WIDTH="4"/>
+<node CREATED="1520173299651" ID="ID_942786877" MODIFIED="1520325196578" TEXT="return String &#x111;&#xe3; c&#x1eaf;t">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520173333487" ID="ID_1298694731" MODIFIED="1520325196578" TEXT=".slice(start, end);">
+<edge WIDTH="4"/>
+<node CREATED="1520173358030" ID="ID_405914611" MODIFIED="1520325196578" TEXT="start, end &gt; 0 ">
+<edge WIDTH="4"/>
+<node CREATED="1520173411515" ID="ID_576675497" MODIFIED="1520325196578" TEXT="slice left to right">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520173374529" ID="ID_841867450" MODIFIED="1520325196578" TEXT="start, end &lt; 0">
+<edge WIDTH="4"/>
+<node CREATED="1520173433494" ID="ID_562226502" MODIFIED="1520325196578" TEXT="slice right to left">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520173379325" ID="ID_1118415877" MODIFIED="1520325196578" TEXT="end = empty ">
+<edge WIDTH="4"/>
+<node CREATED="1520173396062" ID="ID_282329887" MODIFIED="1520325196578" TEXT="end == last string">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520173441450" ID="ID_541747006" MODIFIED="1520325196578" TEXT=".substring(start, end);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520173465488" ID="ID_26249144" MODIFIED="1520325196578" TEXT=".substr(start, length);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520173760081" ID="ID_1292790320" MODIFIED="1520325196578" TEXT=".concat(&quot;k&#xfd; t&#x1ef1; n&#x1ed1;i&quot;, nameString)">
+<edge WIDTH="4"/>
+<node CREATED="1520173872886" ID="ID_1808442546" MODIFIED="1520325196578" TEXT="n&#x1ed1;i hai chu&#x1ed7;i string">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520174066746" ID="ID_1927932670" MODIFIED="1520325196578" TEXT=".spilt(&quot;char&quot;)">
+<edge WIDTH="4"/>
+<node CREATED="1520174126007" ID="ID_1889058309" MODIFIED="1520325196578" TEXT="return : string[][] 2 chi&#x1ec1;u">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520174140047" ID="ID_1860325648" MODIFIED="1520325196578" TEXT="char === &quot;&quot;">
+<edge WIDTH="4"/>
+<node CREATED="1520174160203" ID="ID_490086639" MODIFIED="1520325196578" TEXT="c&#x1eaf;t t&#x1eeb;ng ch&#x1eef; c&#xe1;i trong chu&#x1ed7;i string">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520174175232" ID="ID_1307113203" MODIFIED="1520325196578" TEXT="extracting">
+<edge WIDTH="4"/>
+<node CREATED="1520174205696" ID="ID_889675677" MODIFIED="1520325196578" TEXT="chi&#x1ebf;t xu&#x1ea5;t">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520174222348" ID="ID_509971607" MODIFIED="1520325196578" TEXT=".charAt(i);">
+<edge WIDTH="4"/>
+<node CREATED="1520174239143" ID="ID_1541427294" MODIFIED="1520325196578" TEXT="return: k&#xfd; t&#x1ef1; t&#x1ea1;i i">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520174273123" ID="ID_833486255" MODIFIED="1520325196578" TEXT=".charCodeAt(i);">
+<edge WIDTH="4"/>
+<node CREATED="1520174285737" ID="ID_1142228883" MODIFIED="1520325196578" TEXT="return: m&#xe3; k&#xfd; t&#x1ef1; t&#x1ea1;i i">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520170135925" ID="ID_473713682" MODIFIED="1520325196578" TEXT="number">
+<edge COLOR="#0066cc" WIDTH="4"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-5"/>
+<node CREATED="1520174747074" ID="ID_1796378717" MODIFIED="1520325196578" TEXT="method">
+<edge WIDTH="4"/>
+<node CREATED="1520174756505" ID="ID_444286162" MODIFIED="1520325196578" TEXT=".valueOf();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520174912052" ID="ID_253169078" MODIFIED="1520325196578" TEXT=".toString(i);">
+<edge WIDTH="4"/>
+<node CREATED="1520174950890" ID="ID_893242619" MODIFIED="1520325196578" TEXT="i: 2, 10,  16, ...">
+<edge WIDTH="4"/>
+<node CREATED="1520175011076" ID="ID_1409463240" MODIFIED="1520325196578" TEXT="convert to hex, th&#x1ead;p ph&#xe2;n , nh&#x1ecb; ph&#xe2;n">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520175002489" ID="ID_622869585" MODIFIED="1520325196578" TEXT="return string">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520218404987" ID="ID_509775450" MODIFIED="1520325196578" TEXT=".toExponential(i)">
+<edge WIDTH="4"/>
+<node CREATED="1520218455558" ID="ID_975251037" MODIFIED="1520325196578" TEXT="s&#x1ed1; m&#x169; i">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520218487516" ID="ID_1300007490" MODIFIED="1520325196578" TEXT=".toFixed(i);">
+<edge WIDTH="4"/>
+<node CREATED="1520218524775" ID="ID_1252643309" MODIFIED="1520325196578" TEXT="L&#xe0;m ch&#xf2;n sau d&#x1ea5;u ph&#x1ea9;y  &#x111;&#x1ebf;n ch&#x1eef; s&#x1ed1; i">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520218558899" ID="ID_831553089" MODIFIED="1520325196578" TEXT=".toPrecision(i);">
+<edge WIDTH="4"/>
+<node CREATED="1520218636689" ID="ID_1157453521" MODIFIED="1520325196578" TEXT="L&#xe0;m ch&#xf2;n ch&#x1ee9; s&#x1ed1; t&#xed;nh c&#x1ea3; tr&#x1b0;&#x1edb;c &#x111;&#x1ea5;u ph&#x1ea9;y">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520218682034" ID="ID_1379414695" MODIFIED="1520325196578" TEXT="converting">
+<edge WIDTH="4"/>
+<node CREATED="1520218708544" ID="ID_648919017" MODIFIED="1520325196578" TEXT=".parseInt(&quot;string&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520218772999" ID="ID_294010105" MODIFIED="1520325196578" TEXT="convert string to int">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520218733644" ID="ID_1565917055" MODIFIED="1520325196578" TEXT=".parseFloat(&quot;string&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520218747088" ID="ID_916521596" MODIFIED="1520325196578" TEXT="convert string to float">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520170145983" ID="ID_1451537124" MODIFIED="1520325196578" TEXT="date">
+<edge COLOR="#9900cc" WIDTH="4"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-6"/>
+<node CREATED="1520218867440" ID="ID_1532261847" MODIFIED="1520325196578" TEXT="new Date(x , ...)">
+<edge WIDTH="4"/>
+<node CREATED="1520218910274" ID="ID_1392549269" MODIFIED="1520325196578" TEXT="x">
+<edge WIDTH="4"/>
+<node CREATED="1520218914387" ID="ID_1102167629" MODIFIED="1520325196578" TEXT="=== empty">
+<edge WIDTH="4"/>
+<node CREATED="1520218924421" ID="ID_1332850376" MODIFIED="1520325196578" TEXT="time now">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520218934679" ID="ID_96484115" MODIFIED="1520325196578" TEXT="date string">
+<edge WIDTH="4"/>
+<node CREATED="1520218982205" ID="ID_1485640833" MODIFIED="1520325196577" TEXT="&quot;y-0m-d T h:m:s&quot;">
+<edge WIDTH="4"/>
+<node CREATED="1520219031043" ID="ID_1404261782" MODIFIED="1520325196577" TEXT="y-m-d T h::m::sZ  /time UTC/">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520219076570" ID="ID_1050756252" MODIFIED="1520325196577" TEXT="&quot;0m/d/y&quot;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520219262513" ID="ID_771974371" MODIFIED="1520325196577" TEXT="&quot;stringMonth day year&quot;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520219298114" ID="ID_1127725270" MODIFIED="1520325196577" TEXT="&quot;thu months day year&quot;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520219333636" ID="ID_100890911" MODIFIED="1520325196577" TEXT="method">
+<edge WIDTH="4"/>
+<node CREATED="1520219339788" ID="ID_996354201" MODIFIED="1520325196577" TEXT=".toString()">
+<edge WIDTH="4"/>
+<node CREATED="1520219413973" ID="ID_1106378965" MODIFIED="1520325196577" TEXT="return string date">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520219422297" ID="ID_741148533" MODIFIED="1520325196577" TEXT=".toUTCString();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520219457933" ID="ID_1933955908" MODIFIED="1520325196577" TEXT=".toDateString();">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520219528257" ID="ID_529610474" MODIFIED="1520325196577" TEXT=".getDate() / .setDate() / ">
+<edge WIDTH="4"/>
+<node CREATED="1520219595709" ID="ID_888072612" MODIFIED="1520325196577" TEXT=".getFullYear()">
+<edge WIDTH="4"/>
+<node CREATED="1520219672826" ID="ID_1657078777" MODIFIED="1520325196577" TEXT=".setFullYear(y, m, d);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520219629148" ID="ID_1837948442" MODIFIED="1520325196577" TEXT=".getMonth()">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520219692380" ID="ID_1550402661" MODIFIED="1520325196577" TEXT=".getDay()">
+<edge WIDTH="4"/>
+<node CREATED="1520219718227" ID="ID_808433851" MODIFIED="1520325196577" TEXT="return 0 - 6  == t2  - cn">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520219753589" ID="ID_1371255533" MODIFIED="1520325196577" TEXT=".getHours();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520219765859" ID="ID_376953549" MODIFIED="1520325196577" TEXT=".getMinutes();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520219783845" ID="ID_740409204" MODIFIED="1520325196577" TEXT=".getSeconds();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520219804975" ID="ID_1218107181" MODIFIED="1520325196577" TEXT=".getTime();">
+<edge WIDTH="4"/>
+<node CREATED="1520219811654" ID="ID_662040216" MODIFIED="1520325196577" TEXT="return time to 1/1/1970">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520219834275" ID="ID_338831450" MODIFIED="1520325196577" TEXT="Date.parse(&quot;March 12 2012&quot;)">
+<edge WIDTH="4"/>
+<node CREATED="1520219932939" ID="ID_233834091" MODIFIED="1520325196577" TEXT="time day to 1/1/1970">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520219943159" ID="ID_497238106" MODIFIED="1520325196577" TEXT="date1 &gt;=  date2 ">
+<edge WIDTH="4"/>
+<node CREATED="1520219981708" ID="ID_1427622460" MODIFIED="1520325196577" TEXT="c&#xf3; th&#x1ec3; so s&#xe1;nh xem c&#xe1;i n&#xe0;o nhi&#x1ec1;u h&#x1a1;n">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520220011191" ID="ID_953011663" MODIFIED="1520325196577" TEXT="return true / false">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520170152313" ID="ID_949969181" MODIFIED="1520325196577" TEXT="array">
+<edge COLOR="#ff3366" WIDTH="4"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-7"/>
+<node CREATED="1520220035506" ID="ID_374922857" MODIFIED="1520325196577" TEXT="create">
+<edge WIDTH="4"/>
+<node CREATED="1520220107478" ID="ID_1761864109" MODIFIED="1520325196577" TEXT="= [ , , , ...]">
+<edge WIDTH="4"/>
+<node CREATED="1520220217606" ID="ID_1431355166" MODIFIED="1520325196577" TEXT="bad good">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520220172802" ID="ID_1889341495" MODIFIED="1520325196577" TEXT="new Array ( , , ,  ....);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520236255734" ID="ID_935465400" MODIFIED="1520325196577" TEXT="nameArray[&quot;name_string&quot;] = value">
+<edge WIDTH="4"/>
+<node CREATED="1520236307790" ID="ID_117715995" MODIFIED="1520325196577" TEXT="method .length that not correct">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520236131740" ID="ID_1506585191" MODIFIED="1520325196577" TEXT="method">
+<edge WIDTH="4"/>
+<node CREATED="1520236135266" ID="ID_498417677" MODIFIED="1520325196577" TEXT="Array.isArray(nameArray);">
+<edge WIDTH="4"/>
+<node CREATED="1520236194892" ID="ID_1921173224" MODIFIED="1520325196577" TEXT="return true / false - c&#xf3; ph&#x1ea3;i array kh&#xf4;ng">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520236226107" ID="ID_448245364" MODIFIED="1520325196577" TEXT=".length;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520236492392" ID="ID_206464680" MODIFIED="1520325196577" TEXT=".join(&quot;x&quot;); ">
+<edge WIDTH="4"/>
+<node CREATED="1520236517859" ID="ID_1422829248" MODIFIED="1520325196577" TEXT="return value1 x value2 x .......">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520236541802" ID="ID_745479180" MODIFIED="1520325196577" TEXT=".push(value);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520236553027" ID="ID_1621865688" MODIFIED="1520325196577" TEXT=".pop(value);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520236575635" ID="ID_590252721" MODIFIED="1520325196577" TEXT=".unshift(value);">
+<edge WIDTH="4"/>
+<node CREATED="1520236591808" ID="ID_1011730595" MODIFIED="1520325196577" TEXT="add value to first array">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520236601505" ID="ID_1768335947" MODIFIED="1520325196577" TEXT=".shift();">
+<edge WIDTH="4"/>
+<node CREATED="1520236614645" ID="ID_1894979705" MODIFIED="1520325196577" TEXT="return value first array and remove this">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520236650888" ID="ID_526863195" MODIFIED="1520325196577" TEXT=".concat(array2, ... , arrayN)">
+<edge WIDTH="4"/>
+<node CREATED="1520236690138" ID="ID_976435658" MODIFIED="1520325196577" TEXT="n&#x1ed1;i nhi&#x1ec1;u array v&#x1edb;i nhau">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520236702354" ID="ID_435482572" MODIFIED="1520325196577" TEXT=".splice(a, b, &quot;value1&quot;, ...., &quot;valueN&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520236964449" ID="ID_830763515" MODIFIED="1520325196577" TEXT="remove position a to b and add value value1, ... valueN">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520236999826" ID="ID_42191000" MODIFIED="1520325196577" TEXT=".slice(number_position);">
+<edge WIDTH="4"/>
+<node CREATED="1520237044354" ID="ID_913862362" MODIFIED="1520325196577" TEXT="return new array have value did cut start number_position">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520237112565" ID="ID_900640800" MODIFIED="1520325196577" TEXT=".sort();">
+<edge WIDTH="4"/>
+<node CREATED="1520237145593" ID="ID_868873830" MODIFIED="1520325196577" TEXT="sort with apha">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520237202877" ID="ID_69641200" MODIFIED="1520325196577" TEXT=".sort(function(a,b){return a-b;})">
+<edge WIDTH="4"/>
+<node CREATED="1520237230972" ID="ID_17054187" MODIFIED="1520325196577" TEXT="sort number up (a &gt; b)">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520237258272" ID="ID_121664007" MODIFIED="1520325196577" TEXT="function return == 0, &lt; 0;">
+<edge WIDTH="4"/>
+<node CREATED="1520237286687" ID="ID_778141277" MODIFIED="1520325196577" TEXT="&gt;0 m&#x1edb;i th&#x1ecf;a m&#xe3;n">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520237312225" ID="ID_86381523" MODIFIED="1520325196577" TEXT=".reverse();">
+<edge WIDTH="4"/>
+<node CREATED="1520237320041" ID="ID_638863267" MODIFIED="1520325196577" TEXT="&#x111;&#x1ea3;o ng&#x1b0;&#x1ee3;c chu&#x1ed7;i">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520237332380" ID="ID_644696935" MODIFIED="1520325196577" TEXT="delete nameArray[number];">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520170165302" ID="ID_1958226327" MODIFIED="1520325196577" TEXT="regular">
+<edge COLOR="#ff9966" WIDTH="4"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-8"/>
+<node CREATED="1520237623587" ID="ID_582346856" MODIFIED="1520325196577" TEXT="new RegExp(&quot;x&quot;, y)">
+<edge WIDTH="4"/>
+<node CREATED="1520237646386" ID="ID_1907439545" MODIFIED="1520325196577" TEXT="detail">
+<edge WIDTH="4"/>
+<node CREATED="1520237669758" ID="ID_1056242864" MODIFIED="1520325196577" TEXT="x: is string regular">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520237698452" ID="ID_1280365160" MODIFIED="1520325196577" TEXT="y = i, m, g">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520237716856" ID="ID_1470979216" MODIFIED="1520325196577" TEXT="property">
+<edge WIDTH="4"/>
+<node CREATED="1520237749640" ID="ID_945813939" MODIFIED="1520325196577" TEXT=".global;">
+<edge WIDTH="4"/>
+<node CREATED="1520237763728" ID="ID_1663298692" MODIFIED="1520325196577" TEXT="return true / false">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520237772091" ID="ID_792621341" MODIFIED="1520325196577" TEXT=".ignoreCase;">
+<edge WIDTH="4"/>
+<node CREATED="1520237788971" ID="ID_1599107060" MODIFIED="1520325196577" TEXT="return true / false">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520237803963" ID="ID_1993565109" MODIFIED="1520325196577" TEXT=".multiline;">
+<edge WIDTH="4"/>
+<node CREATED="1520237823416" ID="ID_757868196" MODIFIED="1520325196577" TEXT="true / false">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520237836115" ID="ID_1640141986" MODIFIED="1520325196577" TEXT=".lastIndex;">
+<edge WIDTH="4"/>
+<node CREATED="1520237864588" ID="ID_311725781" MODIFIED="1520325196577" TEXT="return last index">
+<edge WIDTH="4"/>
+<node CREATED="1520237871466" ID="ID_1858663750" MODIFIED="1520325196577" TEXT="&quot;air&quot; RegExp(&quot;n&quot;).lastIndex = 3">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520237944906" ID="ID_1469082644" MODIFIED="1520325196577" TEXT=".source;">
+<edge WIDTH="4"/>
+<node CREATED="1520237960417" ID="ID_1084847055" MODIFIED="1520325196577" TEXT="return string regular">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520237968715" ID="ID_4306382" MODIFIED="1520325196577" TEXT="method">
+<edge WIDTH="4"/>
+<node CREATED="1520237985182" ID="ID_946170304" MODIFIED="1520325196576" TEXT=".toString();">
+<edge WIDTH="4"/>
+<node CREATED="1520238011506" ID="ID_1291851985" MODIFIED="1520325196576" TEXT="show string regular">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520238023891" ID="ID_1663649686" MODIFIED="1520325196576" TEXT=".exec(&quot;string&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520238045338" ID="ID_478497825" MODIFIED="1520325196576" TEXT="test for match in string. return the first match">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520238086727" ID="ID_1400461637" MODIFIED="1520325196576" TEXT=".test(&quot;string&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520238102213" ID="ID_1859773304" MODIFIED="1520325196576" TEXT="test for match in string. return the true or false">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520297718913" ID="ID_944410661" MODIFIED="1520325196576" TEXT="/ / Regular">
+<edge WIDTH="4"/>
+<node CREATED="1520297886920" ID="ID_68135045" MODIFIED="1520325196576" TEXT="/string/i">
+<edge WIDTH="4"/>
+<node CREATED="1520297915547" ID="ID_1285714486" MODIFIED="1520325196576" TEXT="/i">
+<edge WIDTH="4"/>
+<node CREATED="1520297929996" ID="ID_54704452" MODIFIED="1520325196576" TEXT="kh&#xf4;ng ph&#xe2;n bi&#x1ec7;t ch&#x1eef; hoa ch&#x1eef; th&#x1b0;&#x1edd;ng">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520297918212" ID="ID_848309370" MODIFIED="1520325196576" TEXT="/m">
+<edge WIDTH="4"/>
+<node CREATED="1520297983935" ID="ID_171912750" MODIFIED="1520325196576" TEXT="t&#xec;m ki&#x1ebf;m d&#xf2;ng &#x111;&#x1ea7;u ti&#xea;n">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520297921919" ID="ID_438411823" MODIFIED="1520325196576" TEXT="/g">
+<edge WIDTH="4"/>
+<node CREATED="1520298014857" ID="ID_700031722" MODIFIED="1520325196576" TEXT="t&#xec;m ki&#x1ebf;m t&#x1ea5;t c&#x1ea3;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520298024652" ID="ID_542749272" MODIFIED="1520325196576" TEXT="/[bracket]/">
+<edge WIDTH="4"/>
+<node CREATED="1520298061676" ID="ID_308178068" MODIFIED="1520325196576" TEXT="[abc]">
+<edge WIDTH="4"/>
+<node CREATED="1520298113661" ID="ID_1015997738" MODIFIED="1520325196576" TEXT="t&#xec;m ki&#x1ebf;m abc k&#xfd; t&#x1ef1; kh&#xf4;ng ph&#x1ea3;i c&#x1ea3; t&#x1eeb;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520298130885" ID="ID_1269233635" MODIFIED="1520325196576" TEXT="[^abc] ">
+<edge WIDTH="4"/>
+<node CREATED="1520298142713" ID="ID_1208625203" MODIFIED="1520325196576" TEXT="kh&#xf4;ng c&#xf3; k&#xfd; t&#x1ef1;">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520298155365" ID="ID_1604247697" MODIFIED="1520325196576" TEXT="[a-z], [A - z], [A - Z]">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520298073436" ID="ID_1608710661" MODIFIED="1520325196576" TEXT="[0-9]">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520298245759" ID="ID_524075563" MODIFIED="1520325196576" TEXT="( x | y)">
+<edge WIDTH="4"/>
+<node COLOR="#338800" CREATED="1520298263682" ID="ID_101124302" MODIFIED="1520325196576" TEXT="c&#x1ee5;m t&#x1eeb; x &#x111;&#x1b0;&#x1ee3;c &#x1b0;u ti&#xea;n t&#xec;m tr&#x1b0;&#x1edb;c n&#x1ebf;u kh&#xf4;ng c&#xf3; quay sang t&#xec;m c&#x1ee5;m t&#x1eeb; y">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520298340268" ID="ID_1713695907" MODIFIED="1520325196576" TEXT="metacharacter">
+<edge WIDTH="4"/>
+<node CREATED="1520298384705" ID="ID_845874957" MODIFIED="1520325196576" TEXT="/h.t/">
+<edge WIDTH="4"/>
+<node CREATED="1520298428998" ID="ID_1639342234" MODIFIED="1520325196576" TEXT="find h......t">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520298436523" ID="ID_1657087945" MODIFIED="1520325196576" TEXT="/ \w /">
+<edge WIDTH="4"/>
+<node CREATED="1520298489117" ID="ID_673260710" MODIFIED="1520325196576" TEXT="ch&#x1ec9; t&#xec;m ch&#x1eef;  (word)">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520298499482" ID="ID_179727518" MODIFIED="1520325196576" TEXT="/ \W /">
+<edge WIDTH="4"/>
+<node CREATED="1520298538104" ID="ID_783333832" MODIFIED="1520325196576" TEXT="kh&#xf4;ng t&#xec;m ch&#x1eef;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520298505406" ID="ID_473417894" MODIFIED="1520325196576" TEXT="/ \d /">
+<edge WIDTH="4"/>
+<node CREATED="1520298519204" ID="ID_346765265" MODIFIED="1520325196576" TEXT="kh&#xf4;ng t&#xec;m s&#x1ed1;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520298633105" ID="ID_1359036628" MODIFIED="1520325196576" TEXT="/ \D /">
+<edge WIDTH="4"/>
+<node CREATED="1520298643699" ID="ID_13005114" MODIFIED="1520325196576" TEXT="kh&#xf4;ng t&#xec;m s&#x1ed1;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520298558011" ID="ID_700373121" MODIFIED="1520325196576" TEXT="/ \s/ ">
+<edge WIDTH="4"/>
+<node CREATED="1520298576432" ID="ID_812124127" MODIFIED="1520325196576" TEXT="ch&#x1ec9; t&#xec;m kho&#x1ea3;ng space">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520298593045" ID="ID_1713377134" MODIFIED="1520325196576" TEXT="/ \S /">
+<edge WIDTH="4"/>
+<node CREATED="1520298617917" ID="ID_1760337942" MODIFIED="1520325196576" TEXT="kh&#xf4;ng t&#xec;m kho&#x1ea3;ng space">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520298655013" ID="ID_939885957" MODIFIED="1520325196576" TEXT="/ \bXXX / ">
+<edge WIDTH="4"/>
+<node CREATED="1520298743241" ID="ID_294491134" MODIFIED="1520325196576" TEXT="T&#xec;m chu&#x1ed7;i string b&#x1eaf;t &#x111;&#x1ea7;u XXXabc">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520298783651" ID="ID_402955057" MODIFIED="1520325196576" TEXT="/ \BXXX / ">
+<edge WIDTH="4"/>
+<node CREATED="1520298797618" ID="ID_1622421979" MODIFIED="1520325196576" TEXT="t&#xec;m chu&#x1ed7;i string k&#x1ebf;t th&#xfa;c b&#x103;ng abcXXX">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520298877461" ID="ID_210595515" MODIFIED="1520325196576" TEXT="/ \0 /">
+<edge WIDTH="4"/>
+<node CREATED="1520298923509" ID="ID_656858631" MODIFIED="1520325196576" TEXT="find star \0">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520298956897" ID="ID_840465191" MODIFIED="1520325196576" TEXT="/ \n/">
+<edge WIDTH="4"/>
+<node CREATED="1520298969158" ID="ID_1954972939" MODIFIED="1520325196576" TEXT="t&#xec;m k&#xfd; t&#x1ef1; d&#xf2;ng m&#x1edb;i">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520298977466" ID="ID_695986375" MODIFIED="1520325196576" TEXT="/ \f /">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520299002771" ID="ID_1440691241" MODIFIED="1520325196576" TEXT="/ \ r /">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520299018422" ID="ID_743714001" MODIFIED="1520325196576" TEXT="/  \t /">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520299026882" ID="ID_1516346053" MODIFIED="1520325196576" TEXT="/ \v /">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520299057142" ID="ID_402997798" MODIFIED="1520325196576" TEXT="/ \xxx / ">
+<edge WIDTH="4"/>
+<node CREATED="1520299067457" ID="ID_1890746032" MODIFIED="1520325196576" TEXT="t&#xec;m k&#xfd; t&#x1ef1; v&#x1edb;i m&#xe3; 8">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520299128319" ID="ID_50425421" MODIFIED="1520325196576" TEXT="/ \xdd / = 16 ; /udddd/ = 16 unicode">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520299190468" ID="ID_535288590" MODIFIED="1520325196576" TEXT="&#x111;&#x1ecb;nh l&#x1b0;&#x1ee3;ng">
+<edge WIDTH="4"/>
+<node CREATED="1520299227127" ID="ID_37113859" MODIFIED="1520325196576" TEXT="n+">
+<edge WIDTH="4"/>
+<node CREATED="1520299692388" ID="ID_952806822" MODIFIED="1520325196576" TEXT="find string n, nnnnnn ....">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520299277783" ID="ID_703043087" MODIFIED="1520325196576" TEXT="nm*">
+<edge WIDTH="4"/>
+<node CREATED="1520299705139" ID="ID_1752745555" MODIFIED="1520325196576" TEXT="find string n, nm, nmmmm ...">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520299294030" ID="ID_1041386159" MODIFIED="1520325196576" TEXT="nm?">
+<edge WIDTH="4"/>
+<node CREATED="1520299726639" ID="ID_295322123" MODIFIED="1520325196576" TEXT="find string n,nm">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520299360040" ID="ID_1293713522" MODIFIED="1520325196576" TEXT="\d{n}">
+<edge WIDTH="4"/>
+<node CREATED="1520299372652" ID="ID_271941274" MODIFIED="1520325196576" TEXT="{n}">
+<edge WIDTH="4"/>
+<node CREATED="1520299389054" ID="ID_1077932586" MODIFIED="1520325196576" TEXT="dddd  .... = d *n">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520299404109" ID="ID_1765873661" MODIFIED="1520325196576" TEXT="{n, m}">
+<edge WIDTH="4"/>
+<node CREATED="1520299418666" ID="ID_547534637" MODIFIED="1520325196576" TEXT="= d * n OR d*m">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520299446056" ID="ID_619438557" MODIFIED="1520325196576" TEXT="{n,}">
+<edge WIDTH="4"/>
+<node CREATED="1520299464562" ID="ID_1194344585" MODIFIED="1520325196576" TEXT=" = d*n OR d*(n+1) OR ...">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520299493613" ID="ID_1430752105" MODIFIED="1520325196576" TEXT="/  \n$ /">
+<edge WIDTH="4"/>
+<node CREATED="1520299563526" ID="ID_254693319" MODIFIED="1520325196576" TEXT="find string n">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520299574729" ID="ID_468564779" MODIFIED="1520325196576" TEXT="/ \^n /">
+<edge WIDTH="4"/>
+<node CREATED="1520299586918" ID="ID_1384263880" MODIFIED="1520325196576" TEXT="find not string n">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520299615193" ID="ID_1593498465" MODIFIED="1520325196576" TEXT="/ \ x(?=y) /">
+<edge WIDTH="4"/>
+<node CREATED="1520299637938" ID="ID_557722854" MODIFIED="1520325196576" TEXT="find string x y">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520299643562" ID="ID_399863030" MODIFIED="1520325196576" TEXT="/ \x(!=y) /">
+<edge WIDTH="4"/>
+<node CREATED="1520299661095" ID="ID_91941296" MODIFIED="1520325196576" TEXT="find not string x y ">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520170188472" ID="ID_1219064597" MODIFIED="1520325196576" TEXT="function">
+<edge COLOR="#33ff33" WIDTH="4"/>
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-9"/>
+<node CREATED="1520238157057" ID="ID_1041329919" MODIFIED="1520325196576" TEXT="create">
+<edge WIDTH="4"/>
+<node CREATED="1520238193592" ID="ID_855555646" MODIFIED="1520325196576" TEXT="function nameFunction(){}">
+<edge WIDTH="4"/>
+<node CREATED="1520238209005" ID="ID_114275588" MODIFIED="1520325196576" TEXT="arguments.length;">
+<edge WIDTH="4"/>
+<node CREATED="1520238222132" ID="ID_1564317884" MODIFIED="1520325196576" TEXT="s&#x1ed1; l&#x1b0;&#x1ee3;ng tham s&#x1ed1; truy&#x1ec1;n v&#xe0;o">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520238234612" ID="ID_783616401" MODIFIED="1520325196576" TEXT="(function(){ / content function/})()">
+<edge WIDTH="4"/>
+<node CREATED="1520238272471" ID="ID_1664154293" MODIFIED="1520325196576" TEXT="auto run function">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520238186319" ID="ID_214896939" MODIFIED="1520325196576" TEXT="method">
+<edge WIDTH="4"/>
+<node CREATED="1520238280102" ID="ID_757312619" MODIFIED="1520325196576" TEXT="isNAN(x);">
+<edge WIDTH="4"/>
+<node CREATED="1520238351522" ID="ID_1999769439" MODIFIED="1520325196576" TEXT="true / false">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520238359303" ID="ID_1830089739" MODIFIED="1520325196576" TEXT="math">
+<edge WIDTH="4"/>
+<node CREATED="1520238393891" ID="ID_731428470" MODIFIED="1520325196576" TEXT="round">
+<edge WIDTH="4"/>
+<node CREATED="1520238397690" ID="ID_712285937" MODIFIED="1520325196576" TEXT="round(x);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520238408841" ID="ID_1177907533" MODIFIED="1520325196576" TEXT="ceil(x);">
+<edge WIDTH="4"/>
+<node CREATED="1520238438894" ID="ID_34272346" MODIFIED="1520325196576" TEXT="l&#xe0;m tr&#xf2;n l&#xea;n">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520238415323" ID="ID_1175994117" MODIFIED="1520325196575" TEXT="floor(x);">
+<edge WIDTH="4"/>
+<node CREATED="1520238449756" ID="ID_1683751927" MODIFIED="1520325196575" TEXT="l&#xe0;m tr&#xf2;n xu&#x1ed1;ng">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520238455883" ID="ID_1760961544" MODIFIED="1520325196575" TEXT="pow(x,y)">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520238505098" ID="ID_997933035" MODIFIED="1520325196575" TEXT="sqrt(x)">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520238532031" ID="ID_1154794680" MODIFIED="1520325196575" TEXT="abs(x)">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520238537055" ID="ID_1024865175" MODIFIED="1520325196575" TEXT="angle">
+<edge WIDTH="4"/>
+<node CREATED="1520238547009" ID="ID_548114023" MODIFIED="1520325196575" TEXT="sin(x), cos(x), tan(x)">
+<edge WIDTH="4"/>
+<node CREATED="1520238592406" ID="ID_1697115739" MODIFIED="1520325196575" TEXT="1 = PI/180">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520238573587" ID="ID_1230652595" MODIFIED="1520325196575" TEXT="asin(x), acos(x), atan(x)">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520238609073" ID="ID_1236480564" MODIFIED="1520325196575" TEXT="min(value1, ... , valueN) / max(value1, ..., valueN)">
+<edge WIDTH="4"/>
+<node CREATED="1520238641569" ID="ID_628832053" MODIFIED="1520325196575" TEXT="t&#xec;m min, max">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520238652675" ID="ID_519802265" MODIFIED="1520325196575" TEXT="random();">
+<edge WIDTH="4"/>
+<node CREATED="1520238666949" ID="ID_402528118" MODIFIED="1520325196575" TEXT="0 &lt;  return value&lt; 1">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520238911778" ID="ID_1156433546" MODIFIED="1520325196575" TEXT="a &lt; v &lt;b =&gt;  random()* (b-a) + a ">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520238360482" ID="ID_314887529" MODIFIED="1520325196575" TEXT=".call();">
+<edge WIDTH="4"/>
+<node CREATED="1520238606438" ID="ID_640884066" MODIFIED="1520325196575" TEXT="obj1.nameObj1Function.call(obj2);">
+<edge WIDTH="4"/>
+<node CREATED="1520239111703" ID="ID_1401400792" MODIFIED="1520325196575" TEXT="obj1{a: 2 , b:  3, function nameF(return this.a +this.b){}}">
+<edge WIDTH="4"/>
+<node CREATED="1520252558827" ID="ID_1569801163" MODIFIED="1520325196575" TEXT="obj2 = {a: 1, b: 2}">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520252603328" ID="ID_258957276" MODIFIED="1520325196575" TEXT="obj1.nameF.call(obj2);">
+<edge WIDTH="4"/>
+<node CREATED="1520252623906" ID="ID_1258772133" MODIFIED="1520325196575" TEXT="show return: 1 2">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520239115047" ID="ID_1410715498" MODIFIED="1520325196575" TEXT="cant run array">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520238362982" ID="ID_286283193" MODIFIED="1520325196575" TEXT=".apply();">
+<edge WIDTH="4"/>
+<node CREATED="1520252361645" ID="ID_645448235" MODIFIED="1520325196575" TEXT="obj1.nameObj1Function.call(obj2)">
+<edge WIDTH="4"/>
+<node CREATED="1520252677626" ID="ID_246196839" MODIFIED="1520325196575" TEXT="like .call();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520252685838" ID="ID_525276787" MODIFIED="1520325196575" TEXT=".apply( null, [ , .. ,]);">
+<edge WIDTH="4"/>
+<node CREATED="1520252704858" ID="ID_1498024613" MODIFIED="1520325196575" TEXT="can run array">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520268552334" ID="ID_1587781503" MODIFIED="1520325196575" TEXT="scope">
+<edge COLOR="#ffff00" WIDTH="4"/>
+<node CREATED="1520268561487" ID="ID_158320671" MODIFIED="1520325196575" TEXT="global">
+<edge WIDTH="4"/>
+<node CREATED="1520268576483" ID="ID_1253844766" MODIFIED="1520325196575" TEXT="khai b&#xe1;o var ngo&#xe0;i function">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520268605092" ID="ID_1288909591" MODIFIED="1520325196575" TEXT="khai b&#xe1;o kh&#xf4;ng c&#xf3; var trong funtion">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520268637714" ID="ID_893307174" MODIFIED="1520325196575" TEXT="c&#xe1;ch g&#x1ecd;i">
+<edge WIDTH="4"/>
+<node CREATED="1520268644133" ID="ID_1530367466" MODIFIED="1520325196575" TEXT="window.nameValue">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520268653792" ID="ID_473599510" MODIFIED="1520325196575" TEXT="nameValue">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520268566302" ID="ID_211251618" MODIFIED="1520325196575" TEXT="local">
+<edge WIDTH="4"/>
+<node CREATED="1520268665514" ID="ID_1565647052" MODIFIED="1520325196575" TEXT="khai b&#xe1;o var trong function">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520268678287" ID="ID_1165796851" MODIFIED="1520325196575" TEXT="closures">
+<edge WIDTH="4"/>
+<node CREATED="1520268745204" ID="ID_1910506493" MODIFIED="1520325196575" TEXT="gi&#xfa;p l&#x1b0;u tr&#x1eef; bi&#x1ebf;n trong m&#xec;nh function &#x111;&#xf3; ( like static)">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520269140550" ID="ID_1901734955" MODIFIED="1520325196575" TEXT="var nameFunction = (function(){ var count = 0 ; return function(){return count+=1}})();">
+<edge WIDTH="4"/>
+<node CREATED="1520270758942" ID="ID_1030600649" MODIFIED="1520325196575" TEXT=" n call function -&gt; return  couter = n">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520322321362" ID="ID_1491695482" MODIFIED="1520325196575" POSITION="left" TEXT="JSON">
+<edge COLOR="#ff3399" WIDTH="4"/>
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1520322850472" ID="ID_1070136956" MODIFIED="1520325196575" TEXT="basic">
+<edge WIDTH="4"/>
+<node CREATED="1520322814465" ID="ID_1556587760" MODIFIED="1520325196575" TEXT="convert object data to JSON : send server">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520322864822" ID="ID_322781248" MODIFIED="1520325196575" TEXT="{&quot;name1&quot;: [{&quot;name2&quot;:value2} , {&quot;name3&quot;: value3}, ....], .... }">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520323024322" ID="ID_1855263852" MODIFIED="1520325196575" TEXT="var a = JSON.parse(string_json);">
+<edge WIDTH="4"/>
+<node CREATED="1520323045078" ID="ID_212897915" MODIFIED="1520325196575" TEXT="a.name1[i].name2= value2">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520323610609" ID="ID_461354780" MODIFIED="1520325196575" TEXT="client">
+<edge WIDTH="4"/>
+<node CREATED="1520323095043" ID="ID_985657122" MODIFIED="1520325196575" TEXT="send server">
+<edge WIDTH="4"/>
+<node CREATED="1520323155768" ID="ID_1721995532" MODIFIED="1520325196575" TEXT="convert javaObject -&gt; JSON">
+<edge WIDTH="4"/>
+<node CREATED="1520323227292" ID="ID_1081422903" MODIFIED="1520325196575" TEXT="jsonObject = JSON.stringify(javaObject);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520323282975" ID="ID_534978599" MODIFIED="1520325196575" TEXT="sending">
+<edge WIDTH="4"/>
+<node CREATED="1520323289716" ID="ID_1730260656" MODIFIED="1520325196575" TEXT="window.location = &quot;file.php?x=&quot;+jsonObject;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520323102413" ID="ID_187752798" MODIFIED="1520325196575" TEXT="receiving data">
+<edge WIDTH="4"/>
+<node CREATED="1520323332503" ID="ID_1375995185" MODIFIED="1520325196575" TEXT="convert JSON -&gt; javaObject">
+<edge WIDTH="4"/>
+<node CREATED="1520323344146" ID="ID_201220598" MODIFIED="1520325196575" TEXT="javaObject = JSON.parse(jsonObject);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520323489594" ID="ID_1680278923" MODIFIED="1520325196575" TEXT="= JSON.parse(jsonObject, function(key, value){} );">
+<edge WIDTH="4"/>
+<node CREATED="1520323555489" ID="ID_487579074" MODIFIED="1520325196575" TEXT="handle name1 -&gt; nameN">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520323645405" ID="ID_1952074099" MODIFIED="1520325196575" TEXT="save local storage">
+<edge WIDTH="4"/>
+<node CREATED="1520323655132" ID="ID_445658385" MODIFIED="1520325196575" TEXT="set">
+<edge WIDTH="4"/>
+<node CREATED="1520323663974" ID="ID_1314074187" MODIFIED="1520325196575" TEXT="localStorage.setIem(&quot;nameSave&quot;, jsonObject);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520323723403" ID="ID_276230777" MODIFIED="1520325196575" TEXT="get">
+<edge WIDTH="4"/>
+<node CREATED="1520323726773" ID="ID_53495394" MODIFIED="1520325196575" TEXT="jsonObject = localStorage.getItem(&quot;nameSave&quot;);">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520323884941" ID="ID_371700964" MODIFIED="1520325196575" TEXT="delete name">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520323768458" ID="ID_190394840" MODIFIED="1520325196575" TEXT="server">
+<edge WIDTH="4"/>
+<node CREATED="1520323775277" ID="ID_1155020444" MODIFIED="1520325196575" TEXT="$request = json_decode($_GET[&apos;x&apos;], false / true);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520323952910" ID="ID_1562633567" MODIFIED="1520325196575" TEXT="json_endcode($v)">
+<edge WIDTH="4"/>
+<node CREATED="1520324008235" ID="ID_745537977" MODIFIED="1520325196575" TEXT="return json endcode (json m&#xe3; h&#xf3;a)">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520326233163" ID="ID_1888350399" MODIFIED="1520326369601" TEXT="JSONP like MVC">
+<node CREATED="1520326238251" ID="ID_1149210462" MODIFIED="1520326254683" TEXT="controller">
+<node CREATED="1520326279070" ID="ID_856636184" MODIFIED="1520326315353" TEXT="&lt;script src=&quot;file.php?x=value&quot;&gt;&lt;/script&gt;"/>
+</node>
+<node CREATED="1520326255296" ID="ID_622238388" MODIFIED="1520326258152" TEXT="model">
+<node CREATED="1520326324014" ID="ID_1167227037" MODIFIED="1520326330988" TEXT="file.php">
+<node CREATED="1520326332892" ID="ID_825889797" MODIFIED="1520326502233" TEXT="echo &apos;myfunction(&quot;+value_handling_work+&quot;)&apos;"/>
+</node>
+</node>
+<node CREATED="1520326258366" ID="ID_1937311735" MODIFIED="1520326260589" TEXT="view">
+<node CREATED="1520326508580" ID="ID_480820485" MODIFIED="1520326591949" TEXT="&lt;script&gt;function myfunction(value){/ handle view client /}&lt;/script&gt;"/>
+</node>
+</node>
+</node>
+<node CREATED="1520320421282" ID="ID_1015937745" MODIFIED="1520325196575" POSITION="left" TEXT="AjAX">
+<edge COLOR="#ff9966" WIDTH="4"/>
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1520320432915" ID="ID_811776283" MODIFIED="1520325196575" TEXT="create">
+<edge WIDTH="4"/>
+<node CREATED="1520320463149" ID="ID_1249067528" MODIFIED="1520325196575" TEXT="create request connect http">
+<edge WIDTH="4"/>
+<node CREATED="1520320474937" ID="ID_380923802" MODIFIED="1520325196575" TEXT="var xhttp = new XMLHttpRequest();">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520320445293" ID="ID_394765627" MODIFIED="1520325196575" TEXT="handle">
+<edge WIDTH="4"/>
+<node CREATED="1520320525147" ID="ID_1158172276" MODIFIED="1520325196575" TEXT="xhttp.onreadystatechange  = function(){}">
+<edge WIDTH="4"/>
+<node CREATED="1520320574137" ID="ID_410529612" MODIFIED="1520325196575" TEXT="handle data response">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520320600273" ID="ID_545225020" MODIFIED="1520325196575" TEXT="property function">
+<edge WIDTH="4"/>
+<node CREATED="1520320628284" ID="ID_1343326954" MODIFIED="1520325196575" TEXT="this.readyState;">
+<edge WIDTH="4"/>
+<node CREATED="1520320659301" ID="ID_1183937228" MODIFIED="1520325196575" TEXT="0">
+<edge WIDTH="4"/>
+<node CREATED="1520320707101" ID="ID_1339045414" MODIFIED="1520325196575" TEXT="y&#xea;u c&#x1ea7;u ch&#x1b0;a &#x111;&#x1b0;&#x1ee3;c kh&#x1edf;i t&#x1ea1;o">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320661097" ID="ID_1508787562" MODIFIED="1520325196575" TEXT="1">
+<edge WIDTH="4"/>
+<node CREATED="1520320754769" ID="ID_1240874571" MODIFIED="1520325196575" TEXT="k&#x1ebf;t n&#x1ed1;i t&#x1edb;i server &#x111;&#xe3; &#x111;&#x1b0;&#x1ee3;c thi&#x1ebf;t l&#x1ead;p">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320661919" ID="ID_349003461" MODIFIED="1520325196575" TEXT="2">
+<edge WIDTH="4"/>
+<node CREATED="1520320792287" ID="ID_40381801" MODIFIED="1520325196575" TEXT="&#x111;&#xe3; nh&#xe2;n &#x111;&#x1b0;&#x1ee3;c request">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320662617" ID="ID_579361479" MODIFIED="1520325196574" TEXT="3">
+<edge WIDTH="4"/>
+<node CREATED="1520320803880" ID="ID_961424655" MODIFIED="1520325196574" TEXT="&#x111;ang s&#x1eed; l&#xfd; request">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320667462" ID="ID_417021896" MODIFIED="1520325196574" TEXT="4">
+<edge WIDTH="4"/>
+<node CREATED="1520320824321" ID="ID_1042024077" MODIFIED="1520325196574" TEXT="request k&#x1ebf;t th&#xfa;c v&#xe0; response s&#x1eb5;n s&#xe0;ng">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520320843750" ID="ID_1268341487" MODIFIED="1520325196574" TEXT="this.status;">
+<edge WIDTH="4"/>
+<node CREATED="1520320860274" ID="ID_1737119046" MODIFIED="1520325196574" TEXT="200">
+<edge WIDTH="4"/>
+<node CREATED="1520320867912" ID="ID_267112824" MODIFIED="1520325196574" TEXT="OK">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320874241" ID="ID_107079271" MODIFIED="1520325196574" TEXT="403, 404, ....">
+<edge WIDTH="4"/>
+<node CREATED="1520320895510" ID="ID_1496827966" MODIFIED="1520325196574" TEXT="error">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520320900275" ID="ID_957545172" MODIFIED="1520325196574" TEXT="this.statusText;">
+<edge WIDTH="4"/>
+<node CREATED="1520320919968" ID="ID_666140329" MODIFIED="1520325196574" TEXT="OK / not found">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320929190" ID="ID_1925958857" MODIFIED="1520325196574" TEXT="this.responseText;">
+<edge WIDTH="4"/>
+<node CREATED="1520320946117" ID="ID_565526623" MODIFIED="1520325196574" TEXT="format text">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320967122" ID="ID_1047398508" MODIFIED="1520325196574" TEXT="this.responseXML">
+<edge WIDTH="4"/>
+<node CREATED="1520320978986" ID="ID_1989983312" MODIFIED="1520325196574" TEXT="format XML">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520320992447" ID="ID_1271991238" MODIFIED="1520325196574" TEXT="responsexml.getElementByTagName(&quot;Name&quot;);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520321063382" ID="ID_1536684756" MODIFIED="1520325196574" TEXT="this.getAllResponseHeader();">
+<edge WIDTH="4"/>
+<node CREATED="1520321096222" ID="ID_343650890" MODIFIED="1520325196574" TEXT="return all name_attribute = value">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520321112525" ID="ID_1636629757" MODIFIED="1520325196574" TEXT="">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520320447916" ID="ID_263324758" MODIFIED="1520325196574" TEXT="send">
+<edge WIDTH="4"/>
+<node CREATED="1520321826410" ID="ID_227159366" MODIFIED="1520325196574" TEXT="open connect">
+<edge WIDTH="4"/>
+<node CREATED="1520321835744" ID="ID_1247165617" MODIFIED="1520325196574" TEXT="xhttp.open(method, url, async, user, psw);">
+<edge WIDTH="4"/>
+<node CREATED="1520321899862" ID="ID_1341228699" MODIFIED="1520325196574" TEXT="method: GET, POST">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520321917082" ID="ID_592218862" MODIFIED="1520325196574" TEXT="url: link ./serverHandler.php">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520321936035" ID="ID_1680188630" MODIFIED="1520325196574" TEXT="async=">
+<edge WIDTH="4"/>
+<node CREATED="1520321957660" ID="ID_181584427" MODIFIED="1520325196574" TEXT="true">
+<edge WIDTH="4"/>
+<node CREATED="1520321991763" ID="ID_905589567" MODIFIED="1520325196574" TEXT="kh&#xf4;ng &#x111;&#x1ee3;i k&#x1ebf;t qu&#x1ea3; tra v&#x1ec1;, s&#x1eed; l&#xfd; onreadstatechange">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520321960601" ID="ID_176564362" MODIFIED="1520325196574" TEXT="false">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520322062605" ID="ID_612226089" MODIFIED="1520325196574" TEXT="use / psw">
+<edge WIDTH="4"/>
+<node CREATED="1520322071141" ID="ID_1761139694" MODIFIED="1520325196574" TEXT="kh&#xf4;ng c&#x1ea7;n hi&#x1ec3;n th&#x1ecb;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520322078885" ID="ID_32045402" MODIFIED="1520325196574" TEXT="sending">
+<edge WIDTH="4"/>
+<node CREATED="1520322091026" ID="ID_1114230203" MODIFIED="1520325196574" TEXT="GET">
+<edge WIDTH="4"/>
+<node CREATED="1520322097611" ID="ID_1029269333" MODIFIED="1520325196574" TEXT="xhttp.send();">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520322104173" ID="ID_1514745435" MODIFIED="1520325196574" TEXT="POST">
+<edge WIDTH="4"/>
+<node CREATED="1520322113887" ID="ID_79230501" MODIFIED="1520325196574" TEXT="xhttp.send(string);">
+<edge WIDTH="4"/>
+<node CREATED="1520322162499" ID="ID_445861953" MODIFIED="1520325196574" TEXT="string = &quot;x=&quot; + value">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520322192921" ID="ID_401144736" MODIFIED="1520325196574" TEXT="xhttp.setRequestHeader(&quot;Content-type&quot;, &quot;application/x-www-form-urlendcoded&quot;);">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520318846406" ID="ID_456810918" MODIFIED="1520325196574" POSITION="left" TEXT="Window">
+<edge COLOR="#0066cc" WIDTH="4"/>
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1520319031577" ID="ID_399236645" MODIFIED="1520325196574" TEXT="size">
+<edge WIDTH="4"/>
+<node CREATED="1520319079294" ID="ID_260155362" MODIFIED="1520325196574" TEXT="screen">
+<edge WIDTH="4"/>
+<node CREATED="1520319130753" ID="ID_722496570" MODIFIED="1520325196574" TEXT="screen.width / screen.height">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319154007" ID="ID_947789547" MODIFIED="1520325196574" TEXT="screen.availWidth / screen.availHeight">
+<edge WIDTH="4"/>
+<node CREATED="1520319224776" ID="ID_1999672746" MODIFIED="1520325196574" TEXT="kh&#xf4;ng t&#xed;nh taskbar">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520319203982" ID="ID_1624142823" MODIFIED="1520325196574" TEXT="screen.colorDepth;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319244835" ID="ID_1571941224" MODIFIED="1520325196574" TEXT="screen.pixelDepth;">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520319087888" ID="ID_190097766" MODIFIED="1520325196574" TEXT="window browser">
+<edge WIDTH="4"/>
+<node CREATED="1520319289404" ID="ID_649820318" MODIFIED="1520325196574" TEXT="window.innerHeight / windown.innerWidth">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520319110437" ID="ID_1124593970" MODIFIED="1520325196574" TEXT="tag">
+<edge WIDTH="4"/>
+<node CREATED="1520319328112" ID="ID_1714745345" MODIFIED="1520325196574" TEXT="tag_select.clientWidth / tag_select.clientHeight">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520319067039" ID="ID_993084993" MODIFIED="1520325196574" TEXT="location">
+<edge WIDTH="4"/>
+<node CREATED="1520319371902" ID="ID_1474865444" MODIFIED="1520325196574" TEXT="window.location.href = window.location.hostname + window.location.path">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319431842" ID="ID_1127349457" MODIFIED="1520325196574" TEXT="window.locaiton.port;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319447463" ID="ID_963785188" MODIFIED="1520325196574" TEXT="window.location.protocol;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319476493" ID="ID_336883129" MODIFIED="1520325196574" TEXT="window.location.assign(&quot;new_url&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520319506410" ID="ID_225755618" MODIFIED="1520325196574" TEXT="load new url">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520319074182" ID="ID_1238028290" MODIFIED="1520325196574" TEXT="navigator">
+<edge WIDTH="4"/>
+<node CREATED="1520319517571" ID="ID_641797404" MODIFIED="1520325196574" TEXT=".platform">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319562357" ID="ID_698396483" MODIFIED="1520325196574" TEXT=".product">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319586922" ID="ID_643287007" MODIFIED="1520325196574" TEXT=".javaEnable;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319597436" ID="ID_1099826027" MODIFIED="1520325196574" TEXT=".appVersion;">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520319665235" ID="ID_1106553788" MODIFIED="1520325196574" TEXT="method">
+<edge WIDTH="4"/>
+<node CREATED="1520319669322" ID="ID_268205597" MODIFIED="1520325196574" TEXT="window event">
+<edge WIDTH="4"/>
+<node CREATED="1520319691771" ID="ID_1392319856" MODIFIED="1520325196574" TEXT="window.open();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319701111" ID="ID_1915885170" MODIFIED="1520325196574" TEXT="window.resizeTo();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319718814" ID="ID_1234118430" MODIFIED="1520325196574" TEXT="window.moveTo();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319743134" ID="ID_1844809371" MODIFIED="1520325196574" TEXT="window.close();">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520319753782" ID="ID_1590592205" MODIFIED="1520325196574" TEXT="box (window)">
+<edge WIDTH="4"/>
+<node CREATED="1520319770103" ID="ID_1626913417" MODIFIED="1520325196574" TEXT="window.alert();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319777511" ID="ID_1559003500" MODIFIED="1520325196574" TEXT="window.confirm()">
+<edge WIDTH="4"/>
+<node CREATED="1520319797585" ID="ID_1935821982" MODIFIED="1520325196574" TEXT="x&#xe1;c th&#x1ef1;c">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520319803434" ID="ID_23822579" MODIFIED="1520325196574" TEXT="return true / false">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520319869087" ID="ID_115049741" MODIFIED="1520325196574" TEXT=".prompt(&quot;text_title&quot;, &quot;value_input_default&quot;);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520319921608" ID="ID_610201154" MODIFIED="1520325196574" TEXT="time">
+<edge WIDTH="4"/>
+<node CREATED="1520318860437" ID="ID_1109768886" MODIFIED="1520325196574" TEXT="time l&#x1eb7;p l&#x1ea1;i m&#xe3;i m&#xe3;i">
+<edge WIDTH="4"/>
+<node CREATED="1520318875977" ID="ID_696992146" MODIFIED="1520325196574" TEXT="set time">
+<edge WIDTH="4"/>
+<node CREATED="1520318897816" ID="ID_1047246768" MODIFIED="1520325196574" TEXT="id_time = setInterval(nameFunction, time);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520318885588" ID="ID_66614072" MODIFIED="1520325196574" TEXT="clear time">
+<edge WIDTH="4"/>
+<node CREATED="1520318940954" ID="ID_1031222100" MODIFIED="1520325196574" TEXT="clearInterval(id_time);">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520319992928" ID="ID_356852374" MODIFIED="1520325196574" TEXT="time l&#x1eb7;p l&#x1ea1;i 1 l&#x1ea7;n ">
+<edge WIDTH="4"/>
+<node CREATED="1520320003607" ID="ID_1932130251" MODIFIED="1520325196574" TEXT="set time">
+<edge WIDTH="4"/>
+<node CREATED="1520320018651" ID="ID_1803814385" MODIFIED="1520325196573" TEXT="id_time = setTimeOut(nameFunction, time);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320045315" ID="ID_1361249039" MODIFIED="1520325196573" TEXT="clear time">
+<edge WIDTH="4"/>
+<node CREATED="1520320050268" ID="ID_694793708" MODIFIED="1520325196573" TEXT="clearTimeOut(id_time);">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520319821428" ID="ID_726509564" MODIFIED="1520325196573" TEXT="cookie">
+<edge WIDTH="4"/>
+<node CREATED="1520320099292" ID="ID_1989931107" MODIFIED="1520325196573" TEXT="create">
+<edge WIDTH="4"/>
+<node CREATED="1520320122422" ID="ID_1475006278" MODIFIED="1520325196573" TEXT="document.cookie = &quot;name = value; text&quot;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520320191190" ID="ID_1879170673" MODIFIED="1520325196573" TEXT="change">
+<edge WIDTH="4"/>
+<node CREATED="1520320198969" ID="ID_1934451396" MODIFIED="1520325196573" TEXT="document.cookie  = &quot;name=new_value; new_text&quot;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520320106119" ID="ID_1798951025" MODIFIED="1520325196573" TEXT="read">
+<edge WIDTH="4"/>
+<node CREATED="1520320235744" ID="ID_1484646408" MODIFIED="1520325196573" TEXT="var read = document.cookie;">
+<edge WIDTH="4"/>
+<node CREATED="1520320252512" ID="ID_1572308358" MODIFIED="1520325196573" TEXT="return string">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520320260240" ID="ID_888265251" MODIFIED="1520325196573" TEXT="exploit string-&gt;array">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520320109909" ID="ID_285905632" MODIFIED="1520325196573" TEXT="delete">
+<edge WIDTH="4"/>
+<node CREATED="1520320281710" ID="ID_92541567" MODIFIED="1520325196573" TEXT="document.cookie = &quot;name=&quot;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520320322735" ID="ID_479037697" MODIFIED="1520325196573" TEXT="history">
+<edge WIDTH="4"/>
+<node CREATED="1520320332796" ID="ID_166961825" MODIFIED="1520325196573" TEXT="history.back();">
+<edge WIDTH="4"/>
+<node CREATED="1520320362796" ID="ID_154341195" MODIFIED="1520325196573" TEXT="click back">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520320343044" ID="ID_1433211814" MODIFIED="1520325196573" TEXT="history.forward();">
+<edge WIDTH="4"/>
+<node CREATED="1520320377955" ID="ID_714278119" MODIFIED="1520325196573" TEXT="click forward">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520302881297" ID="ID_598727792" MODIFIED="1520325196573" POSITION="left" TEXT="Event">
+<edge COLOR="#006666" WIDTH="4"/>
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1520318585114" ID="ID_1236654181" MODIFIED="1520325196573" TEXT="loading web">
+<edge WIDTH="4"/>
+<node CREATED="1520318600516" ID="ID_820045977" MODIFIED="1520325196573" TEXT="window.onload = function(){}">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520318633989" ID="ID_1138703111" MODIFIED="1520325196573" TEXT="screen">
+<edge WIDTH="4"/>
+<node CREATED="1520318643648" ID="ID_1762570580" MODIFIED="1520325196573" TEXT="onresize">
+<edge WIDTH="4"/>
+<node CREATED="1520318656831" ID="ID_471604514" MODIFIED="1520325196573" TEXT="screen width , height change">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520318682976" ID="ID_1252126766" MODIFIED="1520325196573" TEXT="window.resize = function()">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520318710623" ID="ID_433681273" MODIFIED="1520325196573" TEXT="keyboard">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520318718143" ID="ID_1488041097" MODIFIED="1520325196573" TEXT="mouse">
+<edge WIDTH="4"/>
+<node CREATED="1520318727669" ID="ID_375330898" MODIFIED="1520325196573" TEXT="onmouseover">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520318739261" ID="ID_231756515" MODIFIED="1520325196573" TEXT="onmouseout">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520318759516" ID="ID_669367659" MODIFIED="1520325196573" TEXT="onmouseup">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520318764148" ID="ID_432654417" MODIFIED="1520325196573" TEXT="onmousedown">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520318778774" ID="ID_1217708208" MODIFIED="1520325196573" TEXT="input field">
+<edge WIDTH="4"/>
+<node CREATED="1520318789381" ID="ID_202835194" MODIFIED="1520325196573" TEXT="onchange = &quot;&quot;">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520318797914" ID="ID_1085523460" MODIFIED="1520325196573" TEXT="button">
+<edge WIDTH="4"/>
+<node CREATED="1520318812908" ID="ID_1667100999" MODIFIED="1520325196573" TEXT="onclick = &quot;&quot;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520299875375" ID="ID_543680569" MODIFIED="1520325196573" POSITION="left" TEXT="DOM">
+<edge COLOR="#00ffcc" WIDTH="4"/>
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1520299888945" ID="ID_612455693" MODIFIED="1520325196573" TEXT="select tag">
+<edge WIDTH="4"/>
+<node CREATED="1520300056367" ID="ID_1316769995" MODIFIED="1520325196573" TEXT="document.getElementByTagName(&quot;name&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520300087720" ID="ID_1112351245" MODIFIED="1520325196573" TEXT="return 1 value OR  1 array value like NodeList">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520300136448" ID="ID_1314630056" MODIFIED="1520325196573" TEXT="document.getElementById(&quot;id&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520300366909" ID="ID_116028624" MODIFIED="1520325196573" TEXT="return value">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520300160517" ID="ID_795059371" MODIFIED="1520325196573" TEXT="document.getElementByClass(&quot;class&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520300374469" ID="ID_1220378484" MODIFIED="1520325196573" TEXT="return value or NodeList">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520300206876" ID="ID_1250624550" MODIFIED="1520325196573" TEXT="document.querySelectorAll(&quot;tag.ClassCss&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520300274437" ID="ID_306739876" MODIFIED="1520325196573" TEXT="return Node list">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520300289198" ID="ID_79991058" MODIFIED="1520325196573" TEXT="cant use method array">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520300681417" ID="ID_623815376" MODIFIED="1520325196573" TEXT="document.documentElement / document.head / document.title / document.script / document.body">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520300741801" ID="ID_670704652" MODIFIED="1520325196573" TEXT="document.images / document.links / document.archors">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520300776530" ID="ID_1339698237" MODIFIED="1520325196573" TEXT="form">
+<edge WIDTH="4"/>
+<node CREATED="1520300782590" ID="ID_1760691586" MODIFIED="1520325196573" TEXT="document.form[&quot;nameform&quot;][&quot;nameInput&quot;].value =">
+<edge WIDTH="4"/>
+<node CREATED="1520300873378" ID="ID_1562961894" MODIFIED="1520325196573" TEXT="can get / set">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520300882076" ID="ID_788556963" MODIFIED="1520325196573" TEXT="document.form[&quot;nameForm&quot;].element[integer].value">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520300929904" ID="ID_238987629" MODIFIED="1520325196573" TEXT="validity">
+<edge WIDTH="4"/>
+<node CREATED="1520301038069" ID="ID_1204866" MODIFIED="1520325196573" TEXT="tag_select.checkValidity();">
+<edge WIDTH="4"/>
+<node CREATED="1520301091507" ID="ID_334722485" MODIFIED="1520325196573" TEXT="return true / false">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520301110283" ID="ID_716450796" MODIFIED="1520325196573" TEXT="ki&#x1ec3;m tra d&#x1eef; li&#x1ec7;u h&#x1ee3;p l&#x1ec7; hay kh&#xf4;ng">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520301130340" ID="ID_1544957145" MODIFIED="1520325196573" TEXT="tag_select.setCustomValidity(&quot;message&quot;);">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520301206998" ID="ID_731019285" MODIFIED="1520325196573" TEXT="tag_select.validityMessage();">
+<edge WIDTH="4"/>
+<node CREATED="1520301240254" ID="ID_1684203995" MODIFIED="1520325196573" TEXT="return message l&#x1ed7;i n&#x1ebf;u x&#x1ea9;y ra">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520300677312" ID="ID_1478203132" MODIFIED="1520325196573" TEXT="attribute">
+<edge WIDTH="4"/>
+<node CREATED="1520301288419" ID="ID_1509463456" MODIFIED="1520325196573" TEXT=".innerHTML">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520301302042" ID="ID_1277869261" MODIFIED="1520325196573" TEXT=".nameAttribute = value">
+<edge WIDTH="4"/>
+<node CREATED="1520301377907" ID="ID_327444357" MODIFIED="1520325196573" TEXT="nameAttribute = attribute tag html">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520301399179" ID="ID_1649401934" MODIFIED="1520325196573" TEXT=".setAttribute(nameAttribute, value);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520301427722" ID="ID_941949614" MODIFIED="1520325196573" TEXT=".value">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520301430713" ID="ID_1304426278" MODIFIED="1520325196573" TEXT=".length">
+<edge WIDTH="4"/>
+<node CREATED="1520301445046" ID="ID_577429628" MODIFIED="1520325196573" TEXT="show all tag in select">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520301461857" ID="ID_673568873" MODIFIED="1520325196573" TEXT=".style.property = value;">
+<edge WIDTH="4"/>
+<node CREATED="1520301490028" ID="ID_1866978782" MODIFIED="1520325196573" TEXT=".style.fontSize = &quot;16px&quot;">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520301547050" ID="ID_249428015" MODIFIED="1520325196573" TEXT="add / delete">
+<edge WIDTH="4"/>
+<node CREATED="1520301569318" ID="ID_1463439444" MODIFIED="1520325196573" TEXT="create">
+<edge WIDTH="4"/>
+<node CREATED="1520301609696" ID="ID_1783099164" MODIFIED="1520325196573" TEXT="document.createElement(&quot;nameTag&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520301883953" ID="ID_1076285568" MODIFIED="1520325196573" TEXT="tag did create">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520301642389" ID="ID_675767320" MODIFIED="1520325196573" TEXT="document.createTextNode(&quot;string&quot;);">
+<edge WIDTH="4"/>
+<node CREATED="1520301659816" ID="ID_1166597077" MODIFIED="1520325196573" TEXT="create tag text">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520301573774" ID="ID_501102730" MODIFIED="1520325196573" TEXT="add">
+<edge WIDTH="4"/>
+<node CREATED="1520301670406" ID="ID_441176390" MODIFIED="1520325196573" TEXT="parent.appendChild(nameTagCreate);">
+<edge WIDTH="4"/>
+<node CREATED="1520301890894" ID="ID_966159594" MODIFIED="1520325196573" TEXT="ch&#xe8;n v&#xe0;o tag parent nh&#x1b0;ng &#x1edf; cu&#x1ed1;i c&#xf9;ng">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520301928543" ID="ID_552401466" MODIFIED="1520325196573" TEXT="parent.insertBefore(tagAddm, tagChildOfParent);">
+<edge WIDTH="4"/>
+<node CREATED="1520302005879" ID="ID_379072294" MODIFIED="1520325196573" TEXT="ch&#xe8;n ph&#xed;a tr&#x1b0;&#x1edb;c tagChildOfParent con c&#x1ee7;a parent (v&#x1eab;n n&#x1eb1;m trong parent)">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520301575081" ID="ID_121501855" MODIFIED="1520325196573" TEXT="replace">
+<edge WIDTH="4"/>
+<node CREATED="1520302054027" ID="ID_1478488413" MODIFIED="1520325196573" TEXT="parent.replaceChild(tagNew, tagOld);">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520301579320" ID="ID_1526925768" MODIFIED="1520325196573" TEXT="remove">
+<edge WIDTH="4"/>
+<node CREATED="1520302104560" ID="ID_1553801336" MODIFIED="1520325196572" TEXT="tagParent.removeChild(&quot;nameTag&quot;);">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520302148147" ID="ID_1305881074" MODIFIED="1520325196572" TEXT="Event">
+<edge WIDTH="4"/>
+<node CREATED="1520302181137" ID="ID_1631861344" MODIFIED="1520325196572" TEXT="add event">
+<edge WIDTH="4"/>
+<node CREATED="1520302155503" ID="ID_1562905236" MODIFIED="1520325196572" TEXT=".nameEvent = nameFunction;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520302220652" ID="ID_9736506" MODIFIED="1520325196572" TEXT=".addEventListener(&quot;nameEvent&quot; , nameFunction, useCapture)">
+<edge WIDTH="4"/>
+<node CREATED="1520302416527" ID="ID_1934928329" MODIFIED="1520325196572" TEXT="useCapture = &quot;&quot; OR">
+<edge WIDTH="4"/>
+<node CREATED="1520302435504" ID="ID_594950382" MODIFIED="1520325196572" TEXT="= true">
+<edge WIDTH="4"/>
+<node CREATED="1520302463847" ID="ID_1832785602" MODIFIED="1520325196572" TEXT="outside -&gt; inside">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520302478050" ID="ID_1989243536" MODIFIED="1520325196572" TEXT="= false">
+<edge WIDTH="4"/>
+<node CREATED="1520302482656" ID="ID_1207833125" MODIFIED="1520325196572" TEXT="inside -&gt; outside">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520302208234" ID="ID_1220087938" MODIFIED="1520325196572" TEXT="remove event">
+<edge WIDTH="4"/>
+<node CREATED="1520302505531" ID="ID_1291350924" MODIFIED="1520325196572" TEXT=".removeEventListener(&quot;nameEvent&quot;, nameFunction);">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+<node CREATED="1520302151870" ID="ID_754497969" MODIFIED="1520325196572" TEXT="NodeList (navigate)">
+<edge WIDTH="4"/>
+<node CREATED="1520302720158" ID="ID_501077740" MODIFIED="1520325196572" TEXT="change select">
+<edge WIDTH="4"/>
+<node CREATED="1520302576960" ID="ID_1417715041" MODIFIED="1520325196572" TEXT=".parentNode;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520302612686" ID="ID_1696676761" MODIFIED="1520325196572" TEXT=".firstChild;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520302633247" ID="ID_834407502" MODIFIED="1520325196572" TEXT=".lastChild;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520302639100" ID="ID_427111402" MODIFIED="1520325196572" TEXT=".childNodes[integer]">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520302654067" ID="ID_1366086607" MODIFIED="1520325196572" TEXT=".nextSibling;">
+<edge WIDTH="4"/>
+<node CREATED="1520302707167" ID="ID_956555068" MODIFIED="1520325196572" TEXT="tag anh em">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520302673539" ID="ID_662834173" MODIFIED="1520325196572" TEXT=".previousSibling;">
+<edge WIDTH="4"/>
+</node>
+</node>
+<node CREATED="1520302745210" ID="ID_1689321567" MODIFIED="1520325196572" TEXT="property">
+<edge WIDTH="4"/>
+<node CREATED="1520302763514" ID="ID_1660992426" MODIFIED="1520325196572" TEXT=".nodeName;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520302768488" ID="ID_35743539" MODIFIED="1520325196572" TEXT=".nodeValue;">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520302778580" ID="ID_510996846" MODIFIED="1520325196572" TEXT=".nodeType;">
+<edge WIDTH="4"/>
+<node CREATED="1520302806901" ID="ID_1039575809" MODIFIED="1520325196572" TEXT="=">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520299773582" ID="ID_971072863" MODIFIED="1520325196572" POSITION="left" TEXT="output. html">
+<edge COLOR="#66ff33" WIDTH="4"/>
+<icon BUILTIN="full-3"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1520299798482" ID="ID_1261015720" MODIFIED="1520325196572" TEXT=".innerHTML = ">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520299833660" ID="ID_1547718318" MODIFIED="1520325196572" TEXT="document.write();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520299847682" ID="ID_1700397130" MODIFIED="1520325196572" TEXT="window.alert();">
+<edge WIDTH="4"/>
+</node>
+<node CREATED="1520299858108" ID="ID_1090724244" MODIFIED="1520325196572" TEXT="console.log();">
+<edge WIDTH="4"/>
+</node>
+</node>
+</node>
+</map>

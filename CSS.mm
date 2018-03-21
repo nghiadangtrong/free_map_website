@@ -1,0 +1,1024 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1520065097511" ID="ID_1409564388" MODIFIED="1520129726502" TEXT="CSS">
+<edge WIDTH="2"/>
+<node CREATED="1520069621109" ID="ID_234228794" MODIFIED="1520129726502" POSITION="right" TEXT="">
+<edge WIDTH="2"/>
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1520069626711" ID="ID_1793231324" MODIFIED="1520129733834" TEXT="background">
+<node CREATED="1520069643713" ID="ID_1221801556" MODIFIED="1520129726502" TEXT="background-image = url">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520069690244" ID="ID_1728687836" MODIFIED="1520129726502" TEXT="background-position=">
+<edge WIDTH="2"/>
+<node CREATED="1520069770222" ID="ID_1529009637" MODIFIED="1520129726502" TEXT="right / center / left / integer px">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520069791403" ID="ID_1390645079" MODIFIED="1520129726502" TEXT="top / center / bottom / integer px">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520069698466" ID="ID_1432722235" MODIFIED="1520129726502" TEXT="background-size=">
+<edge WIDTH="2"/>
+<node CREATED="1520069838449" ID="ID_1109006081" MODIFIED="1520129726502" TEXT="contain">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520069841731" ID="ID_449233900" MODIFIED="1520129726502" TEXT="cover">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520069856369" ID="ID_1949570976" MODIFIED="1520129726502" TEXT="width px height px">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520069732684" ID="ID_1055237064" MODIFIED="1520129726502" TEXT="background-origin=">
+<edge WIDTH="2"/>
+<node CREATED="1520069865646" ID="ID_1486740523" MODIFIED="1520129726502" TEXT="position first background  and just for image">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520069985186" ID="ID_1780348798" MODIFIED="1520129726502" TEXT="&quot;content-box&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070013561" ID="ID_795303463" MODIFIED="1520129726502" TEXT="&quot;border-box&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070032669" ID="ID_812870975" MODIFIED="1520129726502" TEXT="&quot;padding-box&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520070043594" ID="ID_723945505" MODIFIED="1520129726502" TEXT="background-color=">
+<edge WIDTH="2"/>
+<node CREATED="1520070066294" ID="ID_273196261" MODIFIED="1520129726502" TEXT="name, hex, rgb(), hsla( r, g, b, opacity)">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070112579" ID="ID_423068204" MODIFIED="1520129726502" TEXT="linear-gradient( color1, ... , colorN)">
+<edge WIDTH="2"/>
+<node CREATED="1520070214949" ID="ID_1769016698" MODIFIED="1520129726502" TEXT="(top, bottom)">
+<edge WIDTH="2"/>
+<node CREATED="1520070225594" ID="ID_1303908085" MODIFIED="1520129726502" TEXT="default">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520070230238" ID="ID_1133044204" MODIFIED="1520129726502" TEXT="(to right, left, right)">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070273431" ID="ID_1078304643" MODIFIED="1520129726502" TEXT="(x deg, color1, color2)">
+<edge WIDTH="2"/>
+<node CREATED="1520070315878" ID="ID_943104797" MODIFIED="1520129726502" TEXT="x = 0 - &gt;360">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520070347367" ID="ID_1434790009" MODIFIED="1520129726502" TEXT="repeating-linear-gradient( color1  a%, colorN b%)">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520070159819" ID="ID_1183729144" MODIFIED="1520129726502" TEXT="radial-gradient( )">
+<edge WIDTH="2"/>
+<node CREATED="1520070433577" ID="ID_1381849896" MODIFIED="1520129726502" TEXT="(circle / elip, color1, ... colorN)">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070497804" ID="ID_244915437" MODIFIED="1520129726502" TEXT="">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520070061885" ID="ID_595911292" MODIFIED="1520129726502" TEXT="background-clip=">
+<edge WIDTH="2"/>
+<node CREATED="1520070533082" ID="ID_1968555605" MODIFIED="1520129726502" TEXT="position show background for image and color">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070602986" ID="ID_1060520182" MODIFIED="1520129726502" TEXT="&quot;content-box&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070632094" ID="ID_1205427741" MODIFIED="1520129726502" TEXT="&quot;border-box&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070623119" ID="ID_1375881561" MODIFIED="1520129726502" TEXT="&quot;padding-box&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520070655196" ID="ID_1018391821" MODIFIED="1520129726502" TEXT="background-repeat=">
+<edge WIDTH="2"/>
+<node CREATED="1520070673671" ID="ID_825796747" MODIFIED="1520129726502" TEXT="repeat">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070681023" ID="ID_1790545680" MODIFIED="1520129726502" TEXT="non-repeat">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520070688170" ID="ID_541599796" MODIFIED="1520129726502" TEXT="repeat-x / repeat-y">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520070697862" ID="ID_679668878" MODIFIED="1520129726502" TEXT="background-attachment=">
+<edge WIDTH="2"/>
+<node CREATED="1520070732590" ID="ID_1113738815" MODIFIED="1520129726502" TEXT="fixed">
+<edge WIDTH="2"/>
+<node CREATED="1520070735958" ID="ID_1757391584" MODIFIED="1520129726502" TEXT="c&#x1ed1; &#x111;&#x1ecb;nh kh&#xf4;ng ph&#x1ee5; thu&#x1ed9;c v&#xe0;o scroll">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520070825315" HGAP="248" ID="ID_1634054515" MODIFIED="1520129756632" POSITION="right" STYLE="fork" TEXT="text" VSHIFT="-25">
+<edge WIDTH="2"/>
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-3"/>
+<node CREATED="1520081260768" ID="ID_1689121001" MODIFIED="1520129739220" TEXT="font">
+<edge WIDTH="2"/>
+<node CREATED="1520081277034" ID="ID_934688886" MODIFIED="1520129739220" TEXT="font-family:">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520081291786" ID="ID_1863488257" MODIFIED="1520129739220" TEXT="font-size:">
+<edge WIDTH="2"/>
+<node CREATED="1520081315086" ID="ID_838542247" MODIFIED="1520129739220" TEXT="px , %">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520081323013" ID="ID_904535607" MODIFIED="1520129739220" TEXT="em = px / 16">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520081306567" ID="ID_1380930795" MODIFIED="1520129739220" TEXT="font-weight:">
+<edge WIDTH="2"/>
+<node CREATED="1520081346874" ID="ID_1305002368" MODIFIED="1520129739220" TEXT="normal / lighter">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520081365221" ID="ID_1603061357" MODIFIED="1520129739220" TEXT="bold / bolder">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520081383270" ID="ID_1269326170" MODIFIED="1520129739220" TEXT="100 &lt;= k *100 &lt;=900">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520081409816" ID="ID_1443383573" MODIFIED="1520129739220" TEXT="font-style:">
+<edge WIDTH="2"/>
+<node CREATED="1520081480182" ID="ID_1270206120" MODIFIED="1520129739220" TEXT="normal">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520081490677" ID="ID_1251712653" MODIFIED="1520129739220" TEXT="italic">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520081494650" ID="ID_1055983239" MODIFIED="1520129739220" TEXT="oblique">
+<edge WIDTH="2"/>
+<node CREATED="1520081561197" ID="ID_1870888147" MODIFIED="1520129739220" TEXT="ch&#x1ee9; in nghi&#xea;ng">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520081567912" ID="ID_280288943" MODIFIED="1520129739220" TEXT="font-variant:">
+<edge WIDTH="2"/>
+<node CREATED="1520081590526" ID="ID_1313243262" MODIFIED="1520129739220" TEXT="normal">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520081594592" ID="ID_563924718" MODIFIED="1520129739220" TEXT="small-caps">
+<edge WIDTH="2"/>
+<node CREATED="1520081604072" ID="ID_369719719" MODIFIED="1520129739220" TEXT="ch&#x1eef; b&#x1eb9;t">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520081273514" ID="ID_1399078207" MODIFIED="1520129739220" TEXT="color:">
+<edge WIDTH="2"/>
+<node CREATED="1520081672268" ID="ID_1447644779" MODIFIED="1520129739220" TEXT="name color, rgb()">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520081261814" ID="ID_665342906" MODIFIED="1520129739220" TEXT="direction:">
+<edge WIDTH="2"/>
+<node CREATED="1520081701171" ID="ID_497344931" MODIFIED="1520129739220" TEXT="rtl">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520081703531" ID="ID_1994635889" MODIFIED="1520129739220" TEXT="ltr">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520081686657" ID="ID_768749249" MODIFIED="1520129739220" TEXT="text-align:">
+<edge WIDTH="2"/>
+<node CREATED="1520081738918" ID="ID_1187551897" MODIFIED="1520129739220" TEXT="right/ center / left ">
+<edge WIDTH="2"/>
+<node CREATED="1520081753743" ID="ID_1138327968" MODIFIED="1520129739220" TEXT="ph&#x1ea3;i c&#xf3; width ,  c&#xf3; th&#x1ebf; d&#xf9;ng v&#xe0;o image">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520081795931" ID="ID_1613533794" MODIFIED="1520129739220" TEXT="text-transform:">
+<edge WIDTH="2"/>
+<node CREATED="1520081823243" ID="ID_1636869129" MODIFIED="1520129739220" TEXT="lowercase">
+<edge WIDTH="2"/>
+<node CREATED="1520081893548" ID="ID_1331706603" MODIFIED="1520129739220" TEXT="kh&#xf4;ng vi&#x1ebf;t hoa ch&#x1eef; c&#xe1;i n&#xe0;o">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520081835208" ID="ID_45035978" MODIFIED="1520129739220" TEXT="uppercase">
+<edge WIDTH="2"/>
+<node CREATED="1520081877074" ID="ID_1922504625" MODIFIED="1520129739220" TEXT="t&#x1ea5;t c&#x1ea3; c&#xe1;c ch&#x1eef; c&#xe1;i &#x111;&#x1ec1;u vi&#x1ebf;t hoa">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520081843643" ID="ID_1807418324" MODIFIED="1520129739220" TEXT="capitalize">
+<edge WIDTH="2"/>
+<node CREATED="1520081865475" ID="ID_1497276041" MODIFIED="1520129739220" TEXT="vi&#x1ebf;t hoa ch&#x1eef; c&#xe1;i &#x111;&#x1ea7;u ti&#xea;n">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520081982755" ID="ID_1759016774" MODIFIED="1520129739220" TEXT="text-indent:">
+<edge WIDTH="2"/>
+<node CREATED="1520081998612" ID="ID_1643577270" MODIFIED="1520129739220" TEXT="px, %">
+<edge WIDTH="2"/>
+<node CREATED="1520082007648" ID="ID_411269802" MODIFIED="1520129739220" TEXT="kho&#x1ea3;ng c&#xe1;ch th&#x1ee5;t l&#x1ec1;">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520082022027" ID="ID_575076975" MODIFIED="1520129739220" TEXT="while-space:">
+<edge WIDTH="2"/>
+<node CREATED="1520083144507" ID="ID_1399497714" MODIFIED="1520129739220" TEXT="none">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520083145983" ID="ID_317263357" MODIFIED="1520129739220" TEXT="pre">
+<edge WIDTH="2"/>
+<node CREATED="1520083163480" ID="ID_154137320" MODIFIED="1520129739220" TEXT="like tag &lt;pre&gt;&lt;/pre&gt;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083147267" ID="ID_735125531" MODIFIED="1520129739220" TEXT="nowrap">
+<edge WIDTH="2"/>
+<node CREATED="1520083184193" ID="ID_105793738" MODIFIED="1520129739220" TEXT="kh&#xf4;ng xu&#x1ed1;ng d&#xf2;ng khi tr&#xe0;n qua m&#xe0;n h&#xec;nh">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520083409703" ID="ID_967042926" MODIFIED="1520129739221" TEXT="text-overflow:">
+<edge WIDTH="2"/>
+<node CREATED="1520083478509" ID="ID_115505004" MODIFIED="1520129739221" TEXT="&#x1ea9;n ch&#x1eef; n&#x1ebf;u v&#x1b0;&#x1ee3;t qu&#xe1; khung ch&#x1ee9;a, v&#x1edb;i thu&#x1ed9;c t&#xed;nh overflow: hidden">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520083546353" ID="ID_19780930" MODIFIED="1520129739221" TEXT="&quot;clip&quot;">
+<edge WIDTH="2"/>
+<node CREATED="1520083589339" ID="ID_105523262" MODIFIED="1520129739221" TEXT="kh&#xf4;ng c&#xf3; &quot;...&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083565399" ID="ID_464553542" MODIFIED="1520129739221" TEXT="&quot;ellipsis&quot;">
+<edge WIDTH="2"/>
+<node CREATED="1520083581093" ID="ID_1264751786" MODIFIED="1520129739221" TEXT="c&#xf3; &quot;...&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520083607531" ID="ID_1756761480" MODIFIED="1520129739221" TEXT="text-decoration:">
+<edge WIDTH="2"/>
+<node CREATED="1520083620662" ID="ID_1878751934" MODIFIED="1520129739221" TEXT="overline">
+<edge WIDTH="2"/>
+<node CREATED="1520083676208" ID="ID_1323907" MODIFIED="1520129739221" TEXT="g&#x1ea1;ch tr&#xea;n &#x111;&#x1ea7;u">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083637781" ID="ID_1073444995" MODIFIED="1520129739221" TEXT="line-through">
+<edge WIDTH="2"/>
+<node CREATED="1520083686191" ID="ID_462268234" MODIFIED="1520129739221" TEXT="g&#x1ea1;ch ngang">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083647593" ID="ID_1175071476" MODIFIED="1520129739221" TEXT="underline">
+<edge WIDTH="2"/>
+<node CREATED="1520083692656" ID="ID_1947987498" MODIFIED="1520129739221" TEXT="g&#x1ea1;ch d&#x1b0;&#x1edb;i">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083653026" ID="ID_929972306" MODIFIED="1520129739221" TEXT="blink">
+<edge WIDTH="2"/>
+<node CREATED="1520083664323" ID="ID_324617315" MODIFIED="1520129739221" TEXT="kh&#xf4;ng hi&#x1ec7;u &#x1ee9;ng">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520083707174" ID="ID_673782104" MODIFIED="1520129739221" TEXT="line-height:">
+<edge WIDTH="2"/>
+<node CREATED="1520083795078" ID="ID_1880824284" MODIFIED="1520129739221" TEXT="px , &#x111;&#x1ed9; cao 2 d&#xf2;ng">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083804994" ID="ID_318672412" MODIFIED="1520129739221" TEXT="letter-spacing:">
+<edge WIDTH="2"/>
+<node CREATED="1520083823410" ID="ID_428035050" MODIFIED="1520129739221" TEXT="px, kho&#x1ea3;ng c&#xe1;ch 2 ch&#x1eef; c&#xe1;i a   b">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083840615" ID="ID_63069083" MODIFIED="1520129739221" TEXT="word-spacing:">
+<edge WIDTH="2"/>
+<node CREATED="1520083866381" ID="ID_1284368306" MODIFIED="1520129739221" TEXT="px, kho&#x1ea3;ng ch&#xe1;ch gi&#x1eef;a 2 ch&#x1eef; &quot;to     be&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083888977" ID="ID_592091127" MODIFIED="1520129739221" TEXT="word-break:">
+<edge WIDTH="2"/>
+<node CREATED="1520083951482" ID="ID_181471813" MODIFIED="1520129739221" TEXT="keep-all">
+<edge WIDTH="2"/>
+<node CREATED="1520083964709" ID="ID_79085658" MODIFIED="1520129739221" TEXT="khi m&#x1ed9;t t&#x1eeb; v&#x1b0;&#x1ee3;t qu&#xe1; h&#xe0;ng ngang xu&#x1ed1;ng d&#xf2;ng c&#x1ea3; t&#x1eeb;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520083958848" ID="ID_1371796670" MODIFIED="1520129739221" TEXT="break-all">
+<edge WIDTH="2"/>
+<node CREATED="1520084018090" ID="ID_660320937" MODIFIED="1520129739221" TEXT="khi m&#x1ed9;t t&#x1eeb; v&#x1b0;&#x1ee3;t qu&#xe1; h&#xe0;ng ngang ch&#x1ec9; xu&#x1ed1;ng d&#xf2;ng nh&#x1eef;ng ch&#x1eef; c&#xe1;i c&#xf2;n thi&#x1ebf;u">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520084090043" ID="ID_1101866188" MODIFIED="1520129739221" TEXT="word-wrap:">
+<edge WIDTH="2"/>
+<node CREATED="1520084177451" ID="ID_275297361" MODIFIED="1520129739221" TEXT="== word-break:&quot;break-all&quot;;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520084198048" ID="ID_225026072" MODIFIED="1520129739221" TEXT="text-shadow:">
+<edge WIDTH="2"/>
+<node CREATED="1520084212223" ID="ID_1935929328" MODIFIED="1520129739221" TEXT="_row  _col _opacity  _nameColor">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520127516085" HGAP="271" ID="ID_278381103" MODIFIED="1520129766206" POSITION="right" TEXT="image" VSHIFT="-19">
+<edge WIDTH="2"/>
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-4"/>
+<node CREATED="1520127770153" ID="ID_1791012945" MODIFIED="1520129726501" TEXT="width / height">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520127838667" ID="ID_1868316286" MODIFIED="1520129726501" TEXT="clip:">
+<edge WIDTH="2"/>
+<node CREATED="1520127851605" ID="ID_1919479330" MODIFIED="1520129726501" TEXT="position: absolute;">
+<edge WIDTH="2"/>
+<node CREATED="1520127894923" ID="ID_12381148" MODIFIED="1520129726501" TEXT="&#x111;i&#x1ec1;u ki&#x1ec7;n">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520127864441" ID="ID_131379314" MODIFIED="1520129726501" TEXT="rect(top, right, bottom, right)">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520127891046" ID="ID_544101966" MODIFIED="1520129726501" TEXT="object-fit:">
+<edge WIDTH="2"/>
+<node CREATED="1520127922875" ID="ID_463324141" MODIFIED="1520129726501" TEXT="&quot;contain&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520127930298" ID="ID_856093719" MODIFIED="1520129726501" TEXT="&quot;fill&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520127933342" ID="ID_1317338292" MODIFIED="1520129726501" TEXT="&quot;cover&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520127939711" ID="ID_1508455918" MODIFIED="1520129726501" TEXT="&quot;scale-down&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520127950839" ID="ID_768664607" MODIFIED="1520129726501" TEXT="&quot;none&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520127956868" ID="ID_668836174" MODIFIED="1520129726501" TEXT="opacity: ">
+<edge WIDTH="2"/>
+<node CREATED="1520127963799" ID="ID_1490950583" MODIFIED="1520129726501" TEXT="0-1">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520128023983" HGAP="252" ID="ID_1708565259" MODIFIED="1520129781081" POSITION="right" TEXT="box" VSHIFT="31">
+<edge WIDTH="2"/>
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-5"/>
+<node CREATED="1520128038288" ID="ID_156124679" MODIFIED="1520129726501" TEXT="use all image, tab, box, ... have frame">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128066192" ID="ID_703277979" MODIFIED="1520129726501" TEXT="content">
+<edge WIDTH="2"/>
+<node CREATED="1520128068779" ID="ID_124332426" MODIFIED="1520129726501" TEXT="width:">
+<edge WIDTH="2"/>
+<node CREATED="1520128095046" ID="ID_1610691173" MODIFIED="1520129726500" TEXT="min-width / max-width">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128085885" ID="ID_1151825962" MODIFIED="1520129726500" TEXT="height:">
+<edge WIDTH="2"/>
+<node CREATED="1520128110158" ID="ID_1579459628" MODIFIED="1520129726500" TEXT="100% = 0 (kh&#xf4;ng c&#xf3; n&#x1ed9;i dung)">
+<edge WIDTH="2"/>
+<node CREATED="1520128134960" ID="ID_368692052" MODIFIED="1520129726500" TEXT="default">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128140739" ID="ID_650138628" MODIFIED="1520129726500" TEXT="min-height / max-height">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128215597" ID="ID_1642397061" MODIFIED="1520129726500" TEXT="overflow: / overflow-x / overflow-y">
+<edge WIDTH="2"/>
+<node CREATED="1520128235562" ID="ID_473919701" MODIFIED="1520129726500" TEXT="auto">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128241140" ID="ID_1639073986" MODIFIED="1520129726500" TEXT="visible">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128245229" ID="ID_557126234" MODIFIED="1520129726500" TEXT="hidden">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128269227" ID="ID_1471656785" MODIFIED="1520129726500" TEXT="scroll">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520128070847" ID="ID_1334620078" MODIFIED="1520129726500" TEXT="other">
+<edge WIDTH="2"/>
+<node CREATED="1520128160895" ID="ID_845973333" MODIFIED="1520129726500" TEXT="margin:">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128163605" ID="ID_1046606730" MODIFIED="1520129726500" TEXT="padding:">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128165782" ID="ID_674400441" MODIFIED="1520129726500" TEXT="border:">
+<edge WIDTH="2"/>
+<node CREATED="1520128180221" ID="ID_768192633" MODIFIED="1520129726500" TEXT="border-width:">
+<edge WIDTH="2"/>
+<node CREATED="1520128331723" ID="ID_1073640692" MODIFIED="1520129726500" TEXT="border-top-width:">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128188690" ID="ID_419113791" MODIFIED="1520129726500" TEXT="border-color:">
+<edge WIDTH="2"/>
+<node CREATED="1520128345958" ID="ID_661957108" MODIFIED="1520129726500" TEXT="border-top-color:">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128194575" ID="ID_658689975" MODIFIED="1520129726500" TEXT="border-image:">
+<edge WIDTH="2"/>
+<node CREATED="1520128357863" ID="ID_518813314" MODIFIED="1520129726500" TEXT="border-image-width:">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128376511" ID="ID_1427339429" MODIFIED="1520129726500" TEXT="border-image-source:">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128391966" ID="ID_1145004996" MODIFIED="1520129726500" TEXT="border-image-repeat:">
+<edge WIDTH="2"/>
+<node CREATED="1520128498846" ID="ID_65153410" MODIFIED="1520129726500" TEXT="&quot;round&quot;">
+<edge WIDTH="2"/>
+<node CREATED="1520128520201" ID="ID_1196280723" MODIFIED="1520129726500" TEXT="l&#x1eb7;p l&#x1ea1;i">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128509165" ID="ID_1909859938" MODIFIED="1520129726500" TEXT="&quot;stretch&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128448563" ID="ID_1690840923" MODIFIED="1520129726500" TEXT="border-image-slice:">
+<edge WIDTH="2"/>
+<node CREATED="1520128476262" ID="ID_1798363575" MODIFIED="1520129726500" TEXT="c&#x1eaf;t l&#x1eaf;t h&#xec;nh &#x1ea3;nh">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520128200926" ID="ID_724782024" MODIFIED="1520129726500" TEXT="border-style:">
+<edge WIDTH="2"/>
+<node CREATED="1520128530217" ID="ID_189895802" MODIFIED="1520129726500" TEXT="border-top-style:">
+<edge WIDTH="2"/>
+<node CREATED="1520128554565" ID="ID_560730298" MODIFIED="1520129726500" TEXT="&quot;solid&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128558414" ID="ID_131935948" MODIFIED="1520129726500" TEXT="&quot;double&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128562459" ID="ID_356740350" MODIFIED="1520129726500" TEXT="&quot;dotted&quot;">
+<edge WIDTH="2"/>
+<node CREATED="1520128649586" ID="ID_1758053765" MODIFIED="1520129726500" TEXT=". . . . . . . .">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128574137" ID="ID_225153596" MODIFIED="1520129726500" TEXT="&quot;dashed&quot;">
+<edge WIDTH="2"/>
+<node CREATED="1520128643904" ID="ID_1368805060" MODIFIED="1520129726500" TEXT="-------">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128590072" ID="ID_518614125" MODIFIED="1520129726500" TEXT="&quot;groove&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128595169" ID="ID_295257520" MODIFIED="1520129726500" TEXT="&quot;radge&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128605083" ID="ID_736594689" MODIFIED="1520129726500" TEXT="&quot;inset&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128618947" ID="ID_211007823" MODIFIED="1520129726500" TEXT="&quot;outset&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520128624874" ID="ID_35952527" MODIFIED="1520129726500" TEXT="&quot;hidden&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520128206684" ID="ID_493589801" MODIFIED="1520129726500" TEXT="border-radius:">
+<edge WIDTH="2"/>
+<node CREATED="1520128656475" ID="ID_582702633" MODIFIED="1520129726500" TEXT="border-top-radius:">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520128675585" ID="ID_1776687667" MODIFIED="1520129726500" TEXT="box-shadow:">
+<edge WIDTH="2"/>
+<node CREATED="1520128689838" ID="ID_62590438" MODIFIED="1520129726500" TEXT="_horizontal">
+<edge WIDTH="2"/>
+<node CREATED="1520128840222" ID="ID_316293675" MODIFIED="1520129726500" TEXT="px">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128772918" ID="ID_460769850" MODIFIED="1520129726500" TEXT="_vertical">
+<edge WIDTH="2"/>
+<node CREATED="1520128831417" ID="ID_464763504" MODIFIED="1520129726500" TEXT="px">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128782034" ID="ID_120127204" MODIFIED="1520129726500" TEXT="_blur">
+<edge WIDTH="2"/>
+<node CREATED="1520128786502" ID="ID_924557761" MODIFIED="1520129726500" TEXT="kho&#x1ea3;ng m&#x1edd;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128797200" ID="ID_215794529" MODIFIED="1520129726500" TEXT="_size_shadow">
+<edge WIDTH="2"/>
+<node CREATED="1520128815827" ID="ID_251528486" MODIFIED="1520129726500" TEXT="px">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520128823640" ID="ID_870686696" MODIFIED="1520129726500" TEXT="_color">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520128943588" HGAP="151" ID="ID_1196455181" MODIFIED="1520129777464" POSITION="right" TEXT="table" VSHIFT="-550">
+<edge WIDTH="2"/>
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-6"/>
+<node CREATED="1520129066595" ID="ID_1844295806" MODIFIED="1520129726500" TEXT="table-layout:">
+<edge WIDTH="2"/>
+<node CREATED="1520129136914" ID="ID_40158249" MODIFIED="1520129726500" TEXT="auto">
+<edge WIDTH="2"/>
+<node CREATED="1520129145258" ID="ID_1821493060" MODIFIED="1520129726500" TEXT="co d&#xe3;n">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520129138664" ID="ID_962130600" MODIFIED="1520129726500" TEXT="fixed">
+<edge WIDTH="2"/>
+<node CREATED="1520129149376" ID="ID_900885652" MODIFIED="1520129726500" TEXT="kh&#xf4;ng co d&#xe3;n n&#x1ed9;i dung">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520129157028" ID="ID_948572428" MODIFIED="1520129726500" TEXT="caption{}">
+<edge WIDTH="2"/>
+<node CREATED="1520129193120" ID="ID_1326200459" MODIFIED="1520129726500" TEXT="use the tag &lt;caption&gt;&lt;/caption&gt;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520129219842" ID="ID_595812397" MODIFIED="1520129726500" TEXT="caption-side:">
+<edge WIDTH="2"/>
+<node CREATED="1520129236750" ID="ID_753015032" MODIFIED="1520129726500" TEXT="top / right / bottom / left">
+<edge WIDTH="2"/>
+<node CREATED="1520129249206" ID="ID_1924868128" MODIFIED="1520129726500" TEXT="v&#x1ecb; tr&#xed; caption s&#x1ebd; hi&#x1ec3;n th&#x1ecb;">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520129259398" ID="ID_988883823" MODIFIED="1520129726500" TEXT="border:">
+<edge WIDTH="2"/>
+<node CREATED="1520129286758" ID="ID_1299047793" MODIFIED="1520129726500" TEXT="no border default">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520129321581" ID="ID_76176377" MODIFIED="1520129726500" TEXT="border-collapse:">
+<edge WIDTH="2"/>
+<node CREATED="1520129351677" ID="ID_1590875051" MODIFIED="1520129726500" TEXT="&quot;collapse&quot;">
+<edge WIDTH="2"/>
+<node CREATED="1520129360159" ID="ID_1525785877" MODIFIED="1520129726500" TEXT="vi&#x1ec1;n c&#xe1;c &#xf4; c&#x1ea1;nh nhau tr&#xf9;ng l&#xea;n nhau">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520129382867" ID="ID_1432962635" MODIFIED="1520129726500" TEXT="&quot;separate&quot;">
+<edge WIDTH="2"/>
+<node CREATED="1520129397258" ID="ID_686568832" MODIFIED="1520129726500" TEXT="vi&#x1ec1;n c&#xe1;c &#xf4; c&#x1ea1;nh nhau kh&#xf4;ng tr&#xf9;ng l&#xea;n nhau">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520129413039" ID="ID_256758722" MODIFIED="1520129726500" TEXT="border-spacing:">
+<edge WIDTH="2"/>
+<node CREATED="1520129448416" ID="ID_989791506" MODIFIED="1520129726500" TEXT="&#x111;i&#x1ec1;u ki&#x1ec7;n:    border-collapse: &quot;separate&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520129495609" ID="ID_200945764" MODIFIED="1520129726500" TEXT="_width px  _height px">
+<edge WIDTH="2"/>
+<node CREATED="1520129525251" ID="ID_341930571" MODIFIED="1520129726500" TEXT="&#x111;&#x1ed9; r&#x1ed9;ng vi&#x1ec1;n">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520129532858" ID="ID_1169871893" MODIFIED="1520129726500" TEXT="empty-cells:">
+<edge WIDTH="2"/>
+<node CREATED="1520129554588" ID="ID_461375525" MODIFIED="1520129726499" TEXT="&#x111;i&#x1ec1;u ki&#x1ec7;n : border-collapse: &quot;separate&quot;">
+<edge WIDTH="2"/>
+<node CREATED="1520129588889" ID="ID_1411956864" MODIFIED="1520129726499" TEXT="hi&#x1ec3;n  th&#x1ecb;/&#x1ea9;n  &#xf4; kh&#xf4;ng c&#xf3; n&#x1ed9;i dung">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520129645726" ID="ID_1939344313" MODIFIED="1520129726499" TEXT="&quot;hidden&quot;">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520129664549" ID="ID_1436095794" MODIFIED="1520129726499" TEXT="&quot;show&quot;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520129643076" ID="ID_807608923" MODIFIED="1520129726499" TEXT="overflow-x:">
+<edge WIDTH="2"/>
+<node CREATED="1520129709113" ID="ID_633802430" MODIFIED="1520129726499" TEXT="auto">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520154642670" HGAP="287" ID="ID_76676184" MODIFIED="1520154779662" POSITION="left" TEXT="css3" VSHIFT="518">
+<node CREATED="1520154669653" ID="ID_276512609" MODIFIED="1520154776444" TEXT="Transform">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-0"/>
+<node CREATED="1520154688497" ID="ID_869487128" MODIFIED="1520154691614" TEXT="2D">
+<node CREATED="1520154695160" ID="ID_1443863304" MODIFIED="1520154702805" TEXT="transform:">
+<node CREATED="1520154717432" ID="ID_1816087307" MODIFIED="1520154739211" TEXT="translate(x px, y px);">
+<node CREATED="1520154792434" ID="ID_848747232" MODIFIED="1520154810050" TEXT="d&#x1ecb;ch truy&#x1ec3;n t&#x1edb;i (x, y)px"/>
+</node>
+<node CREATED="1520154823124" ID="ID_1590732239" MODIFIED="1520154833689" TEXT="rotate(a deg)">
+<node CREATED="1520154835042" ID="ID_320973744" MODIFIED="1520154863831" TEXT="xoay m&#x1ed9;t g&#xf3;c a, tr&#x1ee5;c xoay l&#xe0; tr&#x1ecd;ng t&#xe2;m"/>
+</node>
+<node CREATED="1520154865196" ID="ID_1166055756" MODIFIED="1520154899232" TEXT="scale(x, y)">
+<node CREATED="1520154906688" ID="ID_1768784172" MODIFIED="1520154923064" TEXT="k&#xe9;o d&#xe3;n h&#xec;nh default (1, 1)"/>
+</node>
+<node CREATED="1520154924219" ID="ID_1427076880" MODIFIED="1520155041043" TEXT="skew(a, b) / skewX(a deg) / skewY(b deg)">
+<node CREATED="1520154942983" ID="ID_1604931025" MODIFIED="1520154975148" TEXT="nghi&#xea;ng theo x g&#xf3;c a, theo y g&#xf3;c b"/>
+</node>
+<node CREATED="1520155043676" ID="ID_1603509452" MODIFIED="1520155132302" TEXT="matrix( scaleX, skewY, skewX, scaleY, translateX, translateY)"/>
+</node>
+<node CREATED="1520308667914" ID="ID_954830563" MODIFIED="1520308735678" TEXT="transform-origin: x px y px; (x % y %)">
+<node CREATED="1520308692461" ID="ID_1850257131" MODIFIED="1520308712922" TEXT="x&#xe1;c &#x111;&#x1ecb;nh t&#xe2;m c&#x1ee7;a h&#xec;nh s&#x1ebd; xoay theo"/>
+</node>
+</node>
+<node CREATED="1520154691887" ID="ID_988030492" MODIFIED="1520154693432" TEXT="3D">
+<node CREATED="1520155144745" ID="ID_1267671853" MODIFIED="1520155159071" TEXT="rotateX( a deg)"/>
+<node CREATED="1520155159284" ID="ID_1960262072" MODIFIED="1520155166954" TEXT="rotateY( b deg)"/>
+<node CREATED="1520155167204" ID="ID_308044763" MODIFIED="1520155174778" TEXT="rotateZ( c deg)"/>
+</node>
+</node>
+<node CREATED="1520154769845" ID="ID_678787085" MODIFIED="1520155203700" TEXT="transition">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-1"/>
+<node CREATED="1520155269059" ID="ID_1434033979" MODIFIED="1520155269059" TEXT="">
+<node CREATED="1520155422976" ID="ID_1347089085" MODIFIED="1520155489734" TEXT="qu&#xe1; trinh truy&#x1ec3;n &#x111;&#x1ed5;i, th&#x1b0;&#x1edd;ng &#x111;&#x1eb7;t t&#x1ea1;i tag end v&#xe0; c&#xf3; &#x111;i&#x1ec3;m start (left: 0) -&gt; end( left: a px)">
+<node CREATED="1520155502835" ID="ID_214720935" MODIFIED="1520155548201" TEXT="n&#x1ebf;u c&#xf3; 1 transition &#x1edf; start or end  =&gt; d&#xf9;ng cho c&#x1ea3; 2"/>
+</node>
+<node CREATED="1520155562880" ID="ID_1957927649" MODIFIED="1520155596956" TEXT="transition-property:">
+<node CREATED="1520155598419" ID="ID_796590596" MODIFIED="1520155606189" TEXT="width/height">
+<node CREATED="1520155607865" ID="ID_489154777" MODIFIED="1520155628404" TEXT="d&#x1ecb;ch truy&#x1ec3;n theo width ho&#x1eb7;c height"/>
+</node>
+<node CREATED="1520155630110" ID="ID_1337018111" MODIFIED="1520155646002" TEXT="&quot;transform&quot;">
+<node CREATED="1520155647001" ID="ID_1572759733" MODIFIED="1520155651360" TEXT="khi bi&#x1ebf;n &#x111;&#x1ed5;i"/>
+</node>
+<node CREATED="1520664480527" ID="ID_1227796283" MODIFIED="1520664485116" TEXT="all"/>
+</node>
+<node CREATED="1520155655677" ID="ID_979311202" MODIFIED="1520155668452" TEXT="transition-duration:">
+<node CREATED="1520155670601" ID="ID_1370583388" MODIFIED="1520155693586" TEXT="_time s">
+<node CREATED="1520155698259" ID="ID_1421158013" MODIFIED="1520155707331" TEXT="th&#x1edd;i gian s&#x1ebd; ph&#x1ea3;i ch&#x1ea1;y"/>
+</node>
+</node>
+<node CREATED="1520155710876" ID="ID_1805545954" MODIFIED="1520155834543" TEXT="transition-timing-function:">
+<node CREATED="1520155835948" ID="ID_1735440936" MODIFIED="1520155853059" TEXT="th&#x1edd;i gian ch&#x1ea1;y t&#x1eeb; first &#x111;&#x1ebf;n end"/>
+<node CREATED="1520155853514" ID="ID_1581529148" MODIFIED="1520155862915" TEXT="&quot;linear&quot;"/>
+<node CREATED="1520155876215" ID="ID_1191158628" MODIFIED="1520155913885" TEXT="&quot;ease&quot; / &quot;ease-in&quot; / &quot;ease-out&quot; / &quot;ease-in-out&quot;"/>
+<node CREATED="1520155923571" ID="ID_1294924881" MODIFIED="1520155974002" TEXT="&quot;cubic-bezier(n, n, n, n)&quot;">
+<node CREATED="1520155975085" ID="ID_1917147680" MODIFIED="1520155984797" TEXT="0&lt;= n&lt;=1"/>
+</node>
+</node>
+<node CREATED="1520155990094" ID="ID_1170586537" MODIFIED="1520155996523" TEXT="transition-delay:">
+<node CREATED="1520156562027" ID="ID_498768170" MODIFIED="1520156567274" TEXT="time delay"/>
+</node>
+<node CREATED="1520155997368" ID="ID_18539815" MODIFIED="1520156044445" TEXT="transition: _property  _duration  _timing_function  _delay;"/>
+</node>
+</node>
+<node CREATED="1520156076909" ID="ID_1461153530" MODIFIED="1520156085683" TEXT="animation">
+<icon BUILTIN="full-2"/>
+<icon BUILTIN="full-2"/>
+<node CREATED="1520156182845" ID="ID_161180190" MODIFIED="1520156302781" TEXT="khai b&#xe1;o h&#xe0;m animation">
+<node CREATED="1520156197023" ID="ID_1980478746" MODIFIED="1520156222359" TEXT="@keyframes name{}">
+<node CREATED="1520156230070" ID="ID_1333842133" MODIFIED="1520156243879" TEXT="from {} to {}"/>
+<node CREATED="1520156244785" ID="ID_631520730" MODIFIED="1520156272040" TEXT="0%{} 50%{} 100%{}"/>
+</node>
+</node>
+<node CREATED="1520156276257" ID="ID_1171018638" MODIFIED="1520156315543" TEXT="call v&#xe0; d&#xf9;ng animation">
+<node CREATED="1520156364831" ID="ID_1733649155" MODIFIED="1520156401419" TEXT="animation-name:"/>
+<node CREATED="1520156401861" ID="ID_784961421" MODIFIED="1520156408610" TEXT="animation-duration:"/>
+<node CREATED="1520156411159" ID="ID_680040429" MODIFIED="1520156419781" TEXT="animation-delay:"/>
+<node CREATED="1520156498314" ID="ID_1530712691" MODIFIED="1520156816357" TEXT="animation-iteraction-count:">
+<node CREATED="1520156518443" ID="ID_1549407949" MODIFIED="1520156523578" TEXT="interger ">
+<node CREATED="1520156524576" ID="ID_963921236" MODIFIED="1520156534684" TEXT="s&#x1ed1; l&#x1ea7;n th&#x1ef1;c hi&#x1ec7;n"/>
+</node>
+<node CREATED="1520156535868" ID="ID_138204558" MODIFIED="1520156541951" TEXT="infinite"/>
+</node>
+<node CREATED="1520156545124" ID="ID_1231393173" MODIFIED="1520156726024" TEXT="animation-play-state:">
+<node CREATED="1520156694250" ID="ID_1858758916" MODIFIED="1520156697596" TEXT="running"/>
+<node CREATED="1520156698477" ID="ID_1042381010" MODIFIED="1520156703375" TEXT="pause"/>
+</node>
+<node CREATED="1520156707596" ID="ID_1523838810" MODIFIED="1520156733735" TEXT="animation-direction:">
+<node CREATED="1520156738756" ID="ID_283901464" MODIFIED="1520156742002" TEXT="reverse">
+<node CREATED="1520156762204" ID="ID_319182317" MODIFIED="1520156768748" TEXT="ch&#x1ea1;y ng&#x1b0;&#x1ee3;c chi&#x1ec1;u"/>
+</node>
+<node CREATED="1520156742666" ID="ID_849729210" MODIFIED="1520156753334" TEXT="alternate">
+<node CREATED="1520156771099" ID="ID_623389409" MODIFIED="1520156783900" TEXT="ch&#x1ea1;y &#x111;&#xfa;ng chi&#x1ec1;u r&#x1ed3;i ch&#x1ea1;y ng&#x1b0;&#x1a1;c l&#x1ea1;i"/>
+</node>
+</node>
+<node CREATED="1520157004365" ID="ID_253169455" MODIFIED="1520157013993" TEXT="animation-fill-mode">
+<node CREATED="1520157017231" ID="ID_1881762109" MODIFIED="1520308574480" TEXT="&quot;forwards&quot;">
+<node CREATED="1520157060782" ID="ID_1905947738" MODIFIED="1520157066634" TEXT="kh&#xf4;ng quay l&#x1ea1;i t&#x1b0; &#x111;&#x1ea7;u"/>
+</node>
+<node CREATED="1520157032226" ID="ID_1593106885" MODIFIED="1520308580898" TEXT="&quot;backwards&quot;">
+<node CREATED="1520157049427" ID="ID_1004632033" MODIFIED="1520157055800" TEXT="quay l&#x1ea1;i t&#x1eeb; &#x111;&#xe2;u"/>
+</node>
+</node>
+<node CREATED="1520156316216" ID="ID_1427317554" MODIFIED="1520156951060" TEXT="animation: _name _duration _delay _count direction"/>
+</node>
+</node>
+</node>
+<node CREATED="1520149386399" HGAP="340" ID="ID_937908299" MODIFIED="1520157183057" POSITION="left" TEXT="other" VSHIFT="122">
+<node CREATED="1520149448320" ID="ID_121325770" MODIFIED="1520149488507" TEXT="cursor:">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-8"/>
+<node CREATED="1520149482827" ID="ID_189645697" MODIFIED="1520149501243" TEXT="&quot;crosshair&quot;">
+<node CREATED="1520149502368" ID="ID_214457685" MODIFIED="1520149505681" TEXT="d&#x1ea5;u c&#x1ed9;ng"/>
+</node>
+<node CREATED="1520149507231" ID="ID_158017153" MODIFIED="1520149515841" TEXT="&quot;pointer&quot;"/>
+<node CREATED="1520149517027" ID="ID_1908475369" MODIFIED="1520149538689" TEXT="&quot;move&quot;"/>
+<node CREATED="1520149540294" ID="ID_651480761" MODIFIED="1520149558699" TEXT="&quot;resize&quot;">
+<node CREATED="1520149559865" ID="ID_585788473" MODIFIED="1520149572182" TEXT="n - e - s -w"/>
+</node>
+<node CREATED="1520149574431" ID="ID_1093973394" MODIFIED="1520149735441" TEXT="&quot;wait&quot;"/>
+<node CREATED="1520149578713" ID="ID_228440565" MODIFIED="1520149739438" TEXT="&quot;text&quot;"/>
+<node CREATED="1520149584791" ID="ID_614384758" MODIFIED="1520149743540" TEXT="&quot;help&quot;"/>
+</node>
+<node CREATED="1520149615148" ID="ID_1146634448" MODIFIED="1520558386193" TEXT="display:">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-9"/>
+<node CREATED="1520150083525" ID="ID_1684979055" MODIFIED="1520150126100" TEXT="none">
+<node CREATED="1520150181111" ID="ID_58372410" MODIFIED="1520150187929" TEXT="kh&#xf4;ng hi&#x1ec3;n th&#x1ecb;"/>
+</node>
+<node CREATED="1520150126357" ID="ID_779151834" MODIFIED="1520150127906" TEXT="hidden"/>
+<node CREATED="1520150128159" ID="ID_1155653544" MODIFIED="1520150135131" TEXT="inline-block"/>
+<node CREATED="1520150135559" ID="ID_20987582" MODIFIED="1520150141263" TEXT="inline"/>
+<node CREATED="1520150143252" ID="ID_1313459277" MODIFIED="1520150145391" TEXT="block">
+<node CREATED="1520150199012" ID="ID_734240633" MODIFIED="1520150217693" TEXT="bi&#x1ebf;n tag &#x111;&#xf3; th&#xe0;nh 1 kh&#x1ed1;i trong one line">
+<node CREATED="1520150225665" ID="ID_1806006166" MODIFIED="1520150248848" TEXT="kh&#x1ed1;i: c&#xf3; width , height th&#xec; auto xu&#x1ed1;ng d&#xf2;ng"/>
+</node>
+<node CREATED="1520150270268" ID="ID_1724277999" MODIFIED="1520150312173" TEXT="v&#xec; text , link kh&#xf4;ng ph&#x1ea3;i l&#xe0; m&#x1ed9;t kh&#x1ed1;i, n&#xea;n kh&#xf4;ng ch&#x1ec9;nh padding">
+<node CREATED="1520150313457" ID="ID_1968724027" MODIFIED="1520150343855" TEXT="=&gt; mu&#x1ed1;n ch&#x1ec9;nh padding  ph&#x1ea3;i ch&#x1ec9;nh v&#x1ec1; kh&#x1ed1;i"/>
+</node>
+</node>
+<node CREATED="1520150190309" ID="ID_652004830" MODIFIED="1520150358103" TEXT="flex">
+<node CREATED="1520150359218" ID="ID_470545241" MODIFIED="1520150426486" TEXT="&#x111;&#x1b0;&#x1ee3;c set trong tab parent, gi&#xfa;p &#x111;i&#x1ec1;u ch&#x1ec9;nh children tag linh ho&#x1ea1;t"/>
+<node CREATED="1520150427271" ID="ID_424932008" MODIFIED="1520150434732" TEXT="set parent">
+<node CREATED="1520150435758" ID="ID_1381316941" MODIFIED="1520150534769" TEXT="flex-direction:">
+<node CREATED="1520150546514" ID="ID_1051705267" MODIFIED="1520150566932" TEXT="row-reverse"/>
+<node CREATED="1520150567569" ID="ID_75121622" MODIFIED="1520150574683" TEXT="column-reverse"/>
+</node>
+<node CREATED="1520150436650" ID="ID_1847624919" MODIFIED="1520150594624" TEXT="justify-flex:">
+<node CREATED="1520150595878" ID="ID_1492321449" MODIFIED="1520150616091" TEXT="ch&#x1ec9;nh kho&#x1ea3;ng c&#xe1;ch gi&#x1eef;a c&#xe1;c item"/>
+<node CREATED="1520150616696" ID="ID_158818081" MODIFIED="1520150631691" TEXT="&quot;flex-end&quot; / &quot;flex-start&quot;">
+<node CREATED="1520150663423" ID="ID_123849481" MODIFIED="1520150669002" TEXT="c&#x103;n item tr&#xe1;i ph&#x1ea3;i"/>
+</node>
+<node CREATED="1520150632196" ID="ID_1015193339" MODIFIED="1520150654523" TEXT="&quot;center&quot;">
+<node CREATED="1520150672134" ID="ID_988074882" MODIFIED="1520150677168" TEXT="c&#x103;n item gi&#x1eef;a"/>
+</node>
+<node CREATED="1520150655500" ID="ID_230782071" MODIFIED="1520150704251" TEXT="&quot;space-between&quot;">
+<node CREATED="1520150719354" ID="ID_1115346244" MODIFIED="1520150732614" TEXT="c&#x103;n &#x111;&#x1ec1;u kho&#x1ea3;ng c&#xe1;ch gi&#x1eef;a item"/>
+</node>
+<node CREATED="1520150705143" ID="ID_886529546" MODIFIED="1520150715251" TEXT="&quot;space-around&quot;">
+<node CREATED="1520150716620" ID="ID_37594305" MODIFIED="1520150764029" TEXT="c&#x103;n &#x111;&#x1ec1;u kho&#x1ea3;ng c&#xe1;ch xung quan item"/>
+</node>
+</node>
+<node CREATED="1520150777936" ID="ID_620235100" MODIFIED="1520150830034" TEXT="align-items: / align-content: flex-wrap">
+<node CREATED="1520150859776" ID="ID_1015118885" MODIFIED="1520150891291" TEXT="&quot;stretch&quot;">
+<node CREATED="1520150831419" ID="ID_556142632" MODIFIED="1520150855845" TEXT="c&#xe1;c item s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c k&#xe9;o d&#xe3;n h&#x1ebf;t ph&#x1ea7;n content"/>
+</node>
+<node CREATED="1520150892298" ID="ID_9278005" MODIFIED="1520150917120" TEXT="&quot;flex-start&quot; / &quot;flex-end&quot; / center">
+<node CREATED="1520150918320" ID="ID_23707573" MODIFIED="1520150944225" TEXT="item xu&#x1ea5;t hi&#x1ec7;n top / bottom / center"/>
+</node>
+<node CREATED="1520150951331" ID="ID_19166396" MODIFIED="1520154127971" TEXT="baseline"/>
+</node>
+<node CREATED="1520154147458" ID="ID_505036986" MODIFIED="1520154157350" TEXT="flex-wrap:">
+<node CREATED="1520154158535" ID="ID_1596750872" MODIFIED="1520154166140" TEXT="&quot;nowrap&quot;">
+<node CREATED="1520154186414" ID="ID_1772484568" MODIFIED="1520154193080" TEXT="default, kh&#xf4;ng ch&#xe0;n"/>
+</node>
+<node CREATED="1520154168986" ID="ID_247055900" MODIFIED="1520154173885" TEXT="&quot;wrap&quot;">
+<node CREATED="1520154196781" ID="ID_643468552" MODIFIED="1520154207203" TEXT="ch&#xe0;n xu&#x1ed1;ng theo th&#x1ee9; t&#x1ef1;"/>
+</node>
+<node CREATED="1520154176052" ID="ID_630798688" MODIFIED="1520154181731" TEXT="&quot;wrap-reverse&quot;">
+<node CREATED="1520154209308" ID="ID_1426547587" MODIFIED="1520154222256" TEXT="ch&#xe0;n xu&#x1ed1;ng theo th&#x1ee9; t&#x1ef1; ng&#x1b0;&#x1ee3;c"/>
+</node>
+</node>
+</node>
+<node CREATED="1520154232347" ID="ID_1097345120" MODIFIED="1520558479708" TEXT="set children">
+<node CREATED="1520154244175" ID="ID_1336659708" MODIFIED="1520154261200" TEXT="oder:">
+<node CREATED="1520154262228" ID="ID_1357347362" MODIFIED="1520154330482" TEXT="integer">
+<node CREATED="1520154267757" ID="ID_581232672" MODIFIED="1520154282646" TEXT="c&#xe0;i &#x111;&#x1eb7;t v&#x1ecb; tr&#xed; cho t&#x1eeb;ng item"/>
+</node>
+</node>
+<node CREATED="1520154338111" ID="ID_475305853" MODIFIED="1520154360290" TEXT="margin:  / margin-right:">
+<node CREATED="1520154362173" ID="ID_1558775901" MODIFIED="1520154408602" TEXT="c&#x103;n v&#x1ecb; tr&#xed; theo parent | auto, integer"/>
+</node>
+<node CREATED="1520154410423" ID="ID_1635392462" MODIFIED="1520154445433" TEXT="align-self:">
+<node CREATED="1520154454740" ID="ID_1095065931" MODIFIED="1520154461665" TEXT="c&#x103;n ch&#x1ec9;nh theo t&#x1eeb;ng item"/>
+<node CREATED="1520154462252" ID="ID_1776234638" MODIFIED="1520154470997" TEXT="&quot;stretch&quot;"/>
+<node CREATED="1520154471376" ID="ID_1085158561" MODIFIED="1520154498395" TEXT="&quot;flex-start&quot; / &quot;flex-end&quot; / center"/>
+<node CREATED="1520154501959" ID="ID_90469842" MODIFIED="1520154507854" TEXT="&quot;baseline&quot;"/>
+</node>
+<node CREATED="1520154533632" ID="ID_1413367996" MODIFIED="1520154539911" TEXT="flex:">
+<node CREATED="1520154552807" ID="ID_566083021" MODIFIED="1520154578039" TEXT="t&#x1ec9; l&#x1ec7; c&#x1ee7;a c&#xe1;c item (t&#x1ed5;ng item = 100%)"/>
+<node CREATED="1520154583412" ID="ID_215990027" MODIFIED="1520154591331" TEXT="integer">
+<node CREATED="1520154592171" ID="ID_765409136" MODIFIED="1520154600935" TEXT="1 = default"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1520558482125" ID="ID_1386893765" MODIFIED="1520558485509" TEXT="table">
+<node CREATED="1520558491120" ID="ID_334117186" MODIFIED="1520558498689" TEXT="like table"/>
+</node>
+</node>
+<node CREATED="1520558443446" ID="ID_1115800297" MODIFIED="1520558581490" TEXT="visibility:">
+<node CREATED="1520558509220" ID="ID_1137637308" MODIFIED="1520558575091" TEXT="&quot;visible&quot;"/>
+<node CREATED="1520558563124" ID="ID_1930138447" MODIFIED="1520558571316" TEXT="&quot;hidden&quot;"/>
+</node>
+<node CREATED="1520558582093" ID="ID_1303070883" MODIFIED="1520558900097" TEXT="vertical-align:">
+<node CREATED="1520558900799" ID="ID_350502734" MODIFIED="1520558935213" TEXT="&quot;top&quot; / &quot;bottom&quot; / &quot;midden&quot; / i px / i %"/>
+<node CREATED="1520562137292" ID="ID_282015917" MODIFIED="1520562178338" TEXT="&#x111;i&#x1ec1;u ch&#x1ec9;nh tr&#xea;n d&#x1b0;&#x1edb;i c&#x1ee7;a element c&#xf9;ng h&#xe0;ng kh&#xe1;c"/>
+</node>
+<node CREATED="1520558946402" ID="ID_1939833405" MODIFIED="1520558961491" TEXT="position:">
+<node CREATED="1520559128860" HGAP="29" ID="ID_1695048486" MODIFIED="1520559694683" TEXT="&quot;static&quot;" VSHIFT="-26">
+<node CREATED="1520559144695" ID="ID_831282403" MODIFIED="1520559688681" TEXT="default, hi&#x1ec3;n th&#x1ecb; theo th&#x1ee9; t&#x1ef1; trong document"/>
+</node>
+<node CREATED="1520558979009" ID="ID_776433390" MODIFIED="1520562411905" TEXT="&quot;fixed&quot;">
+<node CREATED="1520559710724" ID="ID_1407995468" MODIFIED="1520559737903" TEXT="c&#x1ed1; &#x111;&#x1ecb;nh v&#xe0;o screen website"/>
+</node>
+<node CREATED="1520559116511" ID="ID_222539943" MODIFIED="1520559122224" TEXT="&quot;relative&quot;">
+<node CREATED="1520559950490" ID="ID_1716048465" MODIFIED="1520560288715" TEXT="d&#xf9;ng top:/bottom/right/left: d&#x1ef1;a tr&#xea;n element ch&#x1ee9;a n&#xf3; (default = body)"/>
+</node>
+<node CREATED="1520558970873" ID="ID_731494370" MODIFIED="1520558978553" TEXT="&quot;absolute&quot;">
+<node CREATED="1520559707369" ID="ID_1733424778" MODIFIED="1520560426101" TEXT="ph&#x1ee5; thu&#x1ed9;c v&#xe0;o tag c&#xf3; position:relative, absolute; "/>
+<node CREATED="1520560350384" ID="ID_1332714583" MODIFIED="1520560497863" TEXT="&#x111;&#x1ec3; d&#x1ecb;ch truy&#x1ec3;n top/right/bottom/left "/>
+<node CREATED="1520560498324" ID="ID_469527381" MODIFIED="1520560544077" TEXT=" n&#x1ebf;u kh&#xf4;ng c&#xf3;  tag relative default body"/>
+</node>
+</node>
+<node CREATED="1520558961710" ID="ID_1673229954" MODIFIED="1520562719152" TEXT="float:">
+<node CREATED="1520562500493" ID="ID_562401648" MODIFIED="1520562504666" TEXT="float:">
+<node CREATED="1520562527092" ID="ID_1886691104" MODIFIED="1520562532501" TEXT="right / left"/>
+<node CREATED="1520562550824" ID="ID_7280193" MODIFIED="1520562584033" TEXT="d&#xf9;ng tag &#x111;&#x1ea7;u ti&#xea;n -&gt; t&#xe1;c d&#x1ee5;ng tag c&#xf9;ng c&#x1ea5;p, nh&#x1ecf; h&#x1a1;n"/>
+<node CREATED="1520562640154" ID="ID_279205372" MODIFIED="1520562669130" TEXT="overflow: hidden; ch&#x1ed1;ng ch&#xe0;n "/>
+</node>
+<node CREATED="1520562504926" ID="ID_26721605" MODIFIED="1520562508561" TEXT="clear:">
+<node CREATED="1520562509845" ID="ID_1836052073" MODIFIED="1520562513948" TEXT="&quot;both&quot;"/>
+</node>
+</node>
+<node CREATED="1520562720033" ID="ID_1019199218" MODIFIED="1520562908061" TEXT="media">
+<node CREATED="1520563400148" ID="ID_94515682" MODIFIED="1520563408310" TEXT="@media and (), ()"/>
+<node CREATED="1520563408672" ID="ID_1425055097" MODIFIED="1520563411383" TEXT="@print">
+<node CREATED="1520563481583" ID="ID_1427594014" MODIFIED="1520563488499" TEXT="d&#xf9;ng cho in &#x1ea5;n"/>
+</node>
+<node CREATED="1520562897700" ID="ID_1445330574" MODIFIED="1520563599503" TEXT="&lt;link rel=&quot;stylesheet&quot; media=&quot;screen and (min-width: 900px)&quot; href=&quot;widescreen.css&quot;&gt; "/>
+</node>
+<node CREATED="1520562908404" ID="ID_1799842044" MODIFIED="1520562910136" TEXT="rule">
+<node CREATED="1520562911060" ID="ID_1116739904" MODIFIED="1520562915939" TEXT="!important"/>
+<node CREATED="1520562916518" ID="ID_150738838" MODIFIED="1520562945041" TEXT="@import  name.css&quot;/ url(&quot;&quot;)">
+<node CREATED="1520562946279" ID="ID_1485237692" MODIFIED="1520562960593" TEXT="th&#xea;m file css b&#xea;n ngo&#xe0;i v&#x1edb;i &#x111;&#x1b0;&#x1edd;ng d&#x1eab;n"/>
+<node CREATED="1520563042364" ID="ID_1854778194" MODIFIED="1520563075446" TEXT="@import url   screen and (max-with:)">
+<node CREATED="1520563076272" ID="ID_1129628365" MODIFIED="1520563095285" TEXT="th&#xea;m t&#xed;nh ch&#x1ea5;t media "/>
+</node>
+</node>
+<node CREATED="1520563158726" ID="ID_1427246129" MODIFIED="1520563194480" TEXT="@font-face{}">
+<node CREATED="1520563195520" ID="ID_1450531303" MODIFIED="1520563210929" TEXT="t&#x1ea1;o font m&#x1edb;i tr&#xea;n file .woff"/>
+<node CREATED="1520563221651" ID="ID_829670373" MODIFIED="1520563236205" TEXT="font-family:"/>
+<node CREATED="1520563236471" ID="ID_1777664155" MODIFIED="1520563241471" TEXT="src:"/>
+<node CREATED="1520563245421" ID="ID_1927824869" MODIFIED="1520563252763" TEXT="stretch:"/>
+<node CREATED="1520563289712" ID="ID_427519506" MODIFIED="1520563294532" TEXT="unicode-range:">
+<node CREATED="1520563320908" ID="ID_200626618" MODIFIED="1520563322479" TEXT="default is &quot;U+0-10FFFF&quot; / &quot;U+100-220&quot;"/>
+</node>
+<node CREATED="1520563300728" ID="ID_491423431" MODIFIED="1520563309703" TEXT="font-size / font-weight:"/>
+</node>
+</node>
+</node>
+<node CREATED="1520145272040" HGAP="187" ID="ID_1994667296" MODIFIED="1520157177126" POSITION="left" TEXT="pseudo" VSHIFT="-341">
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="full-7"/>
+<node CREATED="1520145319169" HGAP="27" ID="ID_824665699" MODIFIED="1520157171813" TEXT="namTag, class, id" VSHIFT="10">
+<node CREATED="1520145501944" ID="ID_875465558" MODIFIED="1520145677757" TEXT=":link{}">
+<node CREATED="1520146214168" ID="ID_939827868" MODIFIED="1520146217739" TEXT="all link"/>
+</node>
+<node CREATED="1520145678478" ID="ID_520254944" MODIFIED="1520145694267" TEXT=":visited{}">
+<node CREATED="1520146219814" ID="ID_1649318148" MODIFIED="1520146228389" TEXT="link visited"/>
+</node>
+<node CREATED="1520145700436" ID="ID_161208192" MODIFIED="1520145709982" TEXT=":hover{}">
+<node CREATED="1520146230636" ID="ID_1981603195" MODIFIED="1520146236663" TEXT="mouse hover"/>
+</node>
+<node CREATED="1520145715648" ID="ID_1282100360" MODIFIED="1520145721918" TEXT=":active{}">
+<node CREATED="1520146257218" ID="ID_1431360171" MODIFIED="1520146289634" TEXT="bi&#x1ec3;u th&#x1ecb; &#x111;ang click v&#xe0;o tag"/>
+</node>
+<node CREATED="1520145722232" ID="ID_853544817" MODIFIED="1520145734893" TEXT=":lang(name)">
+<node CREATED="1520146292553" ID="ID_247756921" MODIFIED="1520146324380" TEXT="{quote: &quot;x&quot; &quot;x&quot;;}">
+<node CREATED="1520146326009" ID="ID_1868479512" MODIFIED="1520146356065" TEXT="d&#xf9;ng cho tag &lt;q lang=&quot;name&quot;&gt;&lt;/q&gt;"/>
+</node>
+</node>
+<node CREATED="1520145751775" ID="ID_17271905" MODIFIED="1520145769328" TEXT=":not(name_tag){}">
+<node CREATED="1520146461999" ID="ID_819149116" MODIFIED="1520146479550" TEXT="nh&#x1b0;ng tag kh&#xf4;ng c&#xf3; t&#xea;n l&#xe0; name_tag"/>
+</node>
+<node CREATED="1520145789406" ID="ID_660408554" MODIFIED="1520145805128" TEXT=":empty{}">
+<node CREATED="1520146482065" ID="ID_267423892" MODIFIED="1520146488694" TEXT="tag empty"/>
+</node>
+<node CREATED="1520145805761" ID="ID_180532821" MODIFIED="1520145849241" TEXT=":first-child{}">
+<node CREATED="1520146524350" ID="ID_1929591536" MODIFIED="1520146571236" TEXT="tag &#x111;&#x1ea7;u ti&#xea;n xu&#x1ea5;t hi&#x1ec7;n ph&#x1ea3;i n&#x1eb1;m trong m&#x1ed9;t th&#x1ebb; kh&#xe1;c, &lt;div&gt;&lt;p&gt;first-child&lt;/p&gt;&lt;/div&gt;"/>
+</node>
+<node CREATED="1520145856131" ID="ID_11489685" MODIFIED="1520145863004" TEXT=":last-child{}"/>
+<node CREATED="1520145890767" ID="ID_1013305236" MODIFIED="1520145898548" TEXT=":first-of-type{}">
+<node CREATED="1520146575905" ID="ID_1634018736" MODIFIED="1520146587244" TEXT="tag &#x111;&#x1ea7;u ti&#xea;n kh&#xf4;ng c&#xf3; parent"/>
+</node>
+<node CREATED="1520145898826" ID="ID_1543353522" MODIFIED="1520145909284" TEXT=":last-of-type{}"/>
+<node CREATED="1520145916410" ID="ID_427131909" MODIFIED="1520145928894" TEXT=":nth-child(n){}">
+<node CREATED="1520146590928" ID="ID_1943058454" MODIFIED="1520146590928" TEXT="">
+<node CREATED="1520146603367" ID="ID_385500977" MODIFIED="1520146637007" TEXT="like first-child nh&#x1b0;ng &#x1edf; v&#x1ecb; tr&#xed; th&#x1ee9; n"/>
+</node>
+</node>
+<node CREATED="1520145987487" ID="ID_1722757613" MODIFIED="1520146112714" TEXT=":nth-last-child(n){}"/>
+<node CREATED="1520146010909" ID="ID_95850318" MODIFIED="1520146027119" TEXT=":nth-of-type(n){}">
+<node CREATED="1520146639939" ID="ID_1618728822" MODIFIED="1520146665256" TEXT="like first-of-type nh&#x1b0;ng &#x1edf; v&#x1ecb; tr&#xed; th&#x1ee9; n"/>
+</node>
+<node CREATED="1520146027696" ID="ID_1456353967" MODIFIED="1520146130596" TEXT=":nth-last-of-type(n){}"/>
+<node CREATED="1520146143202" ID="ID_978345564" MODIFIED="1520146171194" TEXT=":only-of-type{} = :only-child{}">
+<node CREATED="1520146688043" ID="ID_1910466467" MODIFIED="1520146705212" TEXT="tag duy nh&#x1ea5;t n&#x1eb1;m trong m&#x1ed9;t parent"/>
+</node>
+<node CREATED="1520146707086" ID="ID_202185521" MODIFIED="1520146825418" TEXT="#id:target{}">
+<node CREATED="1520147429898" ID="ID_1402204757" MODIFIED="1520147822985" TEXT="khi c&#xf3; ng&#x1b0;&#x1edd;i k&#xed;ch ho&#x1ea1;t b&#x1eb1;ng click v&#xe0;o link &lt;a href=&quot;#id&quot;&gt;"/>
+<node CREATED="1520147747585" ID="ID_305386150" MODIFIED="1520147803473" TEXT="&lt;div id=&quot;id&quot; &gt;"/>
+</node>
+<node CREATED="1520147911649" ID="ID_1749597325" MODIFIED="1520147915845" TEXT=":root">
+<node CREATED="1520147928591" ID="ID_1218157154" MODIFIED="1520147934687" TEXT="all document"/>
+</node>
+<node CREATED="1520147936274" ID="ID_955349482" MODIFIED="1520147944818" TEXT="form">
+<node CREATED="1520147946298" ID="ID_525810434" MODIFIED="1520147964722" TEXT="input:focus{}"/>
+<node CREATED="1520147979319" ID="ID_1070636152" MODIFIED="1520148529630" TEXT="input:check{}">
+<node CREATED="1520148530833" ID="ID_1365884417" MODIFIED="1520148549341" TEXT="tag checkbox, radio">
+<node CREATED="1520148551956" ID="ID_218517264" MODIFIED="1520148557960" TEXT="have checked"/>
+</node>
+</node>
+<node CREATED="1520148009266" ID="ID_690922873" MODIFIED="1520148041226" TEXT="input:enabled{}"/>
+<node CREATED="1520148015356" ID="ID_1229975854" MODIFIED="1520148038787" TEXT="input:disabled{}"/>
+<node CREATED="1520148042278" ID="ID_514050527" MODIFIED="1520148054943" TEXT="input:vali{}"/>
+<node CREATED="1520148056126" ID="ID_1367180745" MODIFIED="1520148064419" TEXT="input:invalid{}"/>
+<node CREATED="1520148065111" ID="ID_577802787" MODIFIED="1520148086395" TEXT="input:optional{}">
+<node CREATED="1520148087989" ID="ID_1541006728" MODIFIED="1520148100773" TEXT="tag not required"/>
+</node>
+<node CREATED="1520148076724" ID="ID_1049872316" MODIFIED="1520148122338" TEXT="input:required{}"/>
+<node CREATED="1520148126558" ID="ID_874954386" MODIFIED="1520148183736" TEXT="input:out-of-range{}">
+<node CREATED="1520148336235" ID="ID_714918558" MODIFIED="1520148364194" TEXT="value n&#x1eb1;m ngo&#xe0;i gi&#xe1; tr&#x1ecb; min, max &lt;input type=number"/>
+</node>
+<node CREATED="1520148189729" ID="ID_93878141" MODIFIED="1520148199980" TEXT="input:in-range{}">
+<node CREATED="1520148373095" ID="ID_925193058" MODIFIED="1520148385055" TEXT="value n&#x1eb1;m trong g&#xed; tr&#x1ecb; min, max"/>
+</node>
+<node CREATED="1520148205503" ID="ID_333377619" MODIFIED="1520148213347" TEXT="input:read-only{}">
+<node CREATED="1520148248559" ID="ID_788191287" MODIFIED="1520148255345" TEXT="ch&#x1ee9;a readonly&gt;"/>
+</node>
+<node CREATED="1520148219868" ID="ID_355072675" MODIFIED="1520148236905" TEXT="input:read-write{}">
+<node CREATED="1520148260653" ID="ID_1774674952" MODIFIED="1520148269175" TEXT="kh&#xf4;ng ch&#x1ee9;a readonly&gt;"/>
+</node>
+</node>
+<node CREATED="1520148395157" ID="ID_609402035" MODIFIED="1520148411186" TEXT="element">
+<node CREATED="1520148412149" ID="ID_428870929" MODIFIED="1520148416768" TEXT="::before">
+<node CREATED="1520148885362" ID="ID_1713289987" MODIFIED="1520148952677" TEXT="p::before{content: &quot;textString&quot;, css}">
+<node CREATED="1520148917713" ID="ID_1201039525" MODIFIED="1520148943361" TEXT="textString  _n&#x1ed9;i dung th&#x1ebb; p"/>
+</node>
+</node>
+<node CREATED="1520148416988" ID="ID_613241927" MODIFIED="1520148420936" TEXT="::after">
+<node CREATED="1520149278944" ID="ID_167078033" MODIFIED="1520149299857" TEXT="like before but tesString go to late tag"/>
+</node>
+<node CREATED="1520148421354" ID="ID_1721227119" MODIFIED="1520149339234" TEXT="::select">
+<node CREATED="1520149304337" ID="ID_603854932" MODIFIED="1520149332689" TEXT="B&#xf4;i &#x111;en c&#xe1;c tag"/>
+</node>
+<node CREATED="1520149347286" ID="ID_1925562118" MODIFIED="1520149355811" TEXT="::first-letter">
+<node CREATED="1520149366861" ID="ID_353521923" MODIFIED="1520149372025" TEXT="ch&#x1eef; c&#xe1;i &#x111;&#x1ea7;u ti&#xea;n"/>
+</node>
+<node CREATED="1520149356428" ID="ID_387681416" MODIFIED="1520149364984" TEXT="::first-lane">
+<node CREATED="1520149374044" ID="ID_1798053170" MODIFIED="1520149379096" TEXT="d&#xf2;ng &#x111;&#x1ea7;u ti&#xea;n"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>
