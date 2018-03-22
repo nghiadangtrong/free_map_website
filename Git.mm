@@ -7,6 +7,9 @@
 <node CREATED="1521593985404" ID="ID_386625709" MODIFIED="1521594001221" TEXT="change stage file"/>
 <node CREATED="1521594128787" ID="ID_1859409062" MODIFIED="1521594138555" TEXT="git add &quot;*.txt&quot;"/>
 </node>
+<node CREATED="1521682088451" ID="ID_1304562330" MODIFIED="1521682124916" POSITION="right" TEXT="git remote add origin _link_repository.git">
+<node CREATED="1521682125749" ID="ID_515092610" MODIFIED="1521682160699" TEXT="connect repository github"/>
+</node>
 <node CREATED="1521594042475" ID="ID_363263296" MODIFIED="1521594060183" POSITION="right" TEXT="git commit -m &quot;message&quot;">
 <node CREATED="1521594062571" ID="ID_148093182" MODIFIED="1521594086183" TEXT="commit with add message"/>
 </node>

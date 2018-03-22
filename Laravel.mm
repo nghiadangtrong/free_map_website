@@ -98,7 +98,7 @@
 </node>
 <node CREATED="1520857777930" ID="ID_1124072339" MODIFIED="1521336706476" TEXT="add file NameController.php">
 <edge WIDTH="2"/>
-<node CREATED="1520859334568" FOLDED="true" ID="ID_635078429" MODIFIED="1521336706475" TEXT="header">
+<node CREATED="1520859334568" ID="ID_635078429" MODIFIED="1521707704470" TEXT="header">
 <edge WIDTH="2"/>
 <node CREATED="1520859345840" ID="ID_1721793226" MODIFIED="1520859378976" TEXT="namespace App\Http\Controller"/>
 <node CREATED="1520859381280" ID="ID_879829664" MODIFIED="1520859404628" TEXT="use  -&gt; use BaseController"/>
@@ -111,11 +111,12 @@
 </node>
 <node CREATED="1521068542703" ID="ID_1247877746" MODIFIED="1521336706475" TEXT="validate ">
 <edge WIDTH="2"/>
-<node CREATED="1521068551416" ID="ID_632175853" MODIFIED="1521336706475" TEXT="y&#xea;u c&#x1ea7;u ng&#x1b0;&#x1edd;i d&#xf9;ng nh&#x1ead;p v&#xe0;o">
+<node CREATED="1521068551416" ID="ID_632175853" MODIFIED="1521707690708" TEXT="t&#x1ea1;o &#x111;i&#x1ec1;u ki&#x1ec7;n cho c&#xe1;c input">
 <edge WIDTH="2"/>
 </node>
 <node CREATED="1521068581857" ID="ID_503496768" MODIFIED="1521336706475" TEXT="$validator = Validator::make($request-&gt;all(), [&apos;name&apos;=&gt;&apos;required|max:255&apos;])">
 <edge WIDTH="2"/>
+<node CREATED="1521707515802" ID="ID_18969051" MODIFIED="1521707642132" TEXT="$this-&gt;validate(&apos;nameInput&apos;, [&apos;nameInput&apos; =&gt; &quot; image|mimes:jpg,...|max:size &quot;])"/>
 </node>
 <node CREATED="1521068711960" ID="ID_127626790" MODIFIED="1521336706475" TEXT="if($validator-&gt;fails())">
 <edge WIDTH="2"/>
@@ -140,6 +141,16 @@
 </node>
 <node CREATED="1521070488613" ID="ID_55440586" MODIFIED="1521336706475" TEXT="return view()-&gt;with(&apos;success&apos;, &apos;content string&apos;);">
 <edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1521707716296" ID="ID_1857835485" MODIFIED="1521707725852" TEXT="function default">
+<node CREATED="1521707726721" ID="ID_41375304" MODIFIED="1521707874715" TEXT="public function __construct(para){}">
+<node CREATED="1521707806657" ID="ID_431535127" MODIFIED="1521707849131" TEXT="kh&#x1edf;i ch&#x1ea1;y &#x111;&#x1ea7;u ti&#xea;n khi controller run"/>
+</node>
+<node CREATED="1521707853240" ID="ID_165896760" MODIFIED="1521707871084" TEXT="public function __invoker(para){}">
+<node CREATED="1521707875928" ID="ID_1032536384" MODIFIED="1521707908419" TEXT="&#x111;&#x1b0;&#x1ee3;c g&#x1ecd;i khi truy nh&#x1ead;p v&#xe0;o controller kh&#xf4;ng">
+<node CREATED="1521707909480" ID="ID_1357300461" MODIFIED="1521707945379" TEXT="Route::get(&apos;/name&apos;, &quot;NameController&quot;);"/>
+</node>
 </node>
 </node>
 </node>
@@ -455,9 +466,107 @@
 </node>
 </node>
 </node>
+<node CREATED="1521281635321" ID="ID_957490998" MODIFIED="1521707358711" TEXT="use DB">
+<edge COLOR="#0033cc" WIDTH="2"/>
+<node CREATED="1521281643580" ID="ID_1640141279" MODIFIED="1521336706469" TEXT="use">
+<edge WIDTH="2"/>
+<node CREATED="1521281651062" ID="ID_595605180" MODIFIED="1521336706469" TEXT="DB;">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520864694423" ID="ID_1891083462" MODIFIED="1521336706469" TEXT="use DB::">
+<edge WIDTH="2"/>
+<node CREATED="1520864711131" ID="ID_1369270515" MODIFIED="1521336706469" TEXT="insert database">
+<edge WIDTH="2"/>
+<node CREATED="1520864737009" ID="ID_57998256" MODIFIED="1521336706469" TEXT="Route::get(&apos;/insert&apos;, function(){  })">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520864785987" ID="ID_1237263519" MODIFIED="1521336706469" TEXT="BD::insert(&apos;insert into post(title, body, is_admin) values(?,?,?)&apos;,  [&apos;value title&apos;, &apos;valuebody&apos;, 0]);">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520865243224" ID="ID_1047020453" MODIFIED="1521336706469" TEXT="select database">
+<edge WIDTH="2"/>
+<node CREATED="1520865296881" ID="ID_630079198" MODIFIED="1521336706469" TEXT="Route::get(&apos;/read&apos;, function(){});">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520865323950" ID="ID_1308172979" MODIFIED="1521336706469" TEXT="$reslut = BD::select(&apos;select * from posts where id = ?&apos;, [ value_id]);">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1521282294568" ID="ID_338903040" MODIFIED="1521336706469" TEXT="$result = DB::table(&apos;nameTable&apos;)-&gt;">
+<edge WIDTH="2"/>
+<node CREATED="1521282330944" ID="ID_1510031305" MODIFIED="1521336706469" TEXT="-&gt;order(&apos;nameColumn&apos;, &apos;desc&apos;)">
+<edge WIDTH="2"/>
+<node CREATED="1521282359854" ID="ID_656870786" MODIFIED="1521336706469" TEXT="l&#x1ea5;y theo t&#x1ee9; t&#x1ef1; c&#x1ee7;a column">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1521282401926" ID="ID_1685935385" MODIFIED="1521708091827" TEXT="-&gt;lastest()">
+<edge WIDTH="2"/>
+<node CREATED="1521282463751" ID="ID_14897799" MODIFIED="1521336706469" TEXT="l&#x1ea5;y theo date, last update">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1521598603245" ID="ID_576603233" MODIFIED="1521598628099" TEXT="-&gt;where( &apos;table.id&apos;, = , $id)"/>
+<node CREATED="1521708125495" ID="ID_596078242" MODIFIED="1521708145290" TEXT="-&gt;whereNull(&apos;delete_at&apos;)">
+<node CREATED="1521708146079" ID="ID_1772367087" MODIFIED="1521708152898" TEXT="why">
+<node CREATED="1521708190933" ID="ID_276305381" MODIFIED="1521708379561" TEXT="2 type delete">
+<node CREATED="1521708380341" ID="ID_1907670016" MODIFIED="1521708405088" TEXT="delete ho&#xe0;n to&#xe0;n row trong database"/>
+<node CREATED="1521708412149" ID="ID_887754973" MODIFIED="1521708431857" TEXT="set column delete_at != null">
+<node CREATED="1521708433166" ID="ID_71026438" MODIFIED="1521708444481" TEXT="kh&#xf4;ng b&#x1ecb; x&#xf3;a trong databse"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1521282428036" ID="ID_1457884612" MODIFIED="1521336706469" TEXT="-&gt;limit(number)">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1521282441510" ID="ID_1177779529" MODIFIED="1521336706469" TEXT="-&gt;get()">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1521282450643" ID="ID_1497097290" MODIFIED="1521336706469" TEXT="-&gt;toArray()">
+<edge WIDTH="2"/>
+</node>
+</node>
+</node>
+<node CREATED="1520865552926" ID="ID_1647733063" MODIFIED="1521336706469" TEXT="update database">
+<edge WIDTH="2"/>
+<node CREATED="1520865577815" ID="ID_362028006" MODIFIED="1521336706468" TEXT="Route::get(&apos;update&apos;, function(){ })">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520865603225" ID="ID_507789825" MODIFIED="1521336706468" TEXT="$update = DB::update(&apos;update posts set title =&quot;value update&quot; where id &gt; ? &apos;,  [ value_id ]);">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1520865567225" ID="ID_1904718512" MODIFIED="1521336706468" TEXT="delete databalse">
+<edge WIDTH="2"/>
+<node CREATED="1520865764759" ID="ID_1839827136" MODIFIED="1521336706468" TEXT="Route::get(&apos;/delete&apos;, function(){ });">
+<edge WIDTH="2"/>
+</node>
+<node CREATED="1520865803061" ID="ID_436460907" MODIFIED="1521336706468" TEXT="$deleted = BD:delete(&quot;delete form posts where id = ?&quot;, [ value_id]);">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1521071149416" ID="ID_937890451" MODIFIED="1521336706468" TEXT="l&#x1ec7;nh database:">
+<edge WIDTH="2"/>
+</node>
+</node>
+<node CREATED="1521587459177" ID="ID_488978823" MODIFIED="1521587485798" TEXT="use $this-&gt;repository">
+<node CREATED="1521587486966" ID="ID_680271083" MODIFIED="1521587613800" TEXT="$this-&gt;repository-&gt;showById($id)">
+<node CREATED="1521587519391" ID="ID_1937974655" MODIFIED="1521587522277" TEXT="select id"/>
+</node>
+</node>
+<node CREATED="1521587524702" ID="ID_866643580" MODIFIED="1521587536813" TEXT="use $this-&gt;catgory-&gt;">
+<node CREATED="1521587620656" ID="ID_531786045" MODIFIED="1521587681992" TEXT="e"/>
+</node>
+</node>
+<node CREATED="1521707360012" ID="ID_699946394" MODIFIED="1521707391653" TEXT="repository">
+<node CREATED="1521707406258" ID="ID_1834395195" MODIFIED="1521707460901" TEXT="T&#x1ea1;o c&#xe1;c class c&#xf3; kh&#x1ea3; n&#x103;ng t&#xe1;i s&#x1eed; d&#x1ee5;ng"/>
+</node>
 </node>
 <node CREATED="1521587014768" ID="ID_778811858" MODIFIED="1521587025162" POSITION="left" TEXT="plugin">
 <node CREATED="1521588250395" ID="ID_721742876" MODIFIED="1521588255243" TEXT="datatable">
+<node CREATED="1521708840995" ID="ID_213607992" MODIFIED="1521708849095" TEXT="install"/>
 <node CREATED="1521589138345" ID="ID_356404719" MODIFIED="1521589142516" TEXT="client, js">
 <node CREATED="1521588261028" ID="ID_1071731430" MODIFIED="1521588288430" TEXT="editor = new $.fa.dataTable.Editor(){    }">
 <node CREATED="1521588303279" ID="ID_208039660" MODIFIED="1521588314303" TEXT="ajax: { .... }">
@@ -493,14 +602,14 @@
 <node CREATED="1521587343940" ID="ID_1661269238" MODIFIED="1521587360946" TEXT="c&#xf3; cho ph&#xe9;p sort kh&#xf4;ng"/>
 </node>
 <node CREATED="1521587290181" ID="ID_630844755" MODIFIED="1521587301286" TEXT="search: true / false">
-<node CREATED="1521587303276" ID="ID_960194398" MODIFIED="1521587340998" TEXT="xem x&#xe9;t c&#xf3; cho ph&#xe9;p search column n&#xe0;y kh&#xf4;ng"/>
+<node CREATED="1521587303276" ID="ID_960194398" MODIFIED="1521708797138" TEXT="xem x&#xe9;t c&#xf3; cho ph&#xe9;p search theo column n&#xe0;y kh&#xf4;ng"/>
 </node>
 <node CREATED="1521587362283" ID="ID_1931995157" MODIFIED="1521587385084" TEXT="render: function(input){   }">
 <node CREATED="1521587387509" ID="ID_370371743" MODIFIED="1521587402123" TEXT="return &quot;textHtml&quot;"/>
 </node>
 </node>
 <node CREATED="1521587263643" ID="ID_1920612207" MODIFIED="1521587706005" TEXT="ajax: ">
-<node CREATED="1521587707077" ID="ID_1830799014" MODIFIED="1521587716609" TEXT="url:"/>
+<node CREATED="1521587707077" ID="ID_1830799014" MODIFIED="1521708653338" TEXT="url: /news/get"/>
 <node CREATED="1521587716856" ID="ID_816583808" MODIFIED="1521587725358" TEXT="type:"/>
 <node CREATED="1521587726020" ID="ID_1774782701" MODIFIED="1521587736976" TEXT="datatype:"/>
 <node CREATED="1521587738191" ID="ID_1967364910" MODIFIED="1521587746798" TEXT="success: function(){}"/>
@@ -510,7 +619,7 @@
 <node CREATED="1521589122754" ID="ID_1089812578" MODIFIED="1521589127135" TEXT="laravel">
 <node CREATED="1521589128448" ID="ID_1670017565" MODIFIED="1521589190348" TEXT="Route::post(/news/get,  NewTableController);"/>
 <node CREATED="1521589191374" ID="ID_1030255435" MODIFIED="1521589462193" TEXT="create s&#x1eed; l&#xfd; : NewTableController.php">
-<node CREATED="1521589262323" ID="ID_76540992" MODIFIED="1521589271785" TEXT="protected repository"/>
+<node CREATED="1521589262323" ID="ID_76540992" MODIFIED="1521708604813" TEXT="protected repository;"/>
 <node CREATED="1521589215752" ID="ID_233050837" MODIFIED="1521589275737" TEXT="function __construct(NewRepository $res){   }">
 <node CREATED="1521589276539" ID="ID_1984884000" MODIFIED="1521589296203" TEXT="$this-&gt;repository  = $res"/>
 </node>
@@ -579,6 +688,9 @@
 </node>
 <node CREATED="1521283021501" ID="ID_1573744754" MODIFIED="1521336884716" POSITION="left" TEXT="up file">
 <edge COLOR="#ffcc33" WIDTH="2"/>
+<node CREATED="1521703982037" ID="ID_963875784" MODIFIED="1521703994526" TEXT="chagefile : .env">
+<node CREATED="1521703999723" ID="ID_1825543267" MODIFIED="1521707174337" TEXT="CACHE_DRIVER = array"/>
+</node>
 <node CREATED="1521336274594" ID="ID_294641279" MODIFIED="1521336706473" TEXT="$this-&gt;validate($request, [  &apos;name_input&apos;  =&gt; &apos;require|image|mines:jpg|max:2048&apos; ]);">
 <edge WIDTH="2"/>
 <node CREATED="1521336364935" ID="ID_1351462981" MODIFIED="1521336706473" TEXT="x&#xe9;t &#x111;i&#x1ec1;u ki&#x1ec7;n cho bi&#x1ebf;n input">
@@ -608,7 +720,7 @@
 </node>
 <node CREATED="1521250497645" ID="ID_1919295809" MODIFIED="1521336706473" TEXT="2. change route">
 <edge WIDTH="2"/>
-<node CREATED="1521281041260" ID="ID_17465409" MODIFIED="1521336706473" TEXT="Route::post(&apos;/language-chooser&apos;, &quot;LanguageController@changeLanguage&quot;)">
+<node CREATED="1521281041260" ID="ID_17465409" MODIFIED="1521689402830" TEXT="Route::post(&apos;/language-chooser/{lang}&apos;, &quot;LanguageController@changeLanguage&quot;)">
 <edge WIDTH="2"/>
 </node>
 <node CREATED="1521281094139" ID="ID_1881587807" MODIFIED="1521336706471" TEXT="Route::post(&apos;/language&apos;, array(&apos;before&apos;=&gt;&apos;csrf&apos;,  &apos;as&apos;=&gt;&apos;language-chooser&apos;,  &apos;use&apos; =&gt; &apos;LanguageController@changeLanguage&apos;));;">
@@ -617,7 +729,7 @@
 </node>
 <node CREATED="1521281287641" ID="ID_1690728041" MODIFIED="1521336706471" TEXT="3.hander method controller">
 <edge WIDTH="2"/>
-<node CREATED="1521281300592" ID="ID_636066809" MODIFIED="1521336706471" TEXT="function  changeLanguage(Request $res){  }">
+<node CREATED="1521281300592" ID="ID_636066809" MODIFIED="1521689450176" TEXT="function  changeLanguage(Request $res, $lang){  }">
 <edge WIDTH="2"/>
 <node CREATED="1521281526452" ID="ID_1543435843" MODIFIED="1521336706471" TEXT="use">
 <edge WIDTH="2"/>
@@ -639,6 +751,12 @@
 <node CREATED="1521281441571" ID="ID_1618537626" MODIFIED="1521336706471" TEXT="$res-&gt;session()-&gt;flash(&apos;alert-success&apos;, &apos;app.Locale_change_success&apos;)">
 <edge WIDTH="2"/>
 </node>
+</node>
+<node CREATED="1521689483023" ID="ID_1158273500" MODIFIED="1521689488441" TEXT="not-ajax">
+<node CREATED="1521689489445" ID="ID_1955243198" MODIFIED="1521689573290" TEXT="sessstion-&gt;put(&apos;locale&apos;, $lang)"/>
+</node>
+<node CREATED="1521689583020" ID="ID_1707431900" MODIFIED="1521689589696" TEXT="retutrn">
+<node CREATED="1521689605092" ID="ID_1129315869" MODIFIED="1521689635116" TEXT="redirect()-&gt;black();"/>
 </node>
 </node>
 </node>
@@ -697,6 +815,9 @@
 <node CREATED="1521282107454" ID="ID_1582261356" MODIFIED="1521336706470" TEXT="&lt;?php array[&apos;name&apos;=&gt;&apos;value]">
 <edge WIDTH="2"/>
 </node>
+</node>
+<node CREATED="1521690541796" ID="ID_1918739571" MODIFIED="1521690546560" TEXT="callback">
+<node CREATED="1521690556501" ID="ID_255531716" MODIFIED="1521690592928" TEXT="{{ trans(&apos;app.name&quot;)}}"/>
 </node>
 </node>
 </node>
@@ -774,90 +895,6 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node CREATED="1521281635321" ID="ID_957490998" MODIFIED="1521336862927" POSITION="left" TEXT="use DB">
-<edge COLOR="#0033cc" WIDTH="2"/>
-<node CREATED="1521281643580" ID="ID_1640141279" MODIFIED="1521336706469" TEXT="use">
-<edge WIDTH="2"/>
-<node CREATED="1521281651062" ID="ID_595605180" MODIFIED="1521336706469" TEXT="DB;">
-<edge WIDTH="2"/>
-</node>
-</node>
-<node CREATED="1520864694423" ID="ID_1891083462" MODIFIED="1521336706469" TEXT="use DB::">
-<edge WIDTH="2"/>
-<node CREATED="1520864711131" ID="ID_1369270515" MODIFIED="1521336706469" TEXT="insert database">
-<edge WIDTH="2"/>
-<node CREATED="1520864737009" ID="ID_57998256" MODIFIED="1521336706469" TEXT="Route::get(&apos;/insert&apos;, function(){  })">
-<edge WIDTH="2"/>
-</node>
-<node CREATED="1520864785987" ID="ID_1237263519" MODIFIED="1521336706469" TEXT="BD::insert(&apos;insert into post(title, body, is_admin) values(?,?,?)&apos;,  [&apos;value title&apos;, &apos;valuebody&apos;, 0]);">
-<edge WIDTH="2"/>
-</node>
-</node>
-<node CREATED="1520865243224" ID="ID_1047020453" MODIFIED="1521336706469" TEXT="select database">
-<edge WIDTH="2"/>
-<node CREATED="1520865296881" ID="ID_630079198" MODIFIED="1521336706469" TEXT="Route::get(&apos;/read&apos;, function(){});">
-<edge WIDTH="2"/>
-</node>
-<node CREATED="1520865323950" ID="ID_1308172979" MODIFIED="1521336706469" TEXT="$reslut = BD::select(&apos;select * from posts where id = ?&apos;, [ value_id]);">
-<edge WIDTH="2"/>
-</node>
-<node CREATED="1521282294568" ID="ID_338903040" MODIFIED="1521336706469" TEXT="$result = DB::table(&apos;nameTable&apos;)-&gt;">
-<edge WIDTH="2"/>
-<node CREATED="1521282330944" ID="ID_1510031305" MODIFIED="1521336706469" TEXT="-&gt;order(&apos;nameColumn&apos;, &apos;desc&apos;)">
-<edge WIDTH="2"/>
-<node CREATED="1521282359854" ID="ID_656870786" MODIFIED="1521336706469" TEXT="l&#x1ea5;y theo t&#x1ee9; t&#x1ef1; c&#x1ee7;a column">
-<edge WIDTH="2"/>
-</node>
-</node>
-<node CREATED="1521282401926" ID="ID_1685935385" MODIFIED="1521336706469" TEXT="-&gt;lastest()">
-<edge WIDTH="2"/>
-<node CREATED="1521282463751" ID="ID_14897799" MODIFIED="1521336706469" TEXT="l&#x1ea5;y theo date, last update">
-<edge WIDTH="2"/>
-</node>
-</node>
-<node CREATED="1521598603245" ID="ID_576603233" MODIFIED="1521598628099" TEXT="-&gt;where( &apos;table.id&apos;, = , $id)"/>
-<node CREATED="1521282428036" ID="ID_1457884612" MODIFIED="1521336706469" TEXT="-&gt;limit(number)">
-<edge WIDTH="2"/>
-</node>
-<node CREATED="1521282441510" ID="ID_1177779529" MODIFIED="1521336706469" TEXT="-&gt;get()">
-<edge WIDTH="2"/>
-</node>
-<node CREATED="1521282450643" ID="ID_1497097290" MODIFIED="1521336706469" TEXT="-&gt;toArray()">
-<edge WIDTH="2"/>
-</node>
-</node>
-</node>
-<node CREATED="1520865552926" ID="ID_1647733063" MODIFIED="1521336706469" TEXT="update database">
-<edge WIDTH="2"/>
-<node CREATED="1520865577815" ID="ID_362028006" MODIFIED="1521336706468" TEXT="Route::get(&apos;update&apos;, function(){ })">
-<edge WIDTH="2"/>
-</node>
-<node CREATED="1520865603225" ID="ID_507789825" MODIFIED="1521336706468" TEXT="$update = DB::update(&apos;update posts set title =&quot;value update&quot; where id &gt; ? &apos;,  [ value_id ]);">
-<edge WIDTH="2"/>
-</node>
-</node>
-<node CREATED="1520865567225" ID="ID_1904718512" MODIFIED="1521336706468" TEXT="delete databalse">
-<edge WIDTH="2"/>
-<node CREATED="1520865764759" ID="ID_1839827136" MODIFIED="1521336706468" TEXT="Route::get(&apos;/delete&apos;, function(){ });">
-<edge WIDTH="2"/>
-</node>
-<node CREATED="1520865803061" ID="ID_436460907" MODIFIED="1521336706468" TEXT="$deleted = BD:delete(&quot;delete form posts where id = ?&quot;, [ value_id]);">
-<edge WIDTH="2"/>
-</node>
-</node>
-<node CREATED="1521071149416" ID="ID_937890451" MODIFIED="1521336706468" TEXT="l&#x1ec7;nh database:">
-<edge WIDTH="2"/>
-</node>
-</node>
-<node CREATED="1521587459177" ID="ID_488978823" MODIFIED="1521587485798" TEXT="use $this-&gt;repository">
-<node CREATED="1521587486966" ID="ID_680271083" MODIFIED="1521587613800" TEXT="$this-&gt;repository-&gt;showById($id)">
-<node CREATED="1521587519391" ID="ID_1937974655" MODIFIED="1521587522277" TEXT="select id"/>
-</node>
-</node>
-<node CREATED="1521587524702" ID="ID_866643580" MODIFIED="1521587536813" TEXT="use $this-&gt;catgory-&gt;">
-<node CREATED="1521587620656" ID="ID_531786045" MODIFIED="1521587681992" TEXT="e"/>
 </node>
 </node>
 </node>
