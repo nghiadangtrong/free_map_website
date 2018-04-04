@@ -495,13 +495,14 @@
 </node>
 <node CREATED="1521282294568" ID="ID_338903040" MODIFIED="1521336706469" TEXT="$result = DB::table(&apos;nameTable&apos;)-&gt;">
 <edge WIDTH="2"/>
+<node CREATED="1522825690047" ID="ID_1407571482" MODIFIED="1522825715485" TEXT="join(&apos;nameTable&apos;, function($joint){} )"/>
 <node CREATED="1521282330944" ID="ID_1510031305" MODIFIED="1521336706469" TEXT="-&gt;order(&apos;nameColumn&apos;, &apos;desc&apos;)">
 <edge WIDTH="2"/>
 <node CREATED="1521282359854" ID="ID_656870786" MODIFIED="1521336706469" TEXT="l&#x1ea5;y theo t&#x1ee9; t&#x1ef1; c&#x1ee7;a column">
 <edge WIDTH="2"/>
 </node>
 </node>
-<node CREATED="1521282401926" ID="ID_1685935385" MODIFIED="1521708091827" TEXT="-&gt;lastest()">
+<node CREATED="1521282401926" ID="ID_1685935385" MODIFIED="1522825725240" TEXT="-&gt;lastest()">
 <edge WIDTH="2"/>
 <node CREATED="1521282463751" ID="ID_14897799" MODIFIED="1521336706469" TEXT="l&#x1ea5;y theo date, last update">
 <edge WIDTH="2"/>
