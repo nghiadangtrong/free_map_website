@@ -83,7 +83,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1523522611984" ID="ID_383329011" MODIFIED="1523522848308" TEXT="dependency injection"/>
+<node CREATED="1523522611984" ID="ID_383329011" MODIFIED="1523522848308" TEXT="dependency injection">
+<node CREATED="1523581434644" ID="ID_1593712111" MODIFIED="1523581456087" TEXT="is design pattern">
+<node CREATED="1523581468476" ID="ID_1382579340" MODIFIED="1523581503871" TEXT="inject nh&#x1eef;ng instance th&#xf4;ng qua ">
+<node CREATED="1523581505012" ID="ID_740520398" MODIFIED="1523581518375" TEXT="__constructor()"/>
+<node CREATED="1523581518691" ID="ID_1379812494" MODIFIED="1523581524837" TEXT="setter"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
