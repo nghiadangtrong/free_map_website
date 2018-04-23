@@ -302,5 +302,52 @@
 <node CREATED="1524130189721" ID="ID_1622986307" MODIFIED="1524130210594" TEXT="class implement "/>
 </node>
 </node>
+<node CREATED="1524207744563" ID="ID_440107220" MODIFIED="1524207750184" POSITION="left" TEXT="middleware">
+<node CREATED="1524209513911" ID="ID_813460384" MODIFIED="1524209518826" TEXT="what">
+<node CREATED="1524209530558" ID="ID_317083285" MODIFIED="1524209599684" TEXT="Nh&#x1eef;ng class "/>
+</node>
+<node CREATED="1524209519285" ID="ID_210661791" MODIFIED="1524209521604" TEXT="why">
+<node CREATED="1524209600967" ID="ID_1520526215" MODIFIED="1524209652460" TEXT="filter http request to app"/>
+</node>
+<node CREATED="1524209526566" ID="ID_1449142514" MODIFIED="1524209529023" TEXT="how">
+<node CREATED="1524209655304" ID="ID_73482891" MODIFIED="1524209658023" TEXT="register">
+<node CREATED="1524209665687" ID="ID_1854147788" MODIFIED="1524209688569" TEXT="app\Http\kernel.php">
+<node CREATED="1524209899230" ID="ID_177459088" MODIFIED="1524209908436" TEXT="$middleware= []">
+<node CREATED="1524209911134" ID="ID_1737439984" MODIFIED="1524209921529" TEXT="global ">
+<node CREATED="1524210028983" ID="ID_1494730898" MODIFIED="1524210043833" TEXT="t&#x1ea5;t c&#x1ea3; request &#x111;i qua"/>
+</node>
+</node>
+<node CREATED="1524209696445" ID="ID_1137362518" MODIFIED="1524210137188" TEXT="$routeMiddleware = [&apos;name&apos; =&gt; ...::class,]">
+<node CREATED="1524209966498" ID="ID_1699030296" MODIFIED="1524210066743" TEXT="ch&#x1ec9; &#x111;&#x1ecb;nh route cho middleware"/>
+<node CREATED="1524210070606" ID="ID_1461003514" MODIFIED="1524210115345" TEXT="Route::get(&apos;/&apos;, function(){})-&gt;middleware(&apos;name&apos;);"/>
+</node>
+<node CREATED="1524209700062" ID="ID_43178417" MODIFIED="1524210201825" TEXT="$middlewareGroups = [ &apos;web&apos; =&gt; [...]]">
+<node CREATED="1524210204181" ID="ID_1456831680" MODIFIED="1524210267126" TEXT="ch&#x1ec9; &#x111;&#x1ecb;nh middleware cho group"/>
+<node CREATED="1524210268193" ID="ID_233191820" MODIFIED="1524210321975" TEXT="Route::group([&apos;middleware&apos; =&gt; &apos;web&apos;], function(){...});"/>
+</node>
+</node>
+</node>
+<node CREATED="1524210341166" ID="ID_189198462" MODIFIED="1524210361207" TEXT="Param">
+<node CREATED="1524210362021" ID="ID_1289907270" MODIFIED="1524210367567" TEXT="$request">
+<node CREATED="1524210380397" ID="ID_1206484308" MODIFIED="1524210404727" TEXT="data sendto server"/>
+</node>
+<node CREATED="1524210369292" ID="ID_130890412" MODIFIED="1524210379136" TEXT="Closure $next">
+<node CREATED="1524210406036" ID="ID_1813692625" MODIFIED="1524210421529" TEXT="use direct next">
+<node CREATED="1524210422451" ID="ID_427051301" MODIFIED="1524210437726" TEXT="$next($request)"/>
+</node>
+</node>
+</node>
+<node CREATED="1524210475536" ID="ID_750008908" MODIFIED="1524210479187" TEXT="method">
+<node CREATED="1524210480777" ID="ID_1279880469" MODIFIED="1524210530289" TEXT="function handle($request , Closure $next, $role)">
+<node CREATED="1524210560087" ID="ID_1812788087" MODIFIED="1524210608573" TEXT="$role , ki&#x1ec3;m tra c&#x1ea5;p quy&#x1ec1;n cho action &#x111;&#xf3; kh&#xf4;ng"/>
+<node CREATED="1524210563205" ID="ID_1040168603" MODIFIED="1524210675067" TEXT="Route::put(&apos;/post/{id}&apos;, function ($id){...})-&gt;middleware(&apos;role:editor&apos;);"/>
+</node>
+<node CREATED="1524210685393" ID="ID_981885100" MODIFIED="1524210718803" TEXT="function terminate($request, $response)">
+<node CREATED="1524210796223" ID="ID_1216741190" MODIFIED="1524210996138" TEXT="s&#x1eed; l&#xfd; l&#x1b0;u tr&#x1eef; khi tr&#x1ea3; v&#x1ec1; cho client "/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1524198901547" ID="ID_504362589" MODIFIED="1524198910265" POSITION="left" TEXT="Closure"/>
 </node>
 </map>
