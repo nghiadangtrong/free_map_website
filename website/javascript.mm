@@ -804,7 +804,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1520238186319" ID="ID_214896939" MODIFIED="1520325196576" TEXT="method">
+<node CREATED="1520238186319" ID="ID_214896939" MODIFIED="1526444533070" TEXT="method">
 <edge WIDTH="4"/>
 <node CREATED="1520238280102" ID="ID_757312619" MODIFIED="1520325196576" TEXT="isNAN(x);">
 <edge WIDTH="4"/>
@@ -869,8 +869,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1520238360482" ID="ID_314887529" MODIFIED="1520325196575" TEXT=".call();">
+<node CREATED="1520238360482" ID="ID_314887529" MODIFIED="1526444544943" TEXT=".call( {variable: newValue} );">
 <edge WIDTH="4"/>
+<node CREATED="1526444541605" ID="ID_148118819" MODIFIED="1526444543960" TEXT="is">
+<node CREATED="1526444552893" ID="ID_338141908" MODIFIED="1526444563815" TEXT="like bind">
+<node CREATED="1526444564883" ID="ID_1476070239" MODIFIED="1526444582118" TEXT="kh&#xe1;c g&#x1ecd;i th&#x1ef1;c thi function lu&#xf4;n"/>
+</node>
+</node>
+<node CREATED="1526442368942" ID="ID_1857954816" MODIFIED="1526442373833" TEXT="why use">
+<node CREATED="1526442374510" ID="ID_1444583575" MODIFIED="1526442633129" TEXT="thay &#x111;&#x1ed5;i t&#x1ea1;m th&#x1edd;i bi&#x1ebf;n trong private trong object c&#x1ea7;n thi&#x1ebf;t v&#x1edb;i function">
+<node CREATED="1526442442877" ID="ID_792168465" MODIFIED="1526442577441" TEXT="obj1{a: 2, b: 3} to ob2{a: 1, b: 2}"/>
+</node>
+<node CREATED="1526442449436" ID="ID_1233524881" MODIFIED="1526442618450" TEXT="kh&#xf4;ng l&#xe0;m thay &#x111;&#x1ed5;i bi&#x1ebf;n trong obj th&#x1ef1;c s&#x1ef1;"/>
+</node>
 <node CREATED="1520238606438" ID="ID_640884066" MODIFIED="1520325196575" TEXT="obj1.nameObj1Function.call(obj2);">
 <edge WIDTH="4"/>
 <node CREATED="1520239111703" ID="ID_1401400792" MODIFIED="1520325196575" TEXT="obj1{a: 2 , b:  3, function nameF(return this.a +this.b){}}">
@@ -903,6 +914,46 @@
 <edge WIDTH="4"/>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1526438286728" ID="ID_244228164" MODIFIED="1526442916395" TEXT=".bind(object, argument);">
+<node CREATED="1526442916362" ID="ID_1716979835" MODIFIED="1526442925987" TEXT="is">
+<node CREATED="1526444495167" ID="ID_469258628" MODIFIED="1526444613661" TEXT="gi&#x1ed1;ng .call ">
+<node CREATED="1526444511038" ID="ID_1979629918" MODIFIED="1526444526065" TEXT="kh&#xe1;c return new funtion "/>
+</node>
+<node CREATED="1526441542229" ID="ID_290708465" MODIFIED="1526441556776" TEXT="g&#xe1;n function ho&#x1eb7;c create function">
+<node CREATED="1526442973151" ID="ID_669523082" MODIFIED="1526443056139" TEXT="var newFuntion = oldFunction.bind(oldFuntion)"/>
+</node>
+<node CREATED="1526443922696" ID="ID_1558319133" MODIFIED="1526444067059" TEXT="g&#xe1;n object th&#xe0;nh this c&#x1ee7;a oldFuntion">
+<node CREATED="1526444068016" ID="ID_60103714" MODIFIED="1526444117811" TEXT="c&#xe1;c variable c&#x1ee7;a object =&gt; trong oldFuntciotn() g&#x1ecd;i b&#xec;nh th&#x1b0;&#x1edd;ng">
+<node CREATED="1526444119335" ID="ID_1868632740" MODIFIED="1526444210730" TEXT="objec {a: value1 , b : value2}"/>
+<node CREATED="1526444138159" ID="ID_287279255" MODIFIED="1526444189034" TEXT="oldFunction(){  this.a }">
+<node CREATED="1526444190575" ID="ID_1005236090" MODIFIED="1526444253994" TEXT="l&#x1ea5;y &#x111;&#x1b0;&#x1ee3;c gi&#xe1; tr&#x1ecb; bi&#x1ebf;n a m&#x1eb7;c d&#xf9; olcFunction kh&#xf4;ng khai b&#xe1;o"/>
+<node CREATED="1526444239991" ID="ID_1680233974" MODIFIED="1526444310155" TEXT="kh&#xf4;ng d&#xf9;ng this-&gt; undefined"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1526439558368" ID="ID_531563673" MODIFIED="1526439566537" TEXT="why use">
+<node CREATED="1526438312241" ID="ID_1041289943" MODIFIED="1526438968626" TEXT="x&#xe1;c &#x111;&#x1ecb;nh tham s&#x1ed1; &quot;this&quot;">
+<node CREATED="1526439398304" ID="ID_1825707392" MODIFIED="1526439450821" TEXT="xu&#x1ea5;t hi&#x1ec7;n l&#x1ed7;i kh&#xf4;ng x&#xe1;c &#x111;&#x1ecb;nh &#x111;&#x1b0;&#x1ee3;c tham s&#x1ed1; this (this.variable)"/>
+<node CREATED="1526439008406" ID="ID_1139764308" MODIFIED="1526439112030" TEXT="var variable = { x ,  nameFunction: function(){  return this.x} }">
+<node CREATED="1526439114316" ID="ID_1231575538" MODIFIED="1526439142415" TEXT="use bind &#x111;&#x1ec3; x&#xe1;c &#x111;&#x1ecb;nh bi&#x1ebf;n x"/>
+</node>
+</node>
+<node CREATED="1526439568478" ID="ID_1080661639" MODIFIED="1526439598874" TEXT="partial function">
+<node CREATED="1526439599742" ID="ID_379762989" MODIFIED="1526439836872" TEXT="vi&#x1ebf;t l&#x1ea1;i function d&#x1ef1;a tr&#xea;n method c&#xf3; s&#x1eb5;n"/>
+<node CREATED="1526439685609" ID="ID_639456067" MODIFIED="1526439868984" TEXT="newFunction = oldFunction.bind(null, argument);"/>
+</node>
+</node>
+<node CREATED="1526438969030" ID="ID_1109382634" MODIFIED="1526443408486" TEXT="nameObject.nameFuntion.bind(nameObject, argument);">
+<node CREATED="1526441914771" ID="ID_1816205552" MODIFIED="1526441978222" TEXT="g&#xe1;n tham s&#x1ed1; this  = nameObject">
+<node CREATED="1526441986372" ID="ID_844075991" MODIFIED="1526442011445" TEXT="=&gt; nameObject.variable"/>
+<node CREATED="1526442016738" ID="ID_1783773132" MODIFIED="1526442027237" TEXT="don&apos;t fail this"/>
+</node>
+</node>
+<node CREATED="1526443412615" ID="ID_1958282133" MODIFIED="1526443524324" TEXT="c&#xe1;ch kh&#xe1;c ko d&#xf9;ng bind">
+<node CREATED="1526443423800" ID="ID_1970884574" MODIFIED="1526443505331" TEXT="var newFunction  = ()=&gt; obj1.nameFunction(argument);"/>
 </node>
 </node>
 </node>
