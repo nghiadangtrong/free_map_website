@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1520867855214" ID="ID_1977479326" MODIFIED="1520868626357" TEXT="NodeJs">
+<node CREATED="1520867855214" ID="ID_1977479326" MODIFIED="1529250303637" TEXT="NodeJs">
 <node CREATED="1525318455808" ID="ID_1009094461" MODIFIED="1525318466967" POSITION="right" TEXT="defination">
 <node CREATED="1525318468278" ID="ID_931254392" MODIFIED="1525318471807" TEXT="is">
 <node CREATED="1525318473036" ID="ID_1576930212" MODIFIED="1525318516425" TEXT="runtime environment + javascript libra"/>
@@ -26,13 +26,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1520868249419" ID="ID_960413877" MODIFIED="1520868251504" POSITION="right" TEXT="instal">
-<node CREATED="1520868253475" ID="ID_782501680" MODIFIED="1520868255581" TEXT="exe"/>
-<node CREATED="1520868414943" ID="ID_8832320" MODIFIED="1520868419577" TEXT="git"/>
-<node CREATED="1520895169307" ID="ID_1878581648" MODIFIED="1520895175425" TEXT="postman">
-<node CREATED="1520895176678" ID="ID_157042192" MODIFIED="1520895194883" TEXT="ki&#x1ec3;m tra post l&#xea;n m&#x1ed9;t &#x111;&#x1b0;&#x1edd;ng d&#x1eab;n n&#xe0;o &#x111;&#xf3;"/>
-</node>
-</node>
 <node CREATED="1520868627615" ID="ID_68474642" MODIFIED="1520868639403" POSITION="right" TEXT="create project">
 <node CREATED="1520868409733" ID="ID_1835462133" MODIFIED="1520868613933" TEXT="select folder run git bash"/>
 <node CREATED="1520868651092" ID="ID_974692055" MODIFIED="1520868898325" TEXT="cm: npm init ">
@@ -51,7 +44,7 @@
 <node CREATED="1520894328096" ID="ID_83338584" MODIFIED="1520894340633" TEXT="code: index.js">
 <node CREATED="1520894345912" ID="ID_1202544107" MODIFIED="1520894365528" TEXT="var express = require(&quot;express&quot;);"/>
 <node CREATED="1520894369003" ID="ID_1629927352" MODIFIED="1520894386103" TEXT="var app = express();"/>
-<node CREATED="1520894398125" ID="ID_286179769" MODIFIED="1520894417209" TEXT="app.listen(number_port);">
+<node CREATED="1520894398125" ID="ID_286179769" MODIFIED="1529163581452" TEXT="app.listen(number_port, ()=&gt;{});">
 <node CREATED="1520894417973" ID="ID_1919598378" MODIFIED="1520894461385" TEXT="m&#x1edf; server port"/>
 </node>
 </node>
@@ -123,6 +116,11 @@
 <node CREATED="1520897839225" ID="ID_1973273234" MODIFIED="1520897904538" TEXT="xu&#x1ea5;t ra gi&#xe1; tr&#x1ecb; bi&#x1ebf;n (kh&#xf4;ng m&#xe3; h&#xf3;a l&#xfd; t&#x1ef1; &#x111;&#x1eb7;c bi&#x1ec7;t)"/>
 </node>
 <node CREATED="1520898319237" ID="ID_1882609922" MODIFIED="1520898351069" TEXT="nameArray.forEach(function(i){   })"/>
+</node>
+</node>
+<node CREATED="1529250304669" ID="ID_1610132768" MODIFIED="1529250311747" POSITION="left" TEXT="ES6">
+<node COLOR="#000000" CREATED="1529250327056" ID="ID_65108608" MODIFIED="1529250482147" TEXT="this[&apos;nameMethod&apos;] = (params) =&gt;{}">
+<node CREATED="1529250353378" ID="ID_966844583" MODIFIED="1529250365511" TEXT="make method in class "/>
 </node>
 </node>
 </node>
