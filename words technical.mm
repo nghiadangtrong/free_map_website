@@ -1,0 +1,13 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1537699066474" ID="ID_1006027591" MODIFIED="1537699085050" TEXT="words technical">
+<node CREATED="1537699091692" ID="ID_886734378" MODIFIED="1537699092804" POSITION="right" TEXT="code">
+<node CREATED="1537699100462" ID="ID_185682456" MODIFIED="1537699111639" TEXT="obfuscate code ">
+<node CREATED="1537699152464" ID="ID_895710932" MODIFIED="1537699168678" TEXT="L&#xe0;m s&#xe1;o tr&#x1ed9;n code"/>
+</node>
+<node CREATED="1537699170585" ID="ID_527556230" MODIFIED="1537699175166" TEXT="SOLID"/>
+</node>
+<node CREATED="1537699086353" ID="ID_1563363" MODIFIED="1537699089732" POSITION="right" TEXT="website"/>
+<node CREATED="1537699115297" ID="ID_946191357" MODIFIED="1537699119524" POSITION="left" TEXT="security"/>
+</node>
+</map>
