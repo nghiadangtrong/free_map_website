@@ -7,10 +7,10 @@
 <node CREATED="1538098466368" ID="ID_397825759" MODIFIED="1538098472184" TEXT="L"/>
 <node CREATED="1538098472511" ID="ID_484314843" MODIFIED="1538098804834" TEXT="Inversion of control"/>
 <node CREATED="1538098493079" ID="ID_460579384" MODIFIED="1538098904097" TEXT="Dependency Inversion">
-<node CREATED="1538098920081" ID="ID_1771548939" MODIFIED="1538099458081" TEXT="=&gt;">
+<node CREATED="1538098920081" ID="ID_1771548939" MODIFIED="1538127645934" TEXT="=&gt;">
 <node CREATED="1538098929837" ID="ID_378870488" MODIFIED="1538099011736" TEXT="Module (cao / th&#xe2;&#x301;p, cha/con) phu&#x323; thu&#xf4;&#x323;c abstraction / interface"/>
 <node CREATED="1538099375524" ID="ID_598640730" MODIFIED="1538099444560" TEXT="Interface (abstraction) phu&#x323; thu&#xf4;&#x323;c va&#x300;o t&#xf4;&#x309;ng qua&#x301;t"/>
-<node CREATED="1538099012324" ID="ID_586810567" MODIFIED="1538099479232" TEXT="# class giao ti&#xea;&#x301;p th&#xf4;ng qua interface"/>
+<node CREATED="1538099012324" ID="ID_586810567" MODIFIED="1538127646120" TEXT="# class giao ti&#xea;&#x301;p th&#xf4;ng qua interface"/>
 </node>
 </node>
 </node>
