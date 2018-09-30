@@ -2,6 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1520867855214" ID="ID_1977479326" MODIFIED="1532235409977" TEXT="NodeJs">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1538302848177" ID="ID_1764360692" MODIFIED="1538302852160" POSITION="right" TEXT="book read">
+<node CREATED="1538302867146" ID="ID_94359240" MODIFIED="1538302869076" TEXT="https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e"/>
+</node>
 <node CREATED="1525318455808" ID="ID_1009094461" MODIFIED="1532235409977" POSITION="right" TEXT="defination">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1525318468278" ID="ID_931254392" MODIFIED="1532235409977" TEXT="is">
@@ -9,10 +12,11 @@
 <node CREATED="1525318473036" ID="ID_1576930212" MODIFIED="1532235409977" TEXT="runtime environment + javascript libra">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1538302499588" ID="ID_1559902872" MODIFIED="1538302557801" TEXT="Build on top of google chrome V8 javascript engine"/>
 </node>
 <node CREATED="1525318528031" ID="ID_613284074" MODIFIED="1532235409977" TEXT="why use">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1525318532565" ID="ID_1159025976" MODIFIED="1532235409977" TEXT="boot website">
+<node CREATED="1525318532565" ID="ID_1159025976" MODIFIED="1538302489647" TEXT="make build server run fast ">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node CREATED="1525318542189" ID="ID_1501593197" MODIFIED="1532235409977" TEXT="best web runtime">
@@ -21,6 +25,7 @@
 </node>
 <node CREATED="1525318668839" ID="ID_1791121657" MODIFIED="1532235409977" TEXT="stands">
 <font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1538302760123" ID="ID_1509629895" MODIFIED="1538302777663" TEXT="standards ECMAScript"/>
 <node CREATED="1525318674317" ID="ID_768872288" MODIFIED="1532235409977" TEXT="REPL">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1525318679861" ID="ID_1139628607" MODIFIED="1532235409977" TEXT="read eval print loop">

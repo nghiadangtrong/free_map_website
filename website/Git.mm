@@ -14,6 +14,9 @@
 <node CREATED="1521682088451" ID="ID_1304562330" MODIFIED="1521682124916" POSITION="right" TEXT="git remote add origin _link_repository.git">
 <node CREATED="1521682125749" ID="ID_515092610" MODIFIED="1521682160699" TEXT="connect repository github"/>
 </node>
+<node CREATED="1538319259211" ID="ID_1350746221" MODIFIED="1538319278814" POSITION="right" TEXT="git remote set-url origin repository.git ">
+<node CREATED="1538319279832" ID="ID_1062485030" MODIFIED="1538319290273" TEXT="change url repository"/>
+</node>
 <node CREATED="1521594042475" ID="ID_363263296" MODIFIED="1521594060183" POSITION="right" TEXT="git commit -m &quot;message&quot;">
 <node CREATED="1521594062571" ID="ID_148093182" MODIFIED="1521594086183" TEXT="commit with add message"/>
 </node>
