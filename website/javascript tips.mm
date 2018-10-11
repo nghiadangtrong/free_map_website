@@ -1,6 +1,25 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1537976922239" ID="ID_1492318846" MODIFIED="1537976936696" TEXT="Trick javascript">
+<node CREATED="1539221992057" ID="ID_343118905" MODIFIED="1539223819209" POSITION="right" TEXT="structure thread">
+<node CREATED="1539221996328" ID="ID_1049176972" MODIFIED="1539222025703" TEXT="Asynchronues">
+<node CREATED="1539222026836" ID="ID_1178575402" MODIFIED="1539223704868" TEXT="components">
+<node CREATED="1539222107670" ID="ID_1363296630" MODIFIED="1539222126146" TEXT="messages queue">
+<node CREATED="1539222182238" ID="ID_1654429929" MODIFIED="1539222210367" TEXT="load toa&#x300;n b&#xf4;&#x323; ca&#x301;c funtion co&#x301; g&#x103;&#x301;n message">
+<node CREATED="1539222211318" ID="ID_812501337" MODIFIED="1539222446640" TEXT="1. funtion theo lu&#xf4;&#x300;ng chi&#x301;nh sinh go&#x323;i ch&#x1b0;&#x323;c ti&#xea;&#x301;p (vd : (function(){})()"/>
+<node CREATED="1539222253908" ID="ID_361544713" MODIFIED="1539222509216" TEXT="2. Function &#x111;&#x1b0;&#x1a1;&#x323;c ta&#x323;o khi &#x111;&#x1b0;&#x1a1;&#x323;c &#x111;&#x103;&#x323;t va&#x300;o  trigger (vd: trigger click, input.addEventListent(&apos;click), function(){})"/>
+</node>
+</node>
+<node CREATED="1539222126439" ID="ID_925150809" MODIFIED="1539222141260" TEXT="event lookup">
+<node CREATED="1539223469129" ID="ID_1937380520" MODIFIED="1539223536693" TEXT="Vo&#x300;ng l&#x103;&#x323;p li&#xea;n tu&#x323;c l&#xe2;&#x301;y message top trong message queue"/>
+<node CREATED="1539223542273" ID="ID_501374903" MODIFIED="1539223583009" TEXT="&#x110;&#x1a1;&#x323;i call stack s&#x1b0;&#x309; ly&#x301; xong l&#xe2;&#x301;y ti&#xea;&#x301;p message m&#x1a1;&#x301;i"/>
+</node>
+<node CREATED="1539222141666" ID="ID_1410046732" MODIFIED="1539222180736" TEXT="call stack">
+<node CREATED="1539223585505" ID="ID_1690587631" MODIFIED="1539223694808" TEXT="th&#x1b0;&#x323;c hi&#xea;&#x323;n function theo tu&#xe2;&#x300;n t&#x1b0;&#x323; stack"/>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1537976937581" ID="ID_1448014268" MODIFIED="1537976939974" POSITION="right" TEXT="console">
 <node CREATED="1537978832562" ID="ID_1352239443" MODIFIED="1537978836665" TEXT="console.log">
 <node CREATED="1537978840327" ID="ID_811261438" MODIFIED="1537978849957" TEXT="%s, %i, %o, %f"/>
