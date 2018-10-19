@@ -1,0 +1,31 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1539915780732" ID="ID_1360904505" MODIFIED="1539915791567" TEXT="Structure database">
+<node CREATED="1539915792568" ID="ID_489838832" MODIFIED="1539915798894" POSITION="right" TEXT="tokens">
+<node CREATED="1539915799780" ID="ID_1918598315" MODIFIED="1539915807926" TEXT="_id:"/>
+<node CREATED="1539915808195" ID="ID_1584676797" MODIFIED="1539915886710" TEXT="token: String"/>
+<node CREATED="1539915814531" ID="ID_1562948559" MODIFIED="1539915866238" TEXT="type: String(jwt_refresh_token)"/>
+<node CREATED="1539915818915" ID="ID_1002283347" MODIFIED="1539915847454" TEXT="is_revoked: blood"/>
+<node CREATED="1539915890635" ID="ID_293576474" MODIFIED="1539915898878" TEXT="userId: "/>
+</node>
+<node CREATED="1539915932427" ID="ID_926372028" MODIFIED="1539915945598" POSITION="right" TEXT="ahthor">
+<node CREATED="1539915955323" ID="ID_1283817710" MODIFIED="1539915984342" TEXT="permission">
+<node CREATED="1539915992540" ID="ID_275862834" MODIFIED="1539916059910" TEXT="List permission (add, remove, edit)">
+<node CREATED="1539916067332" ID="ID_382172272" MODIFIED="1539916121023" TEXT="Danh sa&#x301;ch ca&#x301;c quy&#xea;&#x300;n ph&#xe2;n cho t&#x1b0;&#x300;ng ma&#x300;n"/>
+</node>
+</node>
+<node CREATED="1539915946348" ID="ID_1683591334" MODIFIED="1539915988166" TEXT="roles">
+<node CREATED="1539916127020" ID="ID_936265437" MODIFIED="1539916229360" TEXT="Danh sa&#x301;ch ca&#x301;c roles (group) : root, user_normal, ....">
+<node CREATED="1539916302606" ID="ID_1791471619" MODIFIED="1539916316801" TEXT="1 roles co&#x301; nhi&#xea;&#x300;u user"/>
+</node>
+<node CREATED="1539916233989" ID="ID_341700713" MODIFIED="1539916258600" TEXT="1 roles co&#x301; &#x111;&#x1b0;&#x1a1;&#x323;c th&#xea;m va&#x300;o nhi&#xea;&#x300;u quy&#xea;&#x300;n"/>
+</node>
+<node CREATED="1539915951186" ID="ID_946181919" MODIFIED="1539915990670" TEXT="user">
+<node CREATED="1539916261350" ID="ID_1881266751" MODIFIED="1539916299473" TEXT="1 user thu&#xf4;&#x323;c 1 roles"/>
+</node>
+</node>
+<node CREATED="1539916374086" ID="ID_1120765722" MODIFIED="1539916377834" POSITION="right" TEXT="file log">
+<node CREATED="1539916416247" ID="ID_822148535" MODIFIED="1539916438618" TEXT="ghi nh&#x1b0;&#x303;ng thay &#x111;&#xf4;&#x309;i ng&#x1b0;&#x1a1;&#x300;i du&#x300;ng va&#x300;o table log"/>
+</node>
+</node>
+</map>
