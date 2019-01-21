@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1526367981447" ID="ID_708705236" MODIFIED="1548058261543" TEXT="Reactjs">
+<node CREATED="1526367981447" ID="ID_708705236" MODIFIED="1548065704499" TEXT="Reactjs">
 <node CREATED="1526367999780" ID="ID_1053489836" MODIFIED="1526368007195" POSITION="right" TEXT="what is">
 <node CREATED="1526445522264" ID="ID_844435423" MODIFIED="1526445537158" TEXT="th&#xe0;nh ph&#x1ea7;n">
 <node CREATED="1526445537992" ID="ID_1771704034" MODIFIED="1526445543151" TEXT="webpack">
@@ -132,7 +132,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1548058261418" ID="ID_1547930432" MODIFIED="1548058275862" POSITION="left" TEXT="optimizing performance">
+<node CREATED="1548058261418" ID="ID_1547930432" MODIFIED="1548065700947" POSITION="left" TEXT="optimizing performance">
+<node CREATED="1548065707415" ID="ID_485798848" MODIFIED="1548065734154" TEXT="build bundle">
 <node CREATED="1548060952497" ID="ID_1121268402" MODIFIED="1548061029365" TEXT="run production build: Hide react warning "/>
 <node CREATED="1548058234969" ID="ID_1763210930" MODIFIED="1548058247550" TEXT="brunch.io">
 <node CREATED="1548058387460" ID="ID_1545991470" MODIFIED="1548058400587" TEXT="plugin : uglify-js-brunch ">
@@ -166,6 +167,17 @@
 </node>
 <node CREATED="1548058227946" ID="ID_64864053" MODIFIED="1548058234643" TEXT="webpack">
 <node CREATED="1548060824293" ID="ID_692501649" MODIFIED="1548060825529" TEXT="uglifyjs-webpack-plugin"/>
+</node>
+</node>
+<node CREATED="1548065735503" ID="ID_1365114477" MODIFIED="1548065749248" TEXT="dev-tool">
+<node CREATED="1548065785182" ID="ID_1041626971" MODIFIED="1548065786194" TEXT="https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html"/>
+<node CREATED="1548065764542" ID="ID_1909385303" MODIFIED="1548065765319" TEXT="https://calibreapp.com/blog/2017-11-28-debugging-react/"/>
+<node CREATED="1548065805197" ID="ID_1979276864" MODIFIED="1548065830262" TEXT="https://gist.github.com/bvaughn/25e6233aeb1b4f0cdb8d8366e54a3977"/>
+</node>
+<node CREATED="1548065833124" ID="ID_430859398" MODIFIED="1548065839757" TEXT="Virtualize Long Lists ">
+<node CREATED="1548065840637" ID="ID_1365271517" MODIFIED="1548065897227" TEXT="https://react-window.now.sh/#/examples/list/fixed-size"/>
+<node CREATED="1548065949585" ID="ID_290594754" MODIFIED="1548065950525" TEXT="https://bvaughn.github.io/react-virtualized/#/components/List"/>
+<node CREATED="1548065958898" ID="ID_230582977" MODIFIED="1548065960623" TEXT="https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3"/>
 </node>
 </node>
 <node CREATED="1528689502761" ID="ID_480493571" MODIFIED="1528691280942" POSITION="left" TEXT="lib">
