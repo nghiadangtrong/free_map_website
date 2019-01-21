@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1526367981447" ID="ID_708705236" MODIFIED="1528148093106" TEXT="Reactjs">
+<node CREATED="1526367981447" ID="ID_708705236" MODIFIED="1548058261543" TEXT="Reactjs">
 <node CREATED="1526367999780" ID="ID_1053489836" MODIFIED="1526368007195" POSITION="right" TEXT="what is">
 <node CREATED="1526445522264" ID="ID_844435423" MODIFIED="1526445537158" TEXT="th&#xe0;nh ph&#x1ea7;n">
 <node CREATED="1526445537992" ID="ID_1771704034" MODIFIED="1526445543151" TEXT="webpack">
@@ -129,6 +129,28 @@
 <node CREATED="1526435460622" ID="ID_1269058158" MODIFIED="1526435579429" TEXT="return ( &lt;NameExport /&gt; );"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1548058261418" ID="ID_1547930432" MODIFIED="1548058275862" POSITION="left" TEXT="optimizing performance">
+<node CREATED="1548058149311" ID="ID_1943338165" MODIFIED="1548058185282" TEXT="build ">
+<node CREATED="1548058227946" ID="ID_64864053" MODIFIED="1548058234643" TEXT="webpack"/>
+<node CREATED="1548058234969" ID="ID_1763210930" MODIFIED="1548058247550" TEXT="brunch.io">
+<node CREATED="1548058387460" ID="ID_1545991470" MODIFIED="1548058400587" TEXT="plugin : uglify-js-brunch ">
+<node CREATED="1548058416973" ID="ID_1110006619" MODIFIED="1548058417942" TEXT="npm install --save-dev uglify-js-brunch "/>
+<node CREATED="1548058418251" ID="ID_1153665311" MODIFIED="1548058427146" TEXT="brunch build -p"/>
+</node>
+</node>
+</node>
+<node CREATED="1548058847572" ID="ID_115950550" MODIFIED="1548058853982" TEXT="browserify.org">
+<node CREATED="1548058883477" ID="ID_1195329469" MODIFIED="1548058884251" TEXT="npm install --save-dev envify uglify-js uglifyify  ">
+<node CREATED="1548059379928" ID="ID_653033835" MODIFIED="1548059432782" TEXT="https://github.com/hughsk/envify">
+<node CREATED="1548059434775" ID="ID_702644923" MODIFIED="1548059468509" TEXT="&#x110;a&#x309;m ba&#x309;o chuy&#xea;&#x309;n &#x111;&#xf4;&#x309;i &#x111;u&#x301;ng v&#x1a1;&#x301;i environment"/>
+</node>
+<node CREATED="1548059479302" ID="ID_39497141" MODIFIED="1548059575513" TEXT="https://github.com/hughsk/uglifyify">
+<node CREATED="1548059576509" ID="ID_1657652278" MODIFIED="1548059599156" TEXT="Xo&#x301;a bi&#xea;&#x301;n &#x111;&#xf4;&#x309;i th&#xea;m va&#x300;o development"/>
+</node>
+<node CREATED="1548059605068" ID="ID_589368443" MODIFIED="1548059676708" TEXT="https://github.com/mishoo/UglifyJS2"/>
 </node>
 </node>
 </node>
