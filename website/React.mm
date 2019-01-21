@@ -133,17 +133,15 @@
 </node>
 </node>
 <node CREATED="1548058261418" ID="ID_1547930432" MODIFIED="1548058275862" POSITION="left" TEXT="optimizing performance">
-<node CREATED="1548058149311" ID="ID_1943338165" MODIFIED="1548058185282" TEXT="build ">
-<node CREATED="1548058227946" ID="ID_64864053" MODIFIED="1548058234643" TEXT="webpack"/>
+<node CREATED="1548060952497" ID="ID_1121268402" MODIFIED="1548061029365" TEXT="run production build: Hide react warning "/>
 <node CREATED="1548058234969" ID="ID_1763210930" MODIFIED="1548058247550" TEXT="brunch.io">
 <node CREATED="1548058387460" ID="ID_1545991470" MODIFIED="1548058400587" TEXT="plugin : uglify-js-brunch ">
 <node CREATED="1548058416973" ID="ID_1110006619" MODIFIED="1548058417942" TEXT="npm install --save-dev uglify-js-brunch "/>
 <node CREATED="1548058418251" ID="ID_1153665311" MODIFIED="1548058427146" TEXT="brunch build -p"/>
 </node>
 </node>
-</node>
 <node CREATED="1548058847572" ID="ID_115950550" MODIFIED="1548058853982" TEXT="browserify.org">
-<node CREATED="1548058883477" ID="ID_1195329469" MODIFIED="1548058884251" TEXT="npm install --save-dev envify uglify-js uglifyify  ">
+<node CREATED="1548058883477" ID="ID_1195329469" MODIFIED="1548059943219" TEXT="plugins: npm install --save-dev envify uglify-js uglifyify  ">
 <node CREATED="1548059379928" ID="ID_653033835" MODIFIED="1548059432782" TEXT="https://github.com/hughsk/envify">
 <node CREATED="1548059434775" ID="ID_702644923" MODIFIED="1548059468509" TEXT="&#x110;a&#x309;m ba&#x309;o chuy&#xea;&#x309;n &#x111;&#xf4;&#x309;i &#x111;u&#x301;ng v&#x1a1;&#x301;i environment"/>
 </node>
@@ -152,6 +150,22 @@
 </node>
 <node CREATED="1548059605068" ID="ID_589368443" MODIFIED="1548059676708" TEXT="https://github.com/mishoo/UglifyJS2"/>
 </node>
+</node>
+<node CREATED="1548059892990" ID="ID_1430530945" MODIFIED="1548059908833" TEXT="rollupjs.org">
+<node CREATED="1548059922622" ID="ID_1403390203" MODIFIED="1548059951279" TEXT="plugins: npm install --save-dev rollup-plugin-commonjs rollup-plugin-replace rollup-plugin-uglify  ">
+<node CREATED="1548060357160" ID="ID_43419564" MODIFIED="1548060358097" TEXT="https://github.com/rollup/rollup-plugin-replace">
+<node CREATED="1548060359140" ID="ID_1296865153" MODIFIED="1548060387773" TEXT="Ba&#x309;o &#x111;a&#x309;m build &#x111;u&#x301;ng environment"/>
+</node>
+<node CREATED="1548060406195" ID="ID_1615059068" MODIFIED="1548060407226" TEXT="https://github.com/rollup/rollup-plugin-commonjs">
+<node CREATED="1548060408635" ID="ID_597654070" MODIFIED="1548060427658" TEXT="Support commonjs in rollup"/>
+</node>
+<node CREATED="1548060445274" ID="ID_566463966" MODIFIED="1548060446218" TEXT="https://github.com/TrySound/rollup-plugin-uglify">
+<node CREATED="1548060447218" ID="ID_767538253" MODIFIED="1548060451659" TEXT="ne&#x301;n file cu&#xf4;&#x301;i"/>
+</node>
+</node>
+</node>
+<node CREATED="1548058227946" ID="ID_64864053" MODIFIED="1548058234643" TEXT="webpack">
+<node CREATED="1548060824293" ID="ID_692501649" MODIFIED="1548060825529" TEXT="uglifyjs-webpack-plugin"/>
 </node>
 </node>
 <node CREATED="1528689502761" ID="ID_480493571" MODIFIED="1528691280942" POSITION="left" TEXT="lib">
