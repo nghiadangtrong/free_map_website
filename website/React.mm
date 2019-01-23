@@ -132,6 +132,27 @@
 </node>
 </node>
 </node>
+<node CREATED="1548138411953" ID="ID_1469564410" MODIFIED="1548141341264" POSITION="left" TEXT="portals">
+<node CREATED="1548138437491" ID="ID_1600580339" MODIFIED="1548138882636" TEXT="render children n&#x103;&#x300;m ngoa&#x300;i th&#x1b0;&#x301; b&#xe2;&#x323;c parent">
+<node CREATED="1548138886497" ID="ID_1698364816" MODIFIED="1548138926662" TEXT="vd: dialog, hovercards, tooltips"/>
+</node>
+<node CREATED="1548141341155" ID="ID_278578955" MODIFIED="1548141354017" TEXT="use">
+<node CREATED="1548138928119" ID="ID_245697477" MODIFIED="1548138953463" TEXT="ReactDOM.createPortal(child, container) ">
+<node CREATED="1548138960384" ID="ID_1687625137" MODIFIED="1548141400879" TEXT="component child"/>
+<node CREATED="1548142594961" ID="ID_55745331" MODIFIED="1548142615251" TEXT="tag html in website"/>
+</node>
+</node>
+<node CREATED="1548138883457" ID="ID_178869811" MODIFIED="1548141375537" TEXT="example">
+<node CREATED="1548141376523" ID="ID_1690443113" MODIFIED="1548141377445" TEXT="https://codepen.io/nghiadangtrong/pen/WPNRpv"/>
+<node CREATED="1548141611786" ID="ID_221188423" MODIFIED="1548141611786" TEXT=""/>
+</node>
+<node CREATED="1548141617810" ID="ID_349136527" MODIFIED="1548141715386" TEXT="chu&#x301; y&#x301;">
+<node CREATED="1548141623971" ID="ID_360024491" MODIFIED="1548141646095" TEXT="focus">
+<node CREATED="1548141647738" ID="ID_875047926" MODIFIED="1548141654678" TEXT="https://reactjs.org/docs/accessibility.html#programmatically-managing-focus"/>
+<node CREATED="1548141690058" ID="ID_1979181999" MODIFIED="1548141691288" TEXT="https://www.w3.org/TR/wai-aria-practices-1.1/#dialog_modal"/>
+</node>
+</node>
+</node>
 <node CREATED="1548058261418" ID="ID_1547930432" MODIFIED="1548065700947" POSITION="left" TEXT="optimizing performance">
 <node CREATED="1548065707415" ID="ID_485798848" MODIFIED="1548065734154" TEXT="build bundle">
 <node CREATED="1548060952497" ID="ID_1121268402" MODIFIED="1548061029365" TEXT="run production build: Hide react warning "/>
@@ -173,12 +194,16 @@
 <node CREATED="1548065785182" ID="ID_1041626971" MODIFIED="1548065786194" TEXT="https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html"/>
 <node CREATED="1548065764542" ID="ID_1909385303" MODIFIED="1548065765319" TEXT="https://calibreapp.com/blog/2017-11-28-debugging-react/"/>
 <node CREATED="1548065805197" ID="ID_1979276864" MODIFIED="1548065830262" TEXT="https://gist.github.com/bvaughn/25e6233aeb1b4f0cdb8d8366e54a3977"/>
+<node CREATED="1548067833624" ID="ID_1453365096" MODIFIED="1548067869283" TEXT="show component re-render">
+<node CREATED="1548067870838" ID="ID_1178588508" MODIFIED="1548067872451" TEXT="https://blog.logrocket.com/make-react-fast-again-part-3-highlighting-component-updates-6119e45e6833"/>
+</node>
 </node>
 <node CREATED="1548065833124" ID="ID_430859398" MODIFIED="1548065839757" TEXT="Virtualize Long Lists ">
 <node CREATED="1548065840637" ID="ID_1365271517" MODIFIED="1548065897227" TEXT="https://react-window.now.sh/#/examples/list/fixed-size"/>
 <node CREATED="1548065949585" ID="ID_290594754" MODIFIED="1548065950525" TEXT="https://bvaughn.github.io/react-virtualized/#/components/List"/>
 <node CREATED="1548065958898" ID="ID_230582977" MODIFIED="1548065960623" TEXT="https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3"/>
 </node>
+<node CREATED="1548067825479" ID="ID_1864585871" MODIFIED="1548067825479" TEXT=""/>
 </node>
 <node CREATED="1528689502761" ID="ID_480493571" MODIFIED="1528691280942" POSITION="left" TEXT="lib">
 <node CREATED="1528691550402" ID="ID_1187513962" MODIFIED="1528691553896" TEXT="i18n"/>
@@ -220,6 +245,9 @@
 <node CREATED="1529031955375" ID="ID_1362045989" MODIFIED="1529031970142" TEXT=".stringify()">
 <node CREATED="1548052868897" ID="ID_351535634" MODIFIED="1548052891663" TEXT="convert Objec( function, ...) =&gt; type JSON"/>
 </node>
+</node>
+<node CREATED="1548143115413" ID="ID_649392834" MODIFIED="1548143127636" TEXT="set value default props">
+<node CREATED="1548143128605" ID="ID_991757173" MODIFIED="1548143152638" TEXT="nameClass.defaultProps = {nameField: valueField}"/>
 </node>
 </node>
 <node CREATED="1526616843301" ID="ID_364815154" MODIFIED="1526617274671" POSITION="right" TEXT="bind components">
