@@ -59,9 +59,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1551854856681" ID="ID_934021732" MODIFIED="1551855126474" TEXT="mergeProps?: (stateProps, dispatchProps, ownProps) =&gt; Object ">
+<node CREATED="1551854856681" ID="ID_934021732" MODIFIED="1551862186007" TEXT="mergeProps?: (stateProps, dispatchProps, ownProps) =&gt; Object ">
 <node CREATED="1551855275278" ID="ID_1703501713" MODIFIED="1551855293227" TEXT="X&#xe1;c &#x111;&#x1ecb;nh props cu&#x1ed1;i c&#xf9;ng &#x111;&#x1b0;&#x1ee3;c truy&#x1ec1;n v&#xe0;o component"/>
 <node CREATED="1551855293792" ID="ID_532019551" MODIFIED="1551855315427" TEXT="{...ownProps, ...stateProps, ...dispatchProps}"/>
+</node>
+<node CREATED="1551862187136" ID="ID_319373054" MODIFIED="1551862202549" TEXT="option ?: Object">
+<node CREATED="1551862203450" ID="ID_1721358104" MODIFIED="1551862209012" TEXT="  context?: Object, "/>
+<node CREATED="1551862209321" ID="ID_47324289" MODIFIED="1551862213045" TEXT="  pure?: boolean, "/>
+<node CREATED="1551862213322" ID="ID_1416520285" MODIFIED="1551862217572" TEXT="  areStatesEqual?: Function, "/>
+<node CREATED="1551862218025" ID="ID_1064900408" MODIFIED="1551862221532" TEXT="  areOwnPropsEqual?: Function, "/>
+<node CREATED="1551862221800" ID="ID_1024801142" MODIFIED="1551862226005" TEXT="  areStatePropsEqual?: Function, "/>
+<node CREATED="1551862226272" ID="ID_1446613570" MODIFIED="1551862231717" TEXT="  areMergedPropsEqual?: Function, "/>
+<node CREATED="1551862232473" ID="ID_1461469734" MODIFIED="1551862236641" TEXT="  forwardRef?: boolean, "/>
 </node>
 </node>
 <node CREATED="1551841188398" ID="ID_888357833" MODIFIED="1551841195800" TEXT="use ">
