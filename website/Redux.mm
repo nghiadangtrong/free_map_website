@@ -1,0 +1,100 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1551837085859" ID="ID_364493418" MODIFIED="1551840492401" TEXT="Redux / react-redux">
+<node CREATED="1551837451283" ID="ID_1762947977" MODIFIED="1551837454437" POSITION="right" TEXT="basic">
+<node CREATED="1551837455227" ID="ID_534435399" MODIFIED="1551837466133" TEXT="install ">
+<node CREATED="1551843557249" ID="ID_839128316" MODIFIED="1551843567893" TEXT="npm install redux"/>
+<node CREATED="1551837467164" ID="ID_1513549681" MODIFIED="1551840470995" TEXT="npm install react-redux  "/>
+</node>
+</node>
+<node CREATED="1551840872098" ID="ID_301888622" MODIFIED="1551840880516" POSITION="right" TEXT="struct">
+<node CREATED="1551841917051" ID="ID_573490880" MODIFIED="1551842021847" TEXT="action callback">
+<node CREATED="1551841920923" ID="ID_130763209" MODIFIED="1551841926039" TEXT="why">
+<node CREATED="1551841926924" ID="ID_402552911" MODIFIED="1551841940207" TEXT="Th&#xf4;ng b&#xe1;o c&#xf3; s&#x1ef1; thay &#x111;&#x1ed5;i"/>
+</node>
+<node CREATED="1551841941539" ID="ID_1855293172" MODIFIED="1551842049312" TEXT="use">
+<node CREATED="1551842050044" ID="ID_171202428" MODIFIED="1551842139535" TEXT="export const nameAction = (content) =&gt; ({ type: ACTION_TYPE, data : DataNew})">
+<node CREATED="1551842141331" ID="ID_829473228" MODIFIED="1551842149840" TEXT="type">
+<node CREATED="1551842150828" ID="ID_1714988693" MODIFIED="1551842195711" TEXT="(string) Ph&#xe2;n bi&#x1ec7;t action kh&#xe1;c nhau"/>
+</node>
+<node CREATED="1551842196610" ID="ID_1876287357" MODIFIED="1551842199240" TEXT="data">
+<node CREATED="1551842199997" ID="ID_1633100303" MODIFIED="1551842223007" TEXT="d&#x1eef; li&#x1ec7;u truy&#x1ec1;n v&#xe0;o reducer"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1551840881641" ID="ID_688751928" MODIFIED="1551841115136" TEXT="Provider (is component)">
+<node CREATED="1551841198244" ID="ID_1471968991" MODIFIED="1551841203352" TEXT="why">
+<node CREATED="1551841204190" ID="ID_800049017" MODIFIED="1551841219186" TEXT="create store "/>
+</node>
+<node CREATED="1551840889570" ID="ID_1132528390" MODIFIED="1551840913579" TEXT="declare">
+<node CREATED="1551840914209" ID="ID_26518313" MODIFIED="1551840930915" TEXT="import { Provider } from &quot;react-redux&quot;"/>
+</node>
+<node CREATED="1551840982295" ID="ID_379011895" MODIFIED="1551840984762" TEXT="use">
+<node CREATED="1551840990736" ID="ID_1425999279" MODIFIED="1551841035194" TEXT="&lt;Provider strore={Store} /&gt; &lt;App /&gt; &lt;/Provider&gt;">
+<node CREATED="1551841039278" ID="ID_992696743" MODIFIED="1551841058129" TEXT="store this variable "/>
+</node>
+</node>
+</node>
+<node CREATED="1551841101087" ID="ID_997388520" MODIFIED="1551853371971" TEXT="connect()">
+<node CREATED="1551841132268" ID="ID_186196747" MODIFIED="1551841225112" TEXT="why">
+<node CREATED="1551841225765" ID="ID_872006155" MODIFIED="1551841255816" TEXT="connect component to the store"/>
+</node>
+<node CREATED="1551841126318" ID="ID_1695017421" MODIFIED="1551841131721" TEXT="declare">
+<node CREATED="1551841149206" ID="ID_820205547" MODIFIED="1551841166369" TEXT="import { connect } from &quot;react-redux&quot;;"/>
+</node>
+<node CREATED="1551854759513" ID="ID_1989490652" MODIFIED="1551854815219" TEXT="connect(mapStateToProps?, mapDispatchToProps?, mergeProps?, options)">
+<node CREATED="1551841331335" ID="ID_1082255813" MODIFIED="1551841341496" TEXT="mapStateToProps">
+<node CREATED="1551841440603" ID="ID_505607171" MODIFIED="1551841464175" TEXT="map data store to props component"/>
+<node CREATED="1551841349885" ID="ID_1542180110" MODIFIED="1551841391808" TEXT="= (stateStore, props) =&gt; {reurn {...newProps}}"/>
+</node>
+<node CREATED="1551841342116" ID="ID_1164071305" MODIFIED="1551841348392" TEXT="mapDispatchToProps">
+<node CREATED="1551841465589" ID="ID_826363989" MODIFIED="1551841521887" TEXT="map call back action to props component"/>
+<node CREATED="1551841380183" ID="ID_1437088404" MODIFIED="1551841435400" TEXT="= (dispatch, props) =&gt; {return {...newPropsFunctionCallBack}}">
+<node CREATED="1551846012497" ID="ID_36140757" MODIFIED="1551846207224" TEXT="actionCallBack = ">
+<node CREATED="1551846208253" ID="ID_443673014" MODIFIED="1551846225705" TEXT="dispatch({ type: TYPE, data })"/>
+<node CREATED="1551846226060" ID="ID_1823301284" MODIFIED="1551846288713" TEXT="dispatch(nameFun())">
+<node CREATED="1551846290797" ID="ID_1311759831" MODIFIED="1551846323449" TEXT="nameFun(){ return {type, data}}"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1551854856681" ID="ID_934021732" MODIFIED="1551855126474" TEXT="mergeProps?: (stateProps, dispatchProps, ownProps) =&gt; Object ">
+<node CREATED="1551855275278" ID="ID_1703501713" MODIFIED="1551855293227" TEXT="X&#xe1;c &#x111;&#x1ecb;nh props cu&#x1ed1;i c&#xf9;ng &#x111;&#x1b0;&#x1ee3;c truy&#x1ec1;n v&#xe0;o component"/>
+<node CREATED="1551855293792" ID="ID_532019551" MODIFIED="1551855315427" TEXT="{...ownProps, ...stateProps, ...dispatchProps}"/>
+</node>
+</node>
+<node CREATED="1551841188398" ID="ID_888357833" MODIFIED="1551841195800" TEXT="use ">
+<node CREATED="1551841269430" ID="ID_109409395" MODIFIED="1551841329472" TEXT="NameComponent = connect(mapStateToProps, mapDispatchToprops)(NameComponent)"/>
+</node>
+</node>
+</node>
+<node CREATED="1551853442777" ID="ID_1351666836" MODIFIED="1551853445829" POSITION="right" TEXT="use">
+<node CREATED="1551853448522" ID="ID_1178342690" MODIFIED="1551854586206" TEXT="accessing the store">
+<node CREATED="1551854586182" ID="ID_788599621" MODIFIED="1551854599492" TEXT="use context reactjs">
+<node CREATED="1551853595850" ID="ID_1220513558" MODIFIED="1551853598133" TEXT="b1">
+<node CREATED="1551853461634" ID="ID_265277500" MODIFIED="1551853490263" TEXT="&lt;Provider context={MyContext}&gt;&lt;/Provider&gt;"/>
+</node>
+<node CREATED="1551853602973" ID="ID_979382603" MODIFIED="1551853606773" TEXT="b2">
+<node CREATED="1551853492337" ID="ID_840071267" MODIFIED="1551853652142" TEXT="connect (mapState, mapdispatch, null, {content: MyContext})(MyComponent)"/>
+<node CREATED="1551853655195" ID="ID_424732212" MODIFIED="1551853658221" TEXT="or">
+<node CREATED="1551853659163" ID="ID_1809942302" MODIFIED="1551853695764" TEXT="&lt;MyComponent context={MyContext} /&gt;"/>
+</node>
+</node>
+</node>
+<node CREATED="1551854602023" ID="ID_1524963442" MODIFIED="1551854615875" TEXT="ReactReduxContext ">
+<node CREATED="1551854617858" ID="ID_283194533" MODIFIED="1551854625611" TEXT="import { ReactReduxContext } from &apos;react-redux&apos; "/>
+<node CREATED="1551854626399" ID="ID_1023395391" MODIFIED="1551854692643" TEXT="&lt;ReactReduxContext.Consumer&gt;  { ({store}) =&gt; { }  } &lt;/ReactReduxContext.Consumer&gt;"/>
+</node>
+</node>
+</node>
+<node CREATED="1551843777411" ID="ID_1918108052" MODIFIED="1551843849047" POSITION="right" TEXT="lib">
+<node CREATED="1551843849022" ID="ID_972610464" MODIFIED="1551843857926" TEXT="reselect">
+<node CREATED="1551843800074" ID="ID_1202655497" MODIFIED="1551843808877" TEXT="https://github.com/reduxjs/reselect"/>
+<node CREATED="1551843858833" ID="ID_1286336202" MODIFIED="1551843864301" TEXT="https://blog.isquaredsoftware.com/2017/12/idiomatic-redux-using-reselect-selectors/"/>
+<node CREATED="1551843865488" ID="ID_1420520405" MODIFIED="1551843878676" TEXT="https://redux.js.org/recipes/computing-derived-data#sharing-selectors-across-multiple-components"/>
+</node>
+<node CREATED="1551843811898" ID="ID_820733168" MODIFIED="1551843811898" TEXT=""/>
+</node>
+</node>
+</map>
