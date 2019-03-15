@@ -31,6 +31,7 @@
 <node CREATED="1551840914209" ID="ID_26518313" MODIFIED="1551840930915" TEXT="import { Provider } from &quot;react-redux&quot;"/>
 </node>
 <node CREATED="1551840982295" ID="ID_379011895" MODIFIED="1551840984762" TEXT="use">
+<node CREATED="1552019136630" ID="ID_838371002" MODIFIED="1552019163685" TEXT="store = creatStore()"/>
 <node CREATED="1551840990736" ID="ID_1425999279" MODIFIED="1551841035194" TEXT="&lt;Provider strore={Store} /&gt; &lt;App /&gt; &lt;/Provider&gt;">
 <node CREATED="1551841039278" ID="ID_992696743" MODIFIED="1551841058129" TEXT="store this variable "/>
 </node>
@@ -43,7 +44,7 @@
 <node CREATED="1551841126318" ID="ID_1695017421" MODIFIED="1551841131721" TEXT="declare">
 <node CREATED="1551841149206" ID="ID_820205547" MODIFIED="1551841166369" TEXT="import { connect } from &quot;react-redux&quot;;"/>
 </node>
-<node CREATED="1551854759513" ID="ID_1989490652" MODIFIED="1551854815219" TEXT="connect(mapStateToProps?, mapDispatchToProps?, mergeProps?, options)">
+<node CREATED="1551854759513" ID="ID_1989490652" MODIFIED="1552017584605" TEXT="connect(mapStateToProps?, mapDispatchToProps?, mergeProps?, options?:)">
 <node CREATED="1551841331335" ID="ID_1082255813" MODIFIED="1551841341496" TEXT="mapStateToProps">
 <node CREATED="1551841440603" ID="ID_505607171" MODIFIED="1551841464175" TEXT="map data store to props component"/>
 <node CREATED="1551841349885" ID="ID_1542180110" MODIFIED="1551841391808" TEXT="= (stateStore, props) =&gt; {reurn {...newProps}}"/>
@@ -76,6 +77,9 @@
 <node CREATED="1551841188398" ID="ID_888357833" MODIFIED="1551841195800" TEXT="use ">
 <node CREATED="1551841269430" ID="ID_109409395" MODIFIED="1551841329472" TEXT="NameComponent = connect(mapStateToProps, mapDispatchToprops)(NameComponent)"/>
 </node>
+</node>
+<node CREATED="1552020427273" ID="ID_1496878066" MODIFIED="1552020428496" TEXT="connectAdvanced(selectorFactory, connectOptions?)  ">
+<node CREATED="1552020649521" ID="ID_334008012" MODIFIED="1552020650330" TEXT="https://react-redux.js.org/api/connect-advanced"/>
 </node>
 </node>
 <node CREATED="1551853442777" ID="ID_1351666836" MODIFIED="1551853445829" POSITION="right" TEXT="use">
