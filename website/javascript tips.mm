@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1537976922239" ID="ID_1492318846" MODIFIED="1537976936696" TEXT="Trick javascript">
+<node CREATED="1537976922239" ID="ID_1492318846" MODIFIED="1554306317969" TEXT="Trick javascript">
 <node CREATED="1539221992057" ID="ID_343118905" MODIFIED="1539223819209" POSITION="right" TEXT="structure thread">
 <node CREATED="1539221996328" ID="ID_1049176972" MODIFIED="1539222025703" TEXT="Asynchronues">
 <node CREATED="1539222026836" ID="ID_1178575402" MODIFIED="1539223704868" TEXT="components">
@@ -71,6 +71,17 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1554306321072" ID="ID_1271318078" MODIFIED="1554306335368" POSITION="left" TEXT="local storage">
+<node CREATED="1554306339810" ID="ID_362835469" MODIFIED="1554306378345" TEXT="create">
+<node CREATED="1554306370341" ID="ID_1823312558" MODIFIED="1554306405256" TEXT="localStorage.setItem(&quot;key&quot;, &quot;value&quot;)"/>
+</node>
+<node CREATED="1554306426186" ID="ID_1061748663" MODIFIED="1554306429289" TEXT="remove">
+<node CREATED="1554306430276" ID="ID_159074020" MODIFIED="1554306509722" TEXT="localStorage.removeItem(&quot;key&quot;)"/>
+</node>
+<node CREATED="1554306453558" ID="ID_1339949597" MODIFIED="1554306458228" TEXT="get">
+<node CREATED="1554306459296" ID="ID_748157599" MODIFIED="1554306491743" TEXT="localStorage.getItem(&quot;key&quot;)"/>
 </node>
 </node>
 <node CREATED="1538702957298" ID="ID_1228701624" MODIFIED="1538702985046" POSITION="left" TEXT="performance">
