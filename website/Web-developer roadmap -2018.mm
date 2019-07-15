@@ -1,4 +1,4 @@
-<map version="1.0.1">
+<map version="1.1.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1562349088685" ID="ID_85687085" MODIFIED="1562349112099" TEXT="Web-developer roadmap -2018">
 <node CREATED="1562349279277" ID="ID_1216861701" MODIFIED="1562431284669" POSITION="right" TEXT="react">
@@ -153,6 +153,15 @@
 <node CREATED="1562861049762" ID="ID_61350652" MODIFIED="1562866354871" TEXT="snapshot">
 <node CREATED="1562866357233" ID="ID_1231147874" MODIFIED="1562866428655" TEXT="T&#x1ea1;o file m&#x1eab;u v&#xe0; s&#x1eed; d&#x1ee5;ng &#x111;&#x1ec3; so s&#xe1;nh s&#x1ef1; thay &#x111;&#x1ed5;i"/>
 <node CREATED="1562866429696" ID="ID_220682256" MODIFIED="1562866519959" TEXT="expect(renderer.create(&lt;Component /&gt;).toJSON()).toMatchSnapshot();"/>
+</node>
+<node CREATED="1563165392425" ID="ID_763862912" MODIFIED="1563165398739" TEXT="shallow">
+<node CREATED="1563165405320" ID="ID_30142416" MODIFIED="1563165447964" TEXT="const wrapper = shallow(&lt;Component /&gt;)">
+<node CREATED="1563165464771" ID="ID_406248343" MODIFIED="1563165503097" TEXT=".find(&apos;[id=&quot;tag-id&quot;]&apos;)">
+<node CREATED="1563165504528" ID="ID_749741372" MODIFIED="1563165526561" TEXT=".simulate(&apos;event&apos;)">
+<node CREATED="1563165527631" ID="ID_567128190" MODIFIED="1563165551062" TEXT="Th&#x1ef1;c hi&#x1ec7;n action l&#xea;n dom th&#x1ead;t"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
