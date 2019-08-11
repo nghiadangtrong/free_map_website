@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1565193084951" ID="ID_677775254" MODIFIED="1565193201204" TEXT="Postgresql">
 <node CREATED="1565193202890" ID="ID_1843440148" MODIFIED="1565193205560" POSITION="right" TEXT="install">
-<node CREATED="1565193206689" ID="ID_1731462255" MODIFIED="1565195692256" TEXT="sudo apt install postgresql postgresql-contrib"/>
+<node CREATED="1565193206689" ID="ID_1731462255" MODIFIED="1565405599734" TEXT="D"/>
 <node CREATED="1565193215788" ID="ID_415906725" MODIFIED="1565193221919" TEXT="config">
 <node CREATED="1565193226000" ID="ID_1562843564" MODIFIED="1565193353786" TEXT="vim /etc/postgresql/&lt;version&gt;/main/postgresql.conf">
 <node CREATED="1565193272164" ID="ID_1128485942" MODIFIED="1565193288594" TEXT="listen_addresses = &apos;*&apos;"/>
