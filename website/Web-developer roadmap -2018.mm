@@ -370,6 +370,33 @@
 </node>
 </node>
 </node>
+<node CREATED="1565540132035" ID="ID_1370828360" MODIFIED="1565540147984" POSITION="left" TEXT="security">
+<node CREATED="1565540148976" ID="ID_942155310" MODIFIED="1565540158509" TEXT="Injection">
+<node CREATED="1565540159349" ID="ID_1820137061" MODIFIED="1565540652465" TEXT="contents">
+<node CREATED="1565540168064" ID="ID_1539795012" MODIFIED="1565540177443" TEXT="Sanitize input">
+<node CREATED="1565540227551" ID="ID_1184528008" MODIFIED="1565540283582" TEXT="Ch&#xe8;n &#x111;o&#x1ea1;n m&#xe3; javascipt &#x103;n c&#x1eaf;p cookie"/>
+<node CREATED="1565540200546" ID="ID_798769520" MODIFIED="1565540226769" TEXT="fix">
+<node CREATED="1565540292153" ID="ID_1500646188" MODIFIED="1565540358960" TEXT="Chu&#x1ea9;n h&#xf3;a d&#x1eef; li&#x1ec7;u &#x111;&#x1ea7;u v&#xe0;o">
+<node CREATED="1565540307550" ID="ID_1047934118" MODIFIED="1565540355717" TEXT="document.createTextNode(&apos;&lt;script&gt;&lt;/script&gt;&apos;);">
+<node CREATED="1565540339064" ID="ID_1625489916" MODIFIED="1565540351700" TEXT="Sinh text k&#xf4;ng sinh ra m&#xe3;"/>
+</node>
+<node CREATED="1565540361265" ID="ID_156553234" MODIFIED="1565540389590" TEXT="Chuy&#x1ec3;n &#x111;&#x1ed5;i c&#xe1;c k&#xfd; t&#x1ef1; &#x111;&#x1eb7;c bi&#x1ec7;t"/>
+</node>
+</node>
+</node>
+<node CREATED="1565540177695" ID="ID_1689697003" MODIFIED="1565540196529" TEXT="Parametrize Queries">
+<node CREATED="1565540394178" ID="ID_1561680635" MODIFIED="1565540480894" TEXT="Ch&#xe8;n th&#xea;m m&#xe3; query">
+<node CREATED="1565540399763" ID="ID_745136839" MODIFIED="1565540524012" TEXT="where &apos;; or 1==1 --&apos;"/>
+<node CREATED="1565540525546" ID="ID_1204052705" MODIFIED="1565540581820" TEXT="insert into table (c)olumns) values (&apos;; drop table users --&apos;)"/>
+</node>
+<node CREATED="1565540600966" ID="ID_1194537801" MODIFIED="1565540625485" TEXT="sau k&#xfd; t&#x1ef1; &quot;--&quot; &#x111;&#x1b0;&#x1ee3;c t&#xed;nh l&#xe0; comment"/>
+</node>
+<node CREATED="1565540626755" ID="ID_1103529483" MODIFIED="1565540659640" TEXT="Knext.js">
+<node CREATED="1565540664729" ID="ID_1680366911" MODIFIED="1565540745584" TEXT="Kh&#xf4;ng th&#x1ec3; l&#x1ec7;nh v&#xe0;o databasee"/>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1565405749119" ID="ID_1165777626" MODIFIED="1565511053746" POSITION="left" TEXT="SSR (server side renderting)">
 <node CREATED="1565405807316" ID="ID_537246765" MODIFIED="1565405820376" TEXT="lib">
 <node CREATED="1565405823298" ID="ID_1213719044" MODIFIED="1565405835951" TEXT="GatsBy"/>
