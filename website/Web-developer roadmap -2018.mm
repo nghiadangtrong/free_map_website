@@ -1,6 +1,7 @@
 <map version="1.1.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1562349088685" ID="ID_85687085" MODIFIED="1562349112099" TEXT="Web-developer roadmap -2018">
+<node CREATED="1565706366896" ID="ID_68944081" MODIFIED="1565706381459" POSITION="right" TEXT="public / private key"/>
 <node CREATED="1562349279277" ID="ID_1216861701" MODIFIED="1562431284669" POSITION="right" TEXT="react">
 <node CREATED="1562431287372" ID="ID_1533171970" MODIFIED="1562431295934" TEXT="library">
 <node CREATED="1562431297049" ID="ID_491465079" MODIFIED="1562431305770" TEXT="react react-dom"/>
@@ -470,6 +471,7 @@
 </node>
 <node CREATED="1565705073527" ID="ID_357207481" MODIFIED="1565705102547" TEXT="Cross site request forgery">
 <node CREATED="1565705103491" ID="ID_650944059" MODIFIED="1565705105729" TEXT="is">
+<node CREATED="1565705945244" ID="ID_1097340639" MODIFIED="1565705961655" TEXT="g&#x1ec9;a m&#x1ea1;o request ng&#x1b0;&#x1edd;i d&#xf9;ng"/>
 <node COLOR="#338800" CREATED="1565705120120" ID="ID_1125659653" MODIFIED="1565705311646" TEXT="Victim b&#x1ecb; l&#x1eeb;a th&#x1ef1;c hi&#x1ec7;n h&#xe0;nh v&#x1ecb; l&#x1eeb;a &#x111;&#x1ea3;o">
 <node CREATED="1565705313562" ID="ID_1152296722" MODIFIED="1565705351782" TEXT="Chuy&#x1ec1;n ti&#x1ec1;n khi clik v&#xe0;o link m&#xe0; kh&#xf4;ng bi&#x1ebf;t"/>
 <node CREATED="1565705352564" ID="ID_1369443660" MODIFIED="1565705376128" TEXT="link g&#x1ecd;i API chuy&#x1ec3;n ti&#x1ec1;n ra kh&#x1ecf;i t&#xe0;i kho&#x1ea3;n,..."/>
@@ -496,6 +498,39 @@
 </node>
 <node CREATED="1565705824723" ID="ID_1801974227" MODIFIED="1565705845971" TEXT="D&#xf9;ng th&#x1b0; vi&#x1ec7;n b&#xea;n th&#x1ee9; 3">
 <node CREATED="1565705846925" ID="ID_195315612" MODIFIED="1565705865862" TEXT="npm install --save csurf"/>
+</node>
+</node>
+</node>
+<node CREATED="1565732974105" ID="ID_1087303806" MODIFIED="1565732983849" TEXT="code secrets">
+<node CREATED="1565732984759" ID="ID_1484006713" MODIFIED="1565733017252" TEXT="Environmental variables">
+<node CREATED="1565733018275" ID="ID_1409736852" MODIFIED="1565733065798" TEXT="is">
+<node CREATED="1565733068948" ID="ID_1674938964" MODIFIED="1565733080805" TEXT="t&#xe1;ch m&#xf4;i tr&#x1b0;&#x1edd;ng code">
+<node CREATED="1565733137207" ID="ID_1754201317" MODIFIED="1565733147127" TEXT="development"/>
+<node CREATED="1565733147464" ID="ID_1317309766" MODIFIED="1565733163904" TEXT="product"/>
+</node>
+</node>
+<node CREATED="1565733084106" ID="ID_1855381329" MODIFIED="1565733089606" TEXT="why">
+<node CREATED="1565733090345" ID="ID_843208822" MODIFIED="1565733382247" TEXT="chuy&#x1ec3;n &#x111;&#x1ed5;i API key, database,... &#x111;&#x1ec5; thay &#x111;&#x1ed5;i config gi&#x1eef;a c&#xe1;c m&#xf4;i tr&#x1b0;&#x1edd;ng"/>
+</node>
+<node CREATED="1565733175075" ID="ID_283692815" MODIFIED="1565733227126" TEXT="with nodejs + js ...">
+<node CREATED="1565733228473" ID="ID_1719689078" MODIFIED="1565733245066" TEXT="process.env.NODE_ENV">
+<node CREATED="1565733246007" ID="ID_1975606500" MODIFIED="1565733287415" TEXT="development">
+<node CREATED="1565733252233" ID="ID_1322841746" MODIFIED="1565733257093" TEXT="run start"/>
+</node>
+<node CREATED="1565733289360" ID="ID_464075692" MODIFIED="1565733299430" TEXT="product">
+<node CREATED="1565733300485" ID="ID_1635222409" MODIFIED="1565733305564" TEXT="run build"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1565733165873" ID="ID_447360022" MODIFIED="1565733399525" TEXT="commit history">
+<node CREATED="1565733400078" ID="ID_907167526" MODIFIED="1565733422464" TEXT="Kh&#xf4;ng &#x111;&#x1b0;&#x1ee3;c commit file ch&#x1ee9;a th&#xf4;ng tin password,... "/>
+<node CREATED="1565733424848" ID="ID_49846094" MODIFIED="1565733434247" TEXT="example">
+<node CREATED="1565733434810" ID="ID_389036324" MODIFIED="1565733469242" TEXT="search github">
+<node CREATED="1565733469912" ID="ID_431063053" MODIFIED="1565733474969" TEXT="remove password">
+<node CREATED="1565733475617" ID="ID_313188933" MODIFIED="1565733549866" TEXT="ph&#x1ea7;n commit hi&#x1ec3;n th&#x1ecb; c&#xe1;c repository vs password"/>
+</node>
+</node>
 </node>
 </node>
 </node>
