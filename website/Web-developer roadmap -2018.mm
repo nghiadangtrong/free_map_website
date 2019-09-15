@@ -535,7 +535,7 @@
 <node CREATED="1567018804235" ID="ID_1116784238" MODIFIED="1568556558991" TEXT="&#x111;&#x1b0;&#x1edd;ng d&#x1eab;n ch&#x1ee9;a sourse WORKDIR tr&#xea;n container"/>
 </node>
 <node CREATED="1567018848218" ID="ID_319881569" MODIFIED="1567018852903" TEXT="build: .">
-<node CREATED="1567018854269" ID="ID_1699331216" MODIFIED="1567018868299" TEXT="&#x110;&#x1b0;&#x1edd;ng d&#x1eab;n build m&#x1eb7;c &#x111;&#x1ecb;nh"/>
+<node CREATED="1567018854269" ID="ID_1699331216" MODIFIED="1568557286569" TEXT="&#x110;&#x1b0;&#x1edd;ng d&#x1eab;n folder ch&#x1ee9;a file Dockerfile"/>
 </node>
 <node CREATED="1567018869309" ID="ID_916584669" MODIFIED="1567018876010" TEXT="command: ">
 <node CREATED="1567018876019" ID="ID_1941954087" MODIFIED="1568556650685" TEXT="l&#x1ec7;nh run sau phi build th&#xe0;nh c&#xf4;ng"/>
@@ -583,7 +583,7 @@
 </node>
 </node>
 <node CREATED="1567018931000" ID="ID_361072831" MODIFIED="1567018945574" TEXT="run ">
-<node CREATED="1567018946542" ID="ID_1414052742" MODIFIED="1567018961310" TEXT="docker-compose buld">
+<node CREATED="1567018946542" ID="ID_1414052742" MODIFIED="1568557067689" TEXT="docker-compose build">
 <node CREATED="1567018963679" ID="ID_913487300" MODIFIED="1567018999190" TEXT="build khi file.yml thay &#x111;&#x1ed5;i"/>
 </node>
 <node CREATED="1567019021792" ID="ID_471456617" MODIFIED="1567019050875" TEXT="docker-compose run &lt;name_service&gt;">
@@ -642,7 +642,7 @@
 </node>
 </node>
 <node CREATED="1567549846480" ID="ID_185261816" MODIFIED="1567549875944" TEXT="deploy_schemas.sql">
-<node CREATED="1567549876884" ID="ID_956962586" MODIFIED="1567549908732" TEXT="d&#xf9;ng run c&#xe2;u l&#x1ec7;nh sql"/>
+<node CREATED="1567549876884" ID="ID_956962586" MODIFIED="1568557457007" TEXT="d&#xf9;ng l&#x1ec7;nh run trong sql"/>
 <node CREATED="1567549910873" ID="ID_1095439600" MODIFIED="1567550098406" TEXT="\i &apos;/docker-entrypoint-initdb.d/tables/users.sql&apos; ">
 <node CREATED="1567550124059" ID="ID_24066003" MODIFIED="1567550136690" TEXT="create table users"/>
 </node>
